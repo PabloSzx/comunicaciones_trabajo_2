@@ -1,0 +1,2 @@
+!function(e,n){"object"==typeof exports&&"undefined"!=typeof module?n(require("inquirer"),require("node-wifi")):"function"==typeof define&&define.amd?define(["inquirer","node-wifi"],n):n(e.inquirer,e.wifi)}(this,function(e,n){n=n&&n.hasOwnProperty("default")?n.default:n,e.prompt([{type:"input",name:"first_name",message:"What's your first name"}]).then(function(e){console.log("answers: ",e),n.init({iface:null}),n.scan(function(e,n){e?console.log(e):console.log(n)})})});
+//# sourceMappingURL=index.umd.js.map

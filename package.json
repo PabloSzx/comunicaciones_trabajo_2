@@ -1,0 +1,27 @@
+{
+  "name": "comunicaciones_trabajo_2",
+  "version": "1.0.0",
+  "private": false,
+  "repository": "https://github.com/PabloSzx/comunicaciones_trabajo_2.git",
+  "license": "MIT",
+  "author": "PabloSz <pablosaez1995@gmail.com>",
+  "main": "dist/index.js",
+  "source": "src/index.ts",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "microbundle",
+    "dev": "concurrently \"microbundle watch\"",
+    "prepublish": "yarn build"
+  },
+  "dependencies": {
+    "inquirer": "^6.3.1",
+    "node-wifi": "^2.0.5"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^6.0.3",
+    "concurrently": "^4.1.0",
+    "microbundle": "^0.11.0",
+    "nodemon": "^1.19.1",
+    "typescript": "^3.5.1"
+  }
+}

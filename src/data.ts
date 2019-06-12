@@ -103,6 +103,7 @@ export const reduccionConsolidado = (
       numeroDeApEnElCanalMasCongestionado:
         agrupadosPorCanal.cantidadCanalMasContestionado,
       proveedorConMasRedes: proveedorConMasRedes.provider,
-      proveedorConMasRedesEnElMismoCanal,
+      proveedorConMasRedesEnElMismoCanal:
+        proveedorConMasRedesEnElMismoCanal.provider,
     };
   });

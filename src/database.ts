@@ -5,6 +5,7 @@ import * as fs from "fs";
 export const guardarJSON = async (obj: {}, name: string, flag = "w") => {
   await jsonfile.writeFile(path.join(__dirname, "../data/", name), obj, {
     flag,
+    spaces: 2,
   });
 };
 
@@ -20,6 +21,6 @@ export const leerAPFile = async () => {
 };
 
 export const guardarAPFile = async (obj: {}) => {
-  await jsonfile.writeFile(apFile, obj);
+  await jsonfile.writeFile(apFile, obj, { spaces: 2 });
   return obj;
 };

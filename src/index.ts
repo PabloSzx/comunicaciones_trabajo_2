@@ -1,15 +1,17 @@
+import _ from "lodash";
 import { pedirNumeroNodo } from "./cli";
-import { getAccessPoints } from "./wifi";
+import { getAccessPoints, refreshAccessPoints } from "./wifi";
+import { guardarJSON } from "./database";
 
 const main = async () => {
   while (true) {
-    const [nNodo, networks] = await Promise.all([
-      pedirNumeroNodo(),
-      getAccessPoints(),
-    ]);
+    const nNodo = await pedirNumeroNodo();
+    const networks = await getAccessPoints();
 
     console.log("nNodo: ", nNodo);
     console.log("networks: ", networks);
+    guardarJSON(networks, `${_.toString(nNodo)}.json`);
+    refreshAccessPoints(networks, nNodo);
   }
 };
 

@@ -66,6 +66,7 @@ export const choiceInput = async () => {
         "Realizar muestreo",
         "Completar Access Points",
         "Completar consolidados",
+        "Limpiar Archivos Antiguos",
         "Salir",
       ],
     },

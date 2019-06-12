@@ -17,6 +17,10 @@ export interface Network {
   date: string;
 }
 
+export interface Muestras {
+  [nameMuestra: string]: Network[];
+}
+
 export interface AccessPoints {
   [mac: string]: AccessPoint;
 }
@@ -25,5 +29,6 @@ export type Choices =
   | "Realizar muestreo"
   | "Completar Access Points"
   | "Completar consolidados"
+  | "Limpiar Archivos Antiguos"
   | "Salir"
   | undefined;

@@ -1,15 +1,17 @@
-import { writeFile, readFile } from "jsonfile";
+import { writeFile, readFile, readFileSync } from "jsonfile";
 import { join } from "path";
-import { existsSync, renameSync } from "fs";
-import { AccessPoints } from "../interfaces";
+import { existsSync, renameSync, readdirSync } from "fs";
+import shell from "shelljs";
+import { without, reduce } from "lodash";
+import { AccessPoints, Network, Muestras } from "../interfaces";
+import { parse } from "json2csv";
 
 const jsonExtension = (str: string) => `${str.replace(/.json/g, "")}.json`;
 const dataPath = join(__dirname, "../data/");
 
 const renameIfExists = (fileName: string) => {
-  const fileNamePath = join(dataPath, jsonExtension(fileName)); // el archivo que se intenta guardar
+  const fileNamePath = join(dataPath, jsonExtension(fileName));
   if (existsSync(fileNamePath)) {
-    // el archivo ya existe, debo renombrar el archivo ya existente con un .old al final
     const renamedFileName = `${fileName}.old`;
     renameIfExists(renamedFileName);
 
@@ -43,4 +45,32 @@ export const getAccessPoints = async () => {
 export const saveAccessPoints = async (obj: AccessPoints) => {
   await writeFile(apFile, obj, { spaces: 2 });
   return obj;
+};
+
+export const limpiarOldFiles = () => {
+  shell.cd(dataPath);
+  shell.rm("-rf", "*.old.json");
+};
+
+export const getMuestras = async (): Promise<Muestras> => {
+  const fileNames = without(
+    readdirSync(dataPath),
+    "empty",
+    "accessPoints.json"
+  );
+  return reduce(
+    fileNames,
+    (acum: Muestras, fileName: string): Muestras => {
+      return {
+        ...acum,
+        [fileName.replace(/.json/, "")]: readFileSync(join(dataPath, fileName)),
+      };
+    },
+    {}
+  );
+};
+
+export const muestrasJSONToCSV = (data: Readonly<Muestras>) => {
+  const csv = parse(data);
+  console.log("csv: ", csv);
 };

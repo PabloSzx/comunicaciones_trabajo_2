@@ -1,7 +1,14 @@
 import { isEmpty, values, toString } from "lodash";
 import { pedirNumeroNodo, choiceInput, providerChoices, ipInput } from "./cli";
 import { scanAccessPoints, refreshAccessPoints } from "./wifi";
-import { guardarJSON, getAccessPoints, saveAccessPoints } from "./database";
+import {
+  guardarJSON,
+  getAccessPoints,
+  saveAccessPoints,
+  limpiarOldFiles,
+  getMuestras,
+  muestrasJSONToCSV,
+} from "./database";
 import { AccessPoints, AccessPoint, Choices } from "../interfaces";
 
 const muestreo = async () => {
@@ -45,6 +52,11 @@ const completarAccessPoints = async (accessPoints: AccessPoints) => {
   return accessPoints;
 };
 
+const completarConsolidados = async () => {
+  const muestras = await getMuestras();
+  muestrasJSONToCSV(muestras);
+};
+
 const main = async () => {
   let choice: Choices = undefined;
   while (choice !== "Salir") {
@@ -61,7 +73,12 @@ const main = async () => {
         break;
       }
       case "Completar consolidados": {
-        //Por completar
+        await completarConsolidados();
+        break;
+      }
+      case "Limpiar Archivos Antiguos": {
+        limpiarOldFiles();
+        console.log("OK!");
         break;
       }
       case "Salir": {

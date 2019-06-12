@@ -2,3 +2,4 @@ node_modules
 dist
 .rts2_*
 data/*.json
+data/*.csv

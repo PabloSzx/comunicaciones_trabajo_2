@@ -1,6 +1,7 @@
 import * as jsonfile from "jsonfile";
 import * as path from "path";
 import * as fs from "fs";
+import { AccessPoints } from "../interfaces/index";
 
 export const guardarJSON = async (obj: {}, name: string, flag = "w") => {
   await jsonfile.writeFile(path.join(__dirname, "../data/", name), obj, {
@@ -11,8 +12,9 @@ export const guardarJSON = async (obj: {}, name: string, flag = "w") => {
 
 const apFile = path.join(__dirname, "../data/accessPoints.json");
 
-export const leerAPFile = async () => {
-  let file = {};
+export const getAccessPoints = async () => {
+  let file: AccessPoints = {};
+
   if (fs.existsSync(apFile)) {
     file = await jsonfile.readFile(apFile);
   }
@@ -20,7 +22,7 @@ export const leerAPFile = async () => {
   return file;
 };
 
-export const guardarAPFile = async (obj: {}) => {
+export const saveAccessPoints = async (obj: AccessPoints) => {
   await jsonfile.writeFile(apFile, obj, { spaces: 2 });
   return obj;
 };

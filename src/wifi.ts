@@ -1,8 +1,8 @@
-import wifi from "node-wifi";
-import _ from "lodash";
-import { leerAPFile, guardarAPFile } from "./database";
+import * as wifi from "node-wifi";
+import * as _ from "lodash";
+import { getAccessPoints, saveAccessPoints } from "./database";
 
-export const getAccessPoints = async () => {
+export const scanAccessPoints = async () => {
   wifi.init({
     iface: null,
   });
@@ -28,7 +28,7 @@ export const refreshAccessPoints = async (
   }>,
   node: number
 ) => {
-  let accessPoints = await leerAPFile();
+  let accessPoints = await getAccessPoints();
   _.forEach(networks, ({ ssid, mac, channel }) => {
     _.defaults(accessPoints, {
       [mac]: {
@@ -42,6 +42,6 @@ export const refreshAccessPoints = async (
     });
   });
 
-  await guardarAPFile(accessPoints);
+  await saveAccessPoints(accessPoints);
   return accessPoints;
 };

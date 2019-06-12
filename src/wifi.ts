@@ -56,7 +56,3 @@ export const refreshAccessPoints = async (
   await saveAccessPoints(accessPoints);
   return accessPoints;
 };
-
-export const dbToMW = (db: number) => {
-  return Math.pow(10, db / 10);
-}

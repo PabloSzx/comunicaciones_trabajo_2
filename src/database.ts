@@ -15,7 +15,7 @@ import {
 } from "lodash";
 import { AccessPoints, Network, Muestras, AccessPoint } from "../interfaces";
 import { parse } from "json2csv";
-import { dbToMW } from "./wifi";
+import { dbToNW } from "./utils";
 
 const jsonExtension = (str: string) => `${str.replace(/.json/g, "")}.json`;
 const dataPath = join(__dirname, "../data/");
@@ -174,7 +174,7 @@ export const muestrasJSONToCSV = async (data: Readonly<Muestras>) => {
         numTotalAps: v.length,
         potenciaTotalPunto: reduce(
           v,
-          (ac: number, val) => ac + dbToMW(val.signal_level),
+          (ac: number, val) => ac + dbToNW(val.signal_level),
           0
         ),
         totalCanales: size(uniq(map(v, "channel"))),

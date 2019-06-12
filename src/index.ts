@@ -1,4 +1,4 @@
-import * as _ from "lodash";
+import _ from "lodash";
 import { pedirNumeroNodo, start, providerChoices, ipInput } from "./cli";
 import { scanAccessPoints, refreshAccessPoints } from "./wifi";
 import { guardarJSON, getAccessPoints, saveAccessPoints } from "./database";

@@ -1,5 +1,5 @@
-import * as wifi from "node-wifi";
-import * as _ from "lodash";
+import wifi from "node-wifi";
+import _ from "lodash";
 import { getAccessPoints, saveAccessPoints } from "./database";
 
 export const scanAccessPoints = async () => {

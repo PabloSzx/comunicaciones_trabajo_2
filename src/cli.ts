@@ -1,5 +1,5 @@
-import * as inquirer from "inquirer";
-import * as _ from "lodash";
+import inquirer from "inquirer";
+import _ from "lodash";
 import { Choices } from "../interfaces/index";
 
 export const pedirNumeroNodo = async () => {

@@ -1,6 +1,6 @@
-import * as jsonfile from "jsonfile";
-import * as path from "path";
-import * as fs from "fs";
+import jsonfile from "jsonfile";
+import path from "path";
+import fs from "fs";
 import { AccessPoints } from "../interfaces/index";
 
 export const guardarJSON = async (obj: {}, name: string, flag = "w") => {

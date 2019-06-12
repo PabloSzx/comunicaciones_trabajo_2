@@ -74,7 +74,46 @@ export const getMuestras = async (): Promise<Muestras> => {
 
 export const muestrasJSONToCSV = async (data: Readonly<Muestras>) => {
   const accessPoints = await getAccessPoints();
-  const csv = parse(reduccionConsolidado(data, accessPoints));
+  const csv = parse(reduccionConsolidado(data, accessPoints), {
+    fields: [
+      {
+        label: "Latitud",
+        value: "lat",
+      },
+      {
+        label: "Longitud",
+        value: "long",
+      },
+      {
+        label: "Numero total de AP o redes",
+        value: "numTotalAps",
+      },
+      {
+        label: "Potencia total del punto",
+        value: "potenciaTotalPunto",
+      },
+      {
+        label: "Total de canales utilizados",
+        value: "totalCanales",
+      },
+      {
+        label: "Canal mas congestionado",
+        value: "canalMasCongestionado",
+      },
+      {
+        label: "Numero de AP en el canal mas congestionado",
+        value: "numeroDeApEnElCanalMasCongestionado",
+      },
+      {
+        label: "Proveedor con mas redes",
+        value: "proveedorConMasRedes",
+      },
+      {
+        label: "Proveedor con mas redes en el mismo canal",
+        value: "proveedorConMasRedesEnElMismoCanal",
+      },
+    ],
+  });
   fs.writeFileSync(join(dataPath, "csvMuestras.csv"), csv);
   return;
 };

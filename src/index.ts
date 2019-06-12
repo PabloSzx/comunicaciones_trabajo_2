@@ -54,6 +54,7 @@ const completarAccessPoints = async (accessPoints: AccessPoints) => {
 
 const completarConsolidados = async () => {
   const muestras = await getMuestras();
+
   muestrasJSONToCSV(muestras);
 };
 

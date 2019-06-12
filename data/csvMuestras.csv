@@ -1,0 +1,6 @@
+"lat","long","numTotalAps","totalCanales","canalMasCongestionado","numeroDeApEnElCanalMasCongestionado","proveedorConMasRedes","proveedorConMasRedesEnElMismoCanal"
+"1","1",8,4,"157",4,"","{""provider"":"""",""nCanalProvider"":4}"
+"2","2",6,6,"1",1,"","{""provider"":"""",""nCanalProvider"":1}"
+"4","4",11,5,"157",4,"","{""provider"":"""",""nCanalProvider"":4}"
+"5","5",11,5,"157",4,"","{""provider"":"""",""nCanalProvider"":4}"
+"1.old","1.old",11,7,"44",4,"","{""provider"":"""",""nCanalProvider"":4}"

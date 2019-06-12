@@ -1,9 +1,19 @@
 import { writeFile, readFile, readFileSync } from "jsonfile";
 import { join } from "path";
-import { existsSync, renameSync, readdirSync } from "fs";
+import fs, { existsSync, renameSync, readdirSync } from "fs";
 import shell from "shelljs";
-import { without, reduce } from "lodash";
-import { AccessPoints, Network, Muestras } from "../interfaces";
+import {
+  without,
+  reduce,
+  map,
+  size,
+  uniq,
+  groupBy,
+  Dictionary,
+  max,
+  values,
+} from "lodash";
+import { AccessPoints, Network, Muestras, AccessPoint } from "../interfaces";
 import { parse } from "json2csv";
 
 const jsonExtension = (str: string) => `${str.replace(/.json/g, "")}.json`;
@@ -56,7 +66,8 @@ export const getMuestras = async (): Promise<Muestras> => {
   const fileNames = without(
     readdirSync(dataPath),
     "empty",
-    "accessPoints.json"
+    "accessPoints.json",
+    "csvMuestras.csv"
   );
   return reduce(
     fileNames,
@@ -70,7 +81,105 @@ export const getMuestras = async (): Promise<Muestras> => {
   );
 };
 
-export const muestrasJSONToCSV = (data: Readonly<Muestras>) => {
-  const csv = parse(data);
-  console.log("csv: ", csv);
+export const muestrasJSONToCSV = async (data: Readonly<Muestras>) => {
+  const accessPoints = await getAccessPoints();
+  const csv = parse(
+    map(data, (v: Network[], k: string) => {
+      const agrupadosPorCanal = reduce(
+        groupBy(v, "channel"),
+        (ac, v: Network[], channel: string) => {
+          if (ac.cantidadCanalMasContestionado < v.length) {
+            ac.canalMasCongestionado = channel;
+            ac.cantidadCanalMasContestionado = v.length;
+          }
+          return ac;
+        },
+        {
+          cantidadCanalMasContestionado: 0,
+          canalMasCongestionado: "",
+        }
+      );
+
+      const agrupadosPorProveedor = groupBy(
+        reduce(
+          v,
+          (ac: AccessPoint[], val: Network) => {
+            return [
+              ...ac,
+              {
+                ssid: val.ssid,
+                mac: val.mac,
+                channel: val.channel,
+                node: accessPoints[val.mac].node,
+                provider: accessPoints[val.mac].provider,
+                ip: accessPoints[val.mac].ip,
+                date: accessPoints[val.mac].date,
+              },
+            ];
+          },
+          []
+        ),
+        "provider"
+      );
+
+      const proveedorConMasRedes = reduce(
+        agrupadosPorProveedor,
+        (ac, val, provider) => {
+          if (ac.nRedesProveedor < val.length) {
+            ac.nRedesProveedor = val.length;
+            ac.provider = provider;
+          }
+
+          return ac;
+        },
+        {
+          nRedesProveedor: 0,
+          provider: "",
+        }
+      );
+
+      const agrupadoPorProveedorYCanal: Dictionary<
+        Dictionary<AccessPoint[]>
+      > = reduce(
+        agrupadosPorProveedor,
+        (ac: Dictionary<Dictionary<AccessPoint[]>>, val, provider) => {
+          return {
+            ...ac,
+            [provider]: groupBy(val, "channel"),
+          };
+        },
+        {}
+      );
+
+      const proveedorConMasRedesEnElMismoCanal = reduce(
+        agrupadoPorProveedorYCanal,
+        (ac, val, provider) => {
+          const n = max(map(val, v => v.length));
+          if (n && n > ac.nCanalProvider) {
+            ac.nCanalProvider = n;
+            ac.provider = provider;
+          }
+          return ac;
+        },
+        {
+          provider: "",
+          nCanalProvider: 0,
+        }
+      );
+
+      return {
+        lat: k,
+        long: k,
+        numTotalAps: v.length,
+        totalCanales: size(uniq(map(v, "channel"))),
+        canalMasCongestionado: agrupadosPorCanal.canalMasCongestionado,
+        numeroDeApEnElCanalMasCongestionado:
+          agrupadosPorCanal.cantidadCanalMasContestionado,
+        proveedorConMasRedes: proveedorConMasRedes.provider,
+        proveedorConMasRedesEnElMismoCanal,
+      };
+    })
+  );
+  fs.writeFileSync(join(dataPath, "csvMuestras.csv"), csv);
+  return;
 };

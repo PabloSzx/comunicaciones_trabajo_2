@@ -2,7 +2,7 @@ import _ from "lodash";
 import { pedirNumeroNodo, start, providerChoices, ipInput } from "./cli";
 import { scanAccessPoints, refreshAccessPoints } from "./wifi";
 import { guardarJSON, getAccessPoints, saveAccessPoints } from "./database";
-import { AccessPoints, AccessPoint, Choices } from "../interfaces/index";
+import { AccessPoints, AccessPoint, Choices } from "../interfaces";
 
 const muestreo = async () => {
   const nNodo = await pedirNumeroNodo();
@@ -19,16 +19,22 @@ const completarAccessPoints = async (accessPoints: AccessPoints) => {
   const accessPointsList: AccessPoint[] = _.values(accessPoints);
 
   for (const accessPoint of accessPointsList) {
-    if (_.isEmpty(accessPoint.ip) || _.isEmpty(accessPoint.provider)) {
+    let ip: boolean | string = _.isEmpty(accessPoint.ip);
+    let provider: boolean | string = _.isEmpty(accessPoint.provider);
+
+    if (ip || provider) {
       console.log("AccessPoint: ", accessPoint);
     }
-    if (_.isEmpty(accessPoint.ip)) {
-      const ip = await ipInput();
+    if (ip) {
+      ip = await ipInput();
       accessPoints[accessPoint.mac].ip = ip;
     }
-    if (_.isEmpty(accessPoint.provider)) {
-      const provider = await providerChoices();
+    if (provider) {
+      provider = await providerChoices();
       accessPoints[accessPoint.mac].provider = provider;
+    }
+    if (ip || provider) {
+      saveAccessPoints(accessPoints);
     }
   }
 
@@ -36,7 +42,7 @@ const completarAccessPoints = async (accessPoints: AccessPoints) => {
 };
 
 const main = async () => {
-  let choice: Choices;
+  let choice: Choices = undefined;
   while (choice !== "Salir") {
     choice = await start();
     switch (choice) {
@@ -47,7 +53,6 @@ const main = async () => {
       case "Completar Access Points": {
         let accessPoints = await getAccessPoints();
         accessPoints = await completarAccessPoints(accessPoints);
-        await saveAccessPoints(accessPoints);
         break;
       }
       case "Completar consolidados": {

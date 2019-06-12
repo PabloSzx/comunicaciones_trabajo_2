@@ -1,16 +1,16 @@
 import inquirer from "inquirer";
 import _ from "lodash";
-import { Choices } from "../interfaces/index";
+import { Choices } from "../interfaces";
 
 export const pedirNumeroNodo = async () => {
-  const answers: { numero_nodo: number } = await inquirer.prompt([
+  const { numero_nodo }: { numero_nodo: number } = await inquirer.prompt([
     {
       type: "number",
       name: "numero_nodo",
       message: "Ingrese numero del nodo a analizar:",
     },
   ]);
-  return answers.numero_nodo;
+  return numero_nodo;
 };
 
 export const providerChoices = async () => {

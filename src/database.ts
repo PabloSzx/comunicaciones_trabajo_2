@@ -1,7 +1,7 @@
 import jsonfile from "jsonfile";
 import path from "path";
 import fs from "fs";
-import { AccessPoints } from "../interfaces/index";
+import { AccessPoints } from "../interfaces";
 
 export const guardarJSON = async (obj: {}, name: string, flag = "w") => {
   await jsonfile.writeFile(path.join(__dirname, "../data/", name), obj, {

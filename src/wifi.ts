@@ -1,31 +1,29 @@
 import wifi from "node-wifi";
 import _ from "lodash";
 import { getAccessPoints, saveAccessPoints } from "./database";
+import { Network } from "../interfaces";
 
 export const scanAccessPoints = async () => {
   wifi.init({
     iface: null,
   });
 
-  const networks = await wifi.scan();
+  const networks: Network[] = await wifi.scan();
 
-  return _.map(networks, ({ ssid, mac, channel, signal_level, quality }) => ({
-    ssid,
-    mac,
-    channel,
-    signal_level,
-    quality,
-  }));
+  return _.map(
+    networks,
+    ({ ssid, mac, channel, signal_level, quality }): Network => ({
+      ssid,
+      mac,
+      channel,
+      signal_level,
+      quality,
+    })
+  );
 };
 
 export const refreshAccessPoints = async (
-  networks: Array<{
-    ssid: string;
-    mac: string;
-    channel: number;
-    signal_level: number;
-    quality: number;
-  }>,
+  networks: Network[],
   node: number
 ) => {
   let accessPoints = await getAccessPoints();

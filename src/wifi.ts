@@ -31,7 +31,7 @@ export const refreshAccessPoints = async (
   let accessPoints = await leerAPFile();
   _.forEach(networks, ({ ssid, mac, channel }) => {
     _.defaults(accessPoints, {
-      mac: {
+      [mac]: {
         ssid,
         mac,
         channel,

@@ -1,20 +1,21 @@
-import inquirer from "inquirer";
-import _ from "lodash";
+import { prompt } from "inquirer";
+import { isNaN } from "lodash";
 import { Choices } from "../interfaces";
 
 export const pedirNumeroNodo = async () => {
-  const { numero_nodo }: { numero_nodo: number } = await inquirer.prompt([
+  const { numero_nodo }: { numero_nodo: number } = await prompt([
     {
       type: "number",
       name: "numero_nodo",
       message: "Ingrese numero del nodo a analizar:",
+      validate: n => !isNaN(n) || "Ingrese numero válido!",
     },
   ]);
   return numero_nodo;
 };
 
 export const providerChoices = async () => {
-  const { provider }: { provider: string } = await inquirer.prompt([
+  const { provider }: { provider: string } = await prompt([
     {
       type: "list",
       name: "provider",
@@ -41,7 +42,7 @@ export const providerChoices = async () => {
 };
 
 export const ipInput = async () => {
-  const { ip }: { ip: string } = await inquirer.prompt([
+  const { ip }: { ip: string } = await prompt([
     {
       type: "input",
       name: "ip",
@@ -51,12 +52,12 @@ export const ipInput = async () => {
   return ip;
 };
 
-export const start = async () => {
+export const choiceInput = async () => {
   const {
     choice,
   }: {
     choice: Choices;
-  } = await inquirer.prompt([
+  } = await prompt([
     {
       type: "list",
       name: "choice",

@@ -1,16 +1,24 @@
-import wifi from "node-wifi";
-import _ from "lodash";
+import { init, scan } from "node-wifi";
+import moment from "moment-timezone";
+import { map, forEach, defaults } from "lodash";
 import { getAccessPoints, saveAccessPoints } from "./database";
 import { Network } from "../interfaces";
 
+const getDate = () =>
+  moment()
+    .tz("America/Santiago")
+    .format();
+
 export const scanAccessPoints = async () => {
-  wifi.init({
+  init({
     iface: null,
   });
 
-  const networks: Network[] = await wifi.scan();
+  const networks = await scan();
 
-  return _.map(
+  const date = getDate();
+
+  return map(
     networks,
     ({ ssid, mac, channel, signal_level, quality }): Network => ({
       ssid,
@@ -18,6 +26,7 @@ export const scanAccessPoints = async () => {
       channel,
       signal_level,
       quality,
+      date,
     })
   );
 };
@@ -27,8 +36,11 @@ export const refreshAccessPoints = async (
   node: number
 ) => {
   let accessPoints = await getAccessPoints();
-  _.forEach(networks, ({ ssid, mac, channel }) => {
-    _.defaults(accessPoints, {
+
+  const date = getDate();
+
+  forEach(networks, ({ ssid, mac, channel }) => {
+    defaults(accessPoints, {
       [mac]: {
         ssid,
         mac,
@@ -36,6 +48,7 @@ export const refreshAccessPoints = async (
         node,
         provider: "",
         ip: "",
+        date,
       },
     });
   });

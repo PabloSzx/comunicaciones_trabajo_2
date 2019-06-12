@@ -5,6 +5,7 @@ export interface AccessPoint {
   node: number;
   provider: string;
   ip: string;
+  date: string;
 }
 
 export interface Network {
@@ -13,6 +14,7 @@ export interface Network {
   channel: number;
   signal_level: number;
   quality: number;
+  date: string;
 }
 
 export interface AccessPoints {

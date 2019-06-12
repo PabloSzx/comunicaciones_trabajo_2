@@ -2,6 +2,24 @@ import { prompt } from "inquirer";
 import { isNaN } from "lodash";
 import { Choices } from "../interfaces";
 
+export const confirm = async ({
+  question = "¿Está seguro?",
+  defaultConfirm = true,
+}: {
+  question?: string;
+  defaultConfirm?: boolean;
+}) => {
+  const { confirmation }: { confirmation: boolean } = await prompt([
+    {
+      type: "confirm",
+      name: "confirmation",
+      message: question,
+      default: defaultConfirm,
+    },
+  ]);
+  return confirmation;
+};
+
 export const pedirNumeroNodo = async () => {
   const { numero_nodo }: { numero_nodo: number } = await prompt([
     {
@@ -66,7 +84,9 @@ export const choiceInput = async () => {
         "Realizar muestreo",
         "Completar Access Points",
         "Completar consolidados",
-        "Limpiar Archivos Antiguos",
+        "Limpiar archivos antiguos",
+        "Guardar total datos",
+        "Eliminar data existente",
         "Salir",
       ],
     },

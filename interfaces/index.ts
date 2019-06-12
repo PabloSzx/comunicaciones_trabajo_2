@@ -29,6 +29,8 @@ export type Choices =
   | "Realizar muestreo"
   | "Completar Access Points"
   | "Completar consolidados"
-  | "Limpiar Archivos Antiguos"
+  | "Limpiar archivos antiguos"
+  | "Guardar total datos"
+  | "Eliminar data existente"
   | "Salir"
   | undefined;

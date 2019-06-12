@@ -22,8 +22,13 @@ const renameIfExists = (fileName: string) => {
   }
 };
 
-export const guardarJSON = async (obj: {}, name: string) => {
-  renameIfExists(name);
+export const guardarJSON = async (
+  obj: {},
+  name: string,
+  replaceExisting = false
+) => {
+  if (!replaceExisting) renameIfExists(name);
+
   const newFilePath = join(dataPath, jsonExtension(name));
 
   await writeFile(newFilePath, obj, {
@@ -53,13 +58,21 @@ export const limpiarOldFiles = () => {
   shell.rm("-rf", "*.old.json");
 };
 
+export const eliminarData = () => {
+  shell.cd(dataPath);
+  shell.rm("-rf", "*.json");
+  shell.rm("-rf", "*.csv");
+};
+
 export const getMuestras = async (): Promise<Muestras> => {
   const fileNames = without(
     readdirSync(dataPath),
     "empty",
     "accessPoints.json",
-    "csvMuestras.csv"
+    "csvMuestras.csv",
+    "totalMuestras.json"
   );
+
   return reduce(
     fileNames,
     (acum: Muestras, fileName: string): Muestras => {

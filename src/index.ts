@@ -1,5 +1,11 @@
 import { isEmpty, values, toString } from "lodash";
-import { pedirNumeroNodo, choiceInput, providerChoices, ipInput } from "./cli";
+import {
+  pedirNumeroNodo,
+  choiceInput,
+  providerChoices,
+  ipInput,
+  confirm,
+} from "./cli";
 import { scanAccessPoints, refreshAccessPoints } from "./wifi";
 import {
   guardarJSON,
@@ -8,6 +14,7 @@ import {
   limpiarOldFiles,
   getMuestras,
   muestrasJSONToCSV,
+  eliminarData,
 } from "./database";
 import { AccessPoints, AccessPoint, Choices } from "../interfaces";
 
@@ -77,9 +84,29 @@ const main = async () => {
         await completarConsolidados();
         break;
       }
-      case "Limpiar Archivos Antiguos": {
-        limpiarOldFiles();
-        console.log("OK!");
+      case "Limpiar archivos antiguos": {
+        const confirmation = await confirm({
+          question:
+            "¿Está seguro que sea limpiar los archivos antiguos (*.old.json)?",
+        });
+        if (confirmation) {
+          limpiarOldFiles();
+        }
+        break;
+      }
+      case "Guardar total datos": {
+        const muestras = await getMuestras();
+        guardarJSON(muestras, "totalMuestras", true);
+        break;
+      }
+      case "Eliminar data existente": {
+        const confirmation = await confirm({
+          question: "¿Está seguro que desea eliminar TODA la data existente?",
+          defaultConfirm: false,
+        });
+        if (confirmation) {
+          eliminarData();
+        }
         break;
       }
       case "Salir": {

@@ -1,6 +1,11 @@
 import { map, reduce, size, uniq, groupBy, Dictionary, max } from "lodash";
 import { Network, AccessPoints, Muestras, AccessPoint } from "../interfaces";
 import { dbToNW } from "./utils";
+import nodos from "./staticData/nodos.json";
+
+export const nodoEquivalentePosicion = (n: number) => {
+  console.log("nodos: ", nodos);
+};
 
 export const reduccionConsolidado = (
   data: Muestras,

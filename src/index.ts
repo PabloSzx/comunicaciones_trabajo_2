@@ -1,11 +1,5 @@
 import { isEmpty, values, toString } from "lodash";
-import {
-  pedirNumeroNodo,
-  choiceInput,
-  providerChoices,
-  ipInput,
-  confirm,
-} from "./cli";
+import { pedirNumeroNodo, choiceInput, providerChoices, confirm } from "./cli";
 import { scanAccessPoints, refreshAccessPoints } from "./wifi";
 import {
   guardarJSON,
@@ -17,6 +11,7 @@ import {
   eliminarData,
 } from "./database";
 import { AccessPoints, AccessPoint, Choices } from "../interfaces";
+import { getDefaultProviders, guessProvider } from "./data";
 
 const muestreo = async () => {
   const nNodo = await pedirNumeroNodo();
@@ -30,28 +25,25 @@ const muestreo = async () => {
 };
 
 const completarAccessPoints = async (accessPoints: AccessPoints) => {
+  const defaultProviders = getDefaultProviders(accessPoints);
   const accessPointsList: AccessPoint[] = values(accessPoints);
 
   for (const accessPoint of accessPointsList) {
-    let ip: boolean | string = isEmpty(accessPoint.ip);
     let provider: boolean | string = isEmpty(accessPoint.provider);
 
-    if (ip || provider) {
+    if (provider) {
       console.log(
         "\n\n--------------------------------------\n",
         "AccessPoint: ",
         accessPoint
       );
-    }
-    if (ip) {
-      ip = await ipInput();
-      accessPoints[accessPoint.mac].ip = ip;
-    }
-    if (provider) {
-      provider = await providerChoices();
+
+      provider = guessProvider(accessPoint, defaultProviders) || "";
+      if (!provider) {
+        // provider = await providerChoices();
+      }
       accessPoints[accessPoint.mac].provider = provider;
-    }
-    if (ip || provider) {
+
       saveAccessPoints(accessPoints);
     }
   }
@@ -67,6 +59,7 @@ const completarConsolidados = async () => {
 
 const main = async () => {
   let choice: Choices = undefined;
+
   while (choice !== "Salir") {
     console.log("\n##################################################\n");
     choice = await choiceInput();
@@ -77,6 +70,7 @@ const main = async () => {
       }
       case "Completar Access Points": {
         let accessPoints = await getAccessPoints();
+
         accessPoints = await completarAccessPoints(accessPoints);
         break;
       }

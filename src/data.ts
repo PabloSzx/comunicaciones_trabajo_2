@@ -1,10 +1,30 @@
-import { map, reduce, size, uniq, groupBy, Dictionary, max } from "lodash";
-import { Network, AccessPoints, Muestras, AccessPoint } from "../interfaces";
+import {
+  map,
+  reduce,
+  size,
+  uniq,
+  groupBy,
+  Dictionary,
+  max,
+  defaults,
+} from "lodash";
+import {
+  Network,
+  AccessPoints,
+  Muestras,
+  AccessPoint,
+  DefaultProviders,
+  TypeProvider,
+} from "../interfaces";
 import { dbToNW } from "./utils";
 import nodos from "./staticData/nodos.json";
 
 export const nodoEquivalentePosicion = (n: number) => {
   console.log("nodos: ", nodos);
+};
+
+export const percentageOfInterval = (n: number, MIN: number, MAX: number) => {
+  return (n - MIN) / (MAX - MIN);
 };
 
 export const reduccionConsolidado = (
@@ -112,3 +132,98 @@ export const reduccionConsolidado = (
         proveedorConMasRedesEnElMismoCanal.provider,
     };
   });
+
+export const getDefaultProviders = (
+  accessPoints: AccessPoints
+): DefaultProviders => {
+  return reduce(
+    accessPoints,
+    (acum: DefaultProviders, v): DefaultProviders => {
+      if (v.ssid.match(/vtr/i)) {
+        defaults(acum, {
+          [v.mac.substring(0, 2)]: new Set(),
+        });
+
+        acum[v.mac.substring(0, 2)].add("VTR");
+      }
+
+      if (v.ssid.match(/telsur/i)) {
+        defaults(acum, {
+          [v.mac.substring(0, 2)]: new Set(),
+        });
+
+        acum[v.mac.substring(0, 2)].add("Telsur");
+      }
+
+      if (v.ssid.match(/movistar/i)) {
+        defaults(acum, {
+          [v.mac.substring(0, 2)]: new Set(),
+        });
+
+        acum[v.mac.substring(0, 2)].add("Movistar");
+      }
+
+      if (v.ssid.match(/direct/i)) {
+        defaults(acum, {
+          [v.mac.substring(0, 2)]: new Set(),
+        });
+
+        acum[v.mac.substring(0, 2)].add("DirectTV");
+      }
+
+      if (v.ssid.match(/claro/i)) {
+        defaults(acum, {
+          [v.mac.substring(0, 2)]: new Set(),
+        });
+
+        acum[v.mac.substring(0, 2)].add("Claro");
+      }
+
+      if (v.ssid.match(/entel/i)) {
+        defaults(acum, {
+          [v.mac.substring(0, 2)]: new Set(),
+        });
+
+        acum[v.mac.substring(0, 2)].add("Entel");
+      }
+
+      return acum;
+    },
+    {}
+  );
+};
+
+export const guessProvider = (
+  ap: AccessPoint,
+  defaultProviders: DefaultProviders
+): TypeProvider => {
+  if (ap.ssid.match(/vtr/i)) {
+    return "VTR";
+  }
+
+  if (ap.ssid.match(/telsur/i)) {
+    return "Telsur";
+  }
+
+  if (ap.ssid.match(/movistar/i)) {
+    return "Movistar";
+  }
+
+  if (ap.ssid.match(/direct/i)) {
+    return "DirectTV";
+  }
+
+  if (ap.ssid.match(/claro/i)) {
+    return "Claro";
+  }
+
+  if (ap.ssid.match(/entel/i)) {
+    return "Entel";
+  }
+
+  if (size(defaultProviders[ap.mac.substring(0, 2)]) === 1) {
+    return Array.from(defaultProviders[ap.mac.substring(0, 2)])[0];
+  }
+
+  return undefined;
+};

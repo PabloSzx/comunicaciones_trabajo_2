@@ -25,6 +25,19 @@ export interface AccessPoints {
   [mac: string]: AccessPoint;
 }
 
+export interface DefaultProviders {
+  [mac: string]: Set<TypeProvider>;
+}
+
+export type TypeProvider =
+  | "VTR"
+  | "Telsur"
+  | "Movistar"
+  | "DirectTV"
+  | "Claro"
+  | "Entel"
+  | undefined;
+
 export type Choices =
   | "Realizar muestreo"
   | "Completar Access Points"

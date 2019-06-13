@@ -2,7 +2,7 @@ import { writeFile, readFile, readFileSync } from "jsonfile";
 import { join } from "path";
 import fs, { existsSync, renameSync, readdirSync } from "fs";
 import shell from "shelljs";
-import { without, reduce } from "lodash";
+import { filter, reduce } from "lodash";
 import { AccessPoints, Muestras } from "../interfaces";
 import { parse } from "json2csv";
 import { reduccionConsolidado } from "./data";
@@ -65,12 +65,9 @@ export const eliminarData = () => {
 };
 
 export const getMuestras = async (): Promise<Muestras> => {
-  const fileNames = without(
+  const fileNames = filter(
     readdirSync(dataPath),
-    "empty",
-    "accessPoints.json",
-    "csvMuestras.csv",
-    "totalMuestras.json"
+    v => !v.match(/empty|accessPoints.json|totalMuestras.json|.csv/i)
   );
 
   return reduce(

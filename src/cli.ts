@@ -59,17 +59,6 @@ export const providerChoices = async () => {
   return provider;
 };
 
-export const ipInput = async () => {
-  const { ip }: { ip: string } = await prompt([
-    {
-      type: "input",
-      name: "ip",
-      message: "¿Que IP publica le corresponde?",
-    },
-  ]);
-  return ip;
-};
-
 export const choiceInput = async () => {
   const {
     choice,

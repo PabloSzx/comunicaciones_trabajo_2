@@ -47,7 +47,6 @@ export const refreshAccessPoints = async (
         channel,
         node,
         provider: "",
-        ip: "",
         date,
       },
     });

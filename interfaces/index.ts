@@ -4,7 +4,6 @@ export interface AccessPoint {
   channel: number;
   node: number;
   provider: string;
-  ip: string;
   date: string;
 }
 
@@ -36,6 +35,7 @@ export type TypeProvider =
   | "DirectTV"
   | "Claro"
   | "Entel"
+  | "WOM"
   | undefined;
 
 export type Choices =

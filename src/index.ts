@@ -32,14 +32,12 @@ const completarAccessPoints = async (accessPoints: AccessPoints) => {
     let provider: boolean | string = isEmpty(accessPoint.provider);
 
     if (provider) {
-      console.log(
-        "\n\n--------------------------------------\n",
-        "AccessPoint: ",
-        accessPoint
-      );
-
       provider = guessProvider(accessPoint, defaultProviders) || "";
       if (!provider) {
+        console.log(
+          "\n\n--------------------------------------\n",
+          `AccessPoint: ${accessPoint.ssid} ${accessPoint.mac}`
+        );
         // provider = await providerChoices();
       }
       accessPoints[accessPoint.mac].provider = provider;

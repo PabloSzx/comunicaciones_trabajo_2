@@ -59,7 +59,6 @@ export const reduccionConsolidado = (
               channel: val.channel,
               node: accessPoints[val.mac].node,
               provider: accessPoints[val.mac].provider,
-              ip: accessPoints[val.mac].ip,
               date: accessPoints[val.mac].date,
             },
           ];
@@ -147,7 +146,7 @@ export const getDefaultProviders = (
         acum[v.mac.substring(0, 2)].add("VTR");
       }
 
-      if (v.ssid.match(/telsur/i)) {
+      if (v.ssid.match(/telsur|gtd/i)) {
         defaults(acum, {
           [v.mac.substring(0, 2)]: new Set(),
         });
@@ -187,6 +186,14 @@ export const getDefaultProviders = (
         acum[v.mac.substring(0, 2)].add("Entel");
       }
 
+      if (v.ssid.match(/wom/i)) {
+        defaults(acum, {
+          [v.mac.substring(0, 2)]: new Set(),
+        });
+
+        acum[v.mac.substring(0, 2)].add("WOM");
+      }
+
       return acum;
     },
     {}
@@ -201,7 +208,7 @@ export const guessProvider = (
     return "VTR";
   }
 
-  if (ap.ssid.match(/telsur/i)) {
+  if (ap.ssid.match(/telsur|gtd/i)) {
     return "Telsur";
   }
 
@@ -219,6 +226,10 @@ export const guessProvider = (
 
   if (ap.ssid.match(/entel/i)) {
     return "Entel";
+  }
+
+  if (ap.ssid.match(/wom/i)) {
+    return "WOM";
   }
 
   if (size(defaultProviders[ap.mac.substring(0, 2)]) === 1) {

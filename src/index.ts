@@ -84,8 +84,55 @@ const completarAccessPoints = async (accessPoints: AccessPoints) => {
 
 const completarConsolidados = async () => {
   const muestras = await getMuestras();
+  const accessPoints = await getAccessPoints();
+  const dataReduccionConsolidada = reduccionConsolidado(muestras, accessPoints);
 
-  muestrasJSONToCSV(muestras);
+  const csvOpts = {
+    fields: [
+      {
+        label: "Nodo de Referencia",
+        value: "nodo",
+      },
+      {
+        label: "Latitud",
+        value: "lat",
+      },
+      {
+        label: "Longitud",
+        value: "long",
+      },
+      {
+        label: "Numero total de AP o redes",
+        value: "numTotalAps",
+      },
+      {
+        label: "Potencia total del punto",
+        value: "potenciaTotalPunto",
+      },
+      {
+        label: "Total de canales utilizados",
+        value: "totalCanales",
+      },
+      {
+        label: "Canal mas congestionado",
+        value: "canalMasCongestionado",
+      },
+      {
+        label: "Numero de AP en el canal mas congestionado",
+        value: "numeroDeApEnElCanalMasCongestionado",
+      },
+      {
+        label: "Proveedor con mas redes",
+        value: "proveedorConMasRedes",
+      },
+      {
+        label: "Proveedor con mas redes en el mismo canal",
+        value: "proveedorConMasRedesEnElMismoCanal",
+      },
+    ],
+  };
+
+  saveCSV(dataReduccionConsolidada, "dataConsolidada", csvOpts);
 };
 
 const generarDataHeatmap = async () => {

@@ -2,6 +2,7 @@ import express from "express";
 import { flatten, values, groupBy, reduce, keys, get, defaults } from "lodash";
 import cors from "cors";
 import { getMuestras, getAccessPoints, guardarJSON } from "./database";
+import { filterAccessPointsFueraDeBorde } from "./data";
 
 const app = express();
 
@@ -10,7 +11,9 @@ app.use(cors());
 app.get("/data", async (req, res) => {
   const muestras = await getMuestras();
   const APs = await getAccessPoints();
-  const networksList = flatten(values(muestras));
+  const networksList = flatten(
+    values(filterAccessPointsFueraDeBorde(APs, muestras))
+  );
   const agrupadosPorCanal = groupBy(networksList, "channel");
 
   const distribucionCanales: { [canal: string]: number } = reduce(

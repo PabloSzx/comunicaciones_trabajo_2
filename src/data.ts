@@ -35,6 +35,40 @@ const networksThatExistInAnotherRegister = (
   });
 };
 
+const accessPointExistsInRegister = (
+  accessPoint: AccessPoint,
+  register: Network[][]
+) => {
+  for (const i of register) {
+    for (const j of i) {
+      if (j.mac === accessPoint.mac) {
+        return true;
+      }
+    }
+  }
+  return false;
+};
+
+export const filterAccessPointsFueraDeBorde = (
+  accessPoints: AccessPoints,
+  muestras: Muestras
+): AccessPoints => {
+  const muestrasNoBorde = filter(muestras, (v, k) => {
+    return !nodosPosition[k].borde;
+  });
+
+  return reduce(
+    accessPoints,
+    (acum: AccessPoints, ap, mac) => {
+      if (accessPointExistsInRegister(ap, muestrasNoBorde)) {
+        acum[mac] = ap;
+      }
+      return acum;
+    },
+    {}
+  );
+};
+
 export const reduccionConsolidado = (
   data: Muestras,
   accessPoints: AccessPoints

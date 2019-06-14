@@ -45,7 +45,9 @@ const muestreo = async () => {
   return;
 };
 
-const completarAccessPoints = async (accessPoints: AccessPoints) => {
+const completarAccessPoints = async () => {
+  const accessPoints = await getAccessPoints();
+
   const defaultProviders = getDefaultProviders(accessPoints);
   guardarJSON(
     reduce(
@@ -79,7 +81,7 @@ const completarAccessPoints = async (accessPoints: AccessPoints) => {
     }
   }
 
-  return accessPoints;
+  return;
 };
 
 const completarConsolidados = async () => {
@@ -199,9 +201,7 @@ const main = async () => {
         break;
       }
       case "Completar Access Points": {
-        let accessPoints = await getAccessPoints();
-
-        accessPoints = await completarAccessPoints(accessPoints);
+        await completarAccessPoints();
         break;
       }
       case "Completar consolidados": {

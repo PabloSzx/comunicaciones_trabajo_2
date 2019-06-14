@@ -36,13 +36,13 @@ app.get("/data", async (req, res) => {
   const distribucionPorProveedor: { [proveedor: string]: number } = reduce(
     networksList,
     (ac: { [proveedor: string]: number }, va) => {
-      const proveedor = get(APs[va.mac], "provider");
-      if (proveedor) {
-        defaults(ac, {
-          [proveedor]: 0,
-        });
-        ac[proveedor] += 1;
-      }
+      const proveedor = get(APs[va.mac], "provider") || "Indefinido";
+
+      defaults(ac, {
+        [proveedor]: 0,
+      });
+      ac[proveedor] += 1;
+
       return ac;
     },
     {}

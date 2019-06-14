@@ -1,6 +1,14 @@
 {
-  "labelsProveedor": ["VTR", "Telsur", "Movistar", "DirectTV", "Claro", "WOM"],
-  "distProveedor": [244, 475, 123, 19, 46, 10],
+  "labelsProveedor": [
+    "VTR",
+    "Indefinido",
+    "Telsur",
+    "Movistar",
+    "DirectTV",
+    "Claro",
+    "WOM"
+  ],
+  "distProveedor": [244, 435, 480, 123, 7, 46, 10],
   "labelsCanales": [
     "1",
     "2",

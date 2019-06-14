@@ -1,5 +1,7 @@
-import { isEmpty, values, toString } from "lodash";
-import { pedirNumeroNodo, choiceInput, providerChoices, confirm } from "./cli";
+import _, { isEmpty, values, toString } from "lodash";
+import { writeFileSync } from "fs";
+import path from "path";
+import { pedirNumeroNodo, choiceInput, confirm } from "./cli";
 import { scanAccessPoints, refreshAccessPoints } from "./wifi";
 import {
   guardarJSON,
@@ -9,9 +11,16 @@ import {
   getMuestras,
   muestrasJSONToCSV,
   eliminarData,
+  saveCSV,
 } from "./database";
 import { AccessPoints, AccessPoint, Choices } from "../interfaces";
-import { getDefaultProviders, guessProvider } from "./data";
+import {
+  getDefaultProviders,
+  guessProvider,
+  reduccionConsolidado,
+  getPosFromNode,
+} from "./data";
+import "./server";
 
 const muestreo = async () => {
   const nNodo = await pedirNumeroNodo();
@@ -55,6 +64,49 @@ const completarConsolidados = async () => {
   muestrasJSONToCSV(muestras);
 };
 
+const generarDataHeatmap = async () => {
+  const muestras = await getMuestras();
+  const accessPoints = await getAccessPoints();
+  const data = reduccionConsolidado(muestras, accessPoints);
+
+  const matriz = _.map(new Array(50), _v => _.map(new Array(50), _va => 0));
+  _.forEach(data, v => {
+    const posV = getPosFromNode(v.nodo) || ["0", "0"];
+    matriz[_.toInteger(posV[0]) - 1][_.toInteger(posV[1]) - 1] =
+      v.potenciaTotalPunto;
+  });
+
+  saveCSV(
+    _.reduce(
+      matriz,
+      (ac: any[], v, k) => {
+        return [
+          ...ac,
+          ..._.map(v, (va, ka) => ({ x: k + 1, y: ka + 1, potencia: va })),
+        ];
+      },
+      []
+    ),
+    "dataHeatmap",
+    {
+      fields: [
+        {
+          label: "x",
+          value: "x",
+        },
+        {
+          label: "y",
+          value: "y",
+        },
+        {
+          label: "value",
+          value: "potencia",
+        },
+      ],
+    }
+  );
+};
+
 const main = async () => {
   let choice: Choices = undefined;
 
@@ -74,6 +126,10 @@ const main = async () => {
       }
       case "Completar consolidados": {
         await completarConsolidados();
+        break;
+      }
+      case "Generar data para Heatmap": {
+        await generarDataHeatmap();
         break;
       }
       case "Limpiar archivos antiguos": {

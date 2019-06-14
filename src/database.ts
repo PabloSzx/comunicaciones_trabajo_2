@@ -82,6 +82,10 @@ export const getMuestras = async (): Promise<Muestras> => {
   );
 };
 
+export const saveCSV = (data: any, name: string, opts?: any) => {
+  fs.writeFileSync(join(dataPath, `${name}.csv`), parse(data, opts));
+};
+
 export const muestrasJSONToCSV = async (data: Readonly<Muestras>) => {
   const accessPoints = await getAccessPoints();
   const csv = parse(reduccionConsolidado(data, accessPoints), {

@@ -73,6 +73,7 @@ export const choiceInput = async () => {
         "Realizar muestreo",
         "Completar Access Points",
         "Completar consolidados",
+        "Generar data para Heatmap",
         "Limpiar archivos antiguos",
         "Guardar total datos",
         "Eliminar data existente",

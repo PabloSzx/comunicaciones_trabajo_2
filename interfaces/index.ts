@@ -7,6 +7,14 @@ export interface AccessPoint {
   date: string;
 }
 
+export interface NodesPosition {
+  [nNodo: string]: {
+    lat: number;
+    long: number;
+    borde?: boolean;
+  };
+}
+
 export interface Network {
   ssid: string;
   mac: string;
@@ -42,6 +50,7 @@ export type Choices =
   | "Realizar muestreo"
   | "Completar Access Points"
   | "Completar consolidados"
+  | "Generar data para Heatmap"
   | "Limpiar archivos antiguos"
   | "Guardar total datos"
   | "Eliminar data existente"

@@ -37,8 +37,6 @@ export const refreshAccessPoints = async (
 ) => {
   let accessPoints = await getAccessPoints();
 
-  const date = getDate();
-
   forEach(networks, ({ ssid, mac, channel }) => {
     defaults(accessPoints, {
       [mac]: {
@@ -47,7 +45,6 @@ export const refreshAccessPoints = async (
         channel,
         node,
         provider: "",
-        date,
       },
     });
   });

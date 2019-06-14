@@ -4,7 +4,6 @@ export interface AccessPoint {
   channel: number;
   node: number;
   provider: string;
-  date: string;
 }
 
 export interface NodesPosition {

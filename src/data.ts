@@ -73,7 +73,6 @@ export const reduccionConsolidado = (
               channel: val.channel,
               node: accessPoints[val.mac].node,
               provider: accessPoints[val.mac].provider,
-              date: accessPoints[val.mac].date,
             },
           ];
         },
@@ -176,14 +175,6 @@ export const getDefaultProviders = (
         });
 
         acum[v.mac.substring(0, 2)].add("Movistar");
-      }
-
-      if (v.ssid.match(/direct/i)) {
-        defaults(acum, {
-          [v.mac.substring(0, 2)]: new Set(),
-        });
-
-        acum[v.mac.substring(0, 2)].add("DirectTV");
       }
 
       if (v.ssid.match(/claro/i)) {

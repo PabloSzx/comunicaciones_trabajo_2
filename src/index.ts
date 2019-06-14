@@ -16,16 +16,10 @@ import {
   saveAccessPoints,
   limpiarOldFiles,
   getMuestras,
-  muestrasJSONToCSV,
   eliminarData,
   saveCSV,
 } from "./database";
-import {
-  AccessPoints,
-  AccessPoint,
-  Choices,
-  TypeProvider,
-} from "../interfaces";
+import { AccessPoint, Choices, TypeProvider } from "../interfaces";
 import {
   getDefaultProviders,
   guessProvider,

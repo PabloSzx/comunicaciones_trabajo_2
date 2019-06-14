@@ -1,0 +1,154 @@
+[
+  {
+    "ssid": "Psz-5",
+    "mac": "48:d3:43:b5:0c:0f",
+    "channel": 149,
+    "signal_level": -94,
+    "quality": 12,
+    "date": "2019-06-13T15:45:59-04:00"
+  },
+  {
+    "ssid": "Psz-2",
+    "mac": "48:d3:43:b5:0c:09",
+    "channel": 11,
+    "signal_level": -55,
+    "quality": 90,
+    "date": "2019-06-13T15:45:59-04:00"
+  },
+  {
+    "ssid": "VTR-8718483",
+    "mac": "c0:05:c2:df:cb:e9",
+    "channel": 3,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T15:45:59-04:00"
+  },
+  {
+    "ssid": "Isa",
+    "mac": "fc:94:e3:71:9c:69",
+    "channel": 9,
+    "signal_level": -93,
+    "quality": 14,
+    "date": "2019-06-13T15:45:59-04:00"
+  },
+  {
+    "ssid": "",
+    "mac": "00:3a:99:c8:0b:60",
+    "channel": 8,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T15:45:59-04:00"
+  },
+  {
+    "ssid": "POCHI_2.4G",
+    "mac": "00:72:63:b3:8f:be",
+    "channel": 11,
+    "signal_level": -98.5,
+    "quality": 3,
+    "date": "2019-06-13T15:45:59-04:00"
+  },
+  {
+    "ssid": "VTR-9976772",
+    "mac": "40:0d:10:f5:4c:f1",
+    "channel": 7,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T15:45:59-04:00"
+  },
+  {
+    "ssid": "VTR-8321670",
+    "mac": "40:0d:10:f5:4c:89",
+    "channel": 6,
+    "signal_level": -97.5,
+    "quality": 5,
+    "date": "2019-06-13T15:45:59-04:00"
+  },
+  {
+    "ssid": "wifitelsur_pagll",
+    "mac": "22:02:71:24:33:9c",
+    "channel": 6,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T15:45:59-04:00"
+  },
+  {
+    "ssid": "moto 14",
+    "mac": "6e:b7:49:ae:84:43",
+    "channel": 6,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T15:45:59-04:00"
+  },
+  {
+    "ssid": "ANTONYHOUSE",
+    "mac": "ec:08:6b:60:6a:1c",
+    "channel": 1,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T15:45:59-04:00"
+  },
+  {
+    "ssid": "VTR-3843415",
+    "mac": "c0:05:c2:c3:38:09",
+    "channel": 1,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T15:45:59-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_ALB",
+    "mac": "9c:97:26:08:5d:ec",
+    "channel": 6,
+    "signal_level": -93,
+    "quality": 14,
+    "date": "2019-06-13T15:45:59-04:00"
+  },
+  {
+    "ssid": "OPTICABARRIA",
+    "mac": "62:02:71:75:f8:12",
+    "channel": 11,
+    "signal_level": -100,
+    "quality": 0,
+    "date": "2019-06-13T15:45:59-04:00"
+  },
+  {
+    "ssid": "SERGIO",
+    "mac": "08:6a:0a:39:55:7c",
+    "channel": 11,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T15:45:59-04:00"
+  },
+  {
+    "ssid": "NW_2.4",
+    "mac": "00:72:63:fc:86:18",
+    "channel": 6,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T15:45:59-04:00"
+  },
+  {
+    "ssid": "CSVZ",
+    "mac": "1c:b0:44:46:24:26",
+    "channel": 6,
+    "signal_level": -93,
+    "quality": 14,
+    "date": "2019-06-13T15:45:59-04:00"
+  },
+  {
+    "ssid": "dlink-36B0",
+    "mac": "78:32:1b:d0:36:b0",
+    "channel": 1,
+    "signal_level": -93,
+    "quality": 14,
+    "date": "2019-06-13T15:45:59-04:00"
+  },
+  {
+    "ssid": "DIRECT-AP[TV][LG]42LA6200-SA",
+    "mac": "86:9c:a6:7a:16:84",
+    "channel": 1,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T15:45:59-04:00"
+  }
+]

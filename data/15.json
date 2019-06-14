@@ -1,0 +1,106 @@
+[
+  {
+    "ssid": "VTR-7741474",
+    "mac": "c0:05:c2:dd:2b:4f",
+    "channel": 149,
+    "signal_level": -67.5,
+    "quality": 65,
+    "date": "2019-06-13T15:56:34-04:00"
+  },
+  {
+    "ssid": "VTR-6193515",
+    "mac": "40:0d:10:0a:a5:37",
+    "channel": 149,
+    "signal_level": -77.5,
+    "quality": 45,
+    "date": "2019-06-13T15:56:34-04:00"
+  },
+  {
+    "ssid": "Piso3",
+    "mac": "74:91:1a:57:8e:11",
+    "channel": 11,
+    "signal_level": -65,
+    "quality": 70,
+    "date": "2019-06-13T15:56:34-04:00"
+  },
+  {
+    "ssid": "VTR-2684406",
+    "mac": "48:d3:43:b5:ed:c1",
+    "channel": 8,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T15:56:34-04:00"
+  },
+  {
+    "ssid": "FARO2.4",
+    "mac": "00:72:63:65:32:7c",
+    "channel": 6,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T15:56:34-04:00"
+  },
+  {
+    "ssid": "VTR-2463158",
+    "mac": "40:0d:10:eb:ff:a9",
+    "channel": 7,
+    "signal_level": -57.5,
+    "quality": 85,
+    "date": "2019-06-13T15:56:34-04:00"
+  },
+  {
+    "ssid": "S R B",
+    "mac": "b0:ea:bc:4e:81:a8",
+    "channel": 11,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T15:56:34-04:00"
+  },
+  {
+    "ssid": "wifitelsur_2.4_HICL",
+    "mac": "4c:6e:6e:9e:d3:9e",
+    "channel": 11,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T15:56:34-04:00"
+  },
+  {
+    "ssid": "wifitelsur_JCRR",
+    "mac": "00:13:92:4e:59:a1",
+    "channel": 11,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T15:56:34-04:00"
+  },
+  {
+    "ssid": "AndroidAP5B5D",
+    "mac": "22:32:6c:35:5b:5d",
+    "channel": 6,
+    "signal_level": -80,
+    "quality": 40,
+    "date": "2019-06-13T15:56:34-04:00"
+  },
+  {
+    "ssid": "WiFi_AIMV2",
+    "mac": "00:72:63:b3:b8:0e",
+    "channel": 6,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T15:56:34-04:00"
+  },
+  {
+    "ssid": "WIFITELSUR_HICL",
+    "mac": "6a:02:71:84:a9:b2",
+    "channel": 6,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T15:56:34-04:00"
+  },
+  {
+    "ssid": "Marcos",
+    "mac": "fc:a6:cd:3c:8c:98",
+    "channel": 6,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T15:56:34-04:00"
+  }
+]

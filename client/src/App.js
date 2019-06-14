@@ -1,34 +1,73 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import Heatmap from "react-simple-heatmap";
-import houseRadio from "./static/mapa.png";
 import _ from "lodash";
+import ReactApexCharts from "react-apexcharts";
+
 export default () => {
-  const [mapaRadioCalor, setMapaRadioCalor] = useState(
-    _.map(new Array(25), v => _.map(new Array(25), v => _.random(0, 1) * 100))
-  );
+  const [data, setData] = useState({});
   useEffect(() => {
     axios.get("http://localhost:8000/data").then(res => {
       console.log("res.data: ", res.data);
-      setMapaRadioCalor(res.data.mapaMatriz);
+      const asd = _.cloneDeep(res.data);
+      setData(asd);
     });
   }, []);
-  console.log("mapaRadioCalor: ", mapaRadioCalor);
+
+  console.log("data: ", data);
   return (
     <div>
-      <div
-        style={{
-          height: "750px",
-          width: "750px",
-          opacity: 0.5,
-          zIndex: 1,
+      <ReactApexCharts
+        type="bar"
+        options={{
+          xaxis: {
+            categories: _.get(data, "labelsProveedor", []),
+          },
         }}
-      >
-        <Heatmap data={mapaRadioCalor} showData={false} />
-      </div>
-      <img
-        style={{ position: "absolute", top: 0, zIndex: -1 }}
-        src={houseRadio}
+        width={700}
+        series={[
+          {
+            name: "Cantidad",
+            data: _.get(data, "distProveedor", []),
+          },
+        ]}
+      />
+
+      <ReactApexCharts
+        type="bar"
+        options={{
+          xaxis: {
+            categories: _.get(data, "labelsCanales", []),
+          },
+        }}
+        width={700}
+        series={[{ name: "Canal", data: _.get(data, "distCanales", []) }]}
+      />
+
+      <ReactApexCharts
+        type="donut"
+        options={{
+          labels: _.get(data, "labelsTipos", []),
+          plotOptions: {
+            pie: {
+              donut: {
+                labels: {
+                  show: true,
+                  name: {
+                    show: true,
+                  },
+                  value: {
+                    show: true,
+                  },
+                  total: {
+                    show: true,
+                  },
+                },
+              },
+            },
+          },
+        }}
+        width={700}
+        series={_.get(data, "distTipos", [])}
       />
     </div>
   );

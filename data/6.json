@@ -1,0 +1,98 @@
+[
+  {
+    "ssid": "EPY-5G",
+    "mac": "78:71:9c:ae:2e:d5",
+    "channel": 149,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T15:49:22-04:00"
+  },
+  {
+    "ssid": "Mayo_5G",
+    "mac": "00:72:63:fc:bf:2f",
+    "channel": 149,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T15:49:22-04:00"
+  },
+  {
+    "ssid": "CENIMLOSRIOS-5Ghz",
+    "mac": "08:3e:0c:e4:14:55",
+    "channel": 48,
+    "signal_level": -57.5,
+    "quality": 85,
+    "date": "2019-06-13T15:49:22-04:00"
+  },
+  {
+    "ssid": "CENIMLOSRIOS-5G",
+    "mac": "78:71:9c:ab:75:c5",
+    "channel": 40,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T15:49:22-04:00"
+  },
+  {
+    "ssid": "VTR-4660151",
+    "mac": "40:0d:10:86:79:7f",
+    "channel": 36,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T15:49:22-04:00"
+  },
+  {
+    "ssid": "WIFI_EUG2",
+    "mac": "ac:84:c6:f7:d6:30",
+    "channel": 9,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T15:49:22-04:00"
+  },
+  {
+    "ssid": "WiFi-Repeater",
+    "mac": "00:e0:20:50:8a:e1",
+    "channel": 6,
+    "signal_level": -62.5,
+    "quality": 75,
+    "date": "2019-06-13T15:49:22-04:00"
+  },
+  {
+    "ssid": "Mayo",
+    "mac": "00:72:63:fc:bf:2a",
+    "channel": 6,
+    "signal_level": -52.5,
+    "quality": 95,
+    "date": "2019-06-13T15:49:22-04:00"
+  },
+  {
+    "ssid": "CENIMLOSRIOS1",
+    "mac": "78:71:9c:ab:75:c0",
+    "channel": 6,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T15:49:22-04:00"
+  },
+  {
+    "ssid": "CENIMLOSRIOS",
+    "mac": "08:3e:0c:e4:14:50",
+    "channel": 6,
+    "signal_level": -52.5,
+    "quality": 95,
+    "date": "2019-06-13T15:49:22-04:00"
+  },
+  {
+    "ssid": "CENIM2",
+    "mac": "78:71:9c:ad:12:c0",
+    "channel": 11,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T15:49:22-04:00"
+  },
+  {
+    "ssid": "Marcos",
+    "mac": "fc:a6:cd:3c:8c:98",
+    "channel": 6,
+    "signal_level": -82.5,
+    "quality": 35,
+    "date": "2019-06-13T15:49:22-04:00"
+  }
+]

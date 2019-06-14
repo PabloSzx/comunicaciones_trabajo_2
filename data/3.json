@@ -1,0 +1,154 @@
+[
+  {
+    "ssid": "EMILIOC",
+    "mac": "60:19:71:cb:89:00",
+    "channel": 11,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T15:47:33-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_22C4",
+    "mac": "4c:6e:6e:98:22:c5",
+    "channel": 10,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T15:47:33-04:00"
+  },
+  {
+    "ssid": "wifitelsur_pagll",
+    "mac": "22:02:71:24:33:9c",
+    "channel": 6,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T15:47:33-04:00"
+  },
+  {
+    "ssid": "WIFI_EUG2",
+    "mac": "ac:84:c6:f7:d6:30",
+    "channel": 9,
+    "signal_level": -93.5,
+    "quality": 13,
+    "date": "2019-06-13T15:47:33-04:00"
+  },
+  {
+    "ssid": "VTR-4660151",
+    "mac": "40:0d:10:86:79:79",
+    "channel": 11,
+    "signal_level": -77.5,
+    "quality": 45,
+    "date": "2019-06-13T15:47:33-04:00"
+  },
+  {
+    "ssid": "FLORA",
+    "mac": "c0:05:c2:e4:7a:61",
+    "channel": 4,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T15:47:33-04:00"
+  },
+  {
+    "ssid": "POCHI_2.4G",
+    "mac": "00:72:63:b3:8f:be",
+    "channel": 11,
+    "signal_level": -94,
+    "quality": 12,
+    "date": "2019-06-13T15:47:33-04:00"
+  },
+  {
+    "ssid": "Wifitelsur_HCJ",
+    "mac": "a4:b1:e9:71:7a:75",
+    "channel": 1,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T15:47:33-04:00"
+  },
+  {
+    "ssid": "EPY",
+    "mac": "78:71:9c:ae:2e:d0",
+    "channel": 11,
+    "signal_level": -94,
+    "quality": 12,
+    "date": "2019-06-13T15:47:33-04:00"
+  },
+  {
+    "ssid": "movistar2,4GHz_AF86E7",
+    "mac": "78:29:ed:af:86:e7",
+    "channel": 11,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T15:47:33-04:00"
+  },
+  {
+    "ssid": "Mayo",
+    "mac": "00:72:63:fc:bf:2a",
+    "channel": 6,
+    "signal_level": -65,
+    "quality": 70,
+    "date": "2019-06-13T15:47:33-04:00"
+  },
+  {
+    "ssid": "CENIMLOSRIOS1",
+    "mac": "78:71:9c:ab:75:c0",
+    "channel": 6,
+    "signal_level": -94.5,
+    "quality": 11,
+    "date": "2019-06-13T15:47:33-04:00"
+  },
+  {
+    "ssid": "HUAWEI P smart 2019",
+    "mac": "30:a1:fa:c2:cd:52",
+    "channel": 6,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T15:47:33-04:00"
+  },
+  {
+    "ssid": "Marcos",
+    "mac": "fc:a6:cd:3c:8c:98",
+    "channel": 6,
+    "signal_level": -93,
+    "quality": 14,
+    "date": "2019-06-13T15:47:33-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_ALB",
+    "mac": "9c:97:26:08:5d:ec",
+    "channel": 6,
+    "signal_level": -75,
+    "quality": 50,
+    "date": "2019-06-13T15:47:33-04:00"
+  },
+  {
+    "ssid": "",
+    "mac": "00:3a:99:c8:0b:60",
+    "channel": 8,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T15:47:33-04:00"
+  },
+  {
+    "ssid": "VTR-8545233",
+    "mac": "cc:2d:21:6b:3f:00",
+    "channel": 1,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T15:47:33-04:00"
+  },
+  {
+    "ssid": "  NATY. ",
+    "mac": "88:f7:c7:51:f0:7b",
+    "channel": 1,
+    "signal_level": -72.5,
+    "quality": 55,
+    "date": "2019-06-13T15:47:33-04:00"
+  },
+  {
+    "ssid": "CABANAS",
+    "mac": "00:13:92:4c:55:25",
+    "channel": 1,
+    "signal_level": -95.5,
+    "quality": 9,
+    "date": "2019-06-13T15:47:33-04:00"
+  }
+]

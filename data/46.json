@@ -1,0 +1,66 @@
+[
+  {
+    "ssid": "VTR-8200257",
+    "mac": "48:d3:43:60:f6:47",
+    "channel": 153,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T16:23:49-04:00"
+  },
+  {
+    "ssid": "ARRIS-6272-5G",
+    "mac": "14:cf:e2:99:62:75",
+    "channel": 40,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T16:23:49-04:00"
+  },
+  {
+    "ssid": "VTR-3592489",
+    "mac": "48:d3:43:b5:8f:af",
+    "channel": 36,
+    "signal_level": -97.5,
+    "quality": 5,
+    "date": "2019-06-13T16:23:49-04:00"
+  },
+  {
+    "ssid": "ARRIS-6272",
+    "mac": "14:cf:e2:99:62:70",
+    "channel": 11,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T16:23:49-04:00"
+  },
+  {
+    "ssid": "Wifitelsur_AHLH",
+    "mac": "00:1d:2e:62:c5:31",
+    "channel": 6,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T16:23:49-04:00"
+  },
+  {
+    "ssid": "wifitelsur_Henrriquez",
+    "mac": "4c:6e:6e:93:44:f0",
+    "channel": 6,
+    "signal_level": -75,
+    "quality": 50,
+    "date": "2019-06-13T16:23:49-04:00"
+  },
+  {
+    "ssid": "MADLAN 2",
+    "mac": "b4:75:0e:43:41:2a",
+    "channel": 2,
+    "signal_level": -72.5,
+    "quality": 55,
+    "date": "2019-06-13T16:23:49-04:00"
+  },
+  {
+    "ssid": "Wifitelsur_GEBS",
+    "mac": "6a:02:71:4b:97:07",
+    "channel": 11,
+    "signal_level": -94.5,
+    "quality": 11,
+    "date": "2019-06-13T16:23:49-04:00"
+  }
+]

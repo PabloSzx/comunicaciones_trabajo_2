@@ -1,0 +1,170 @@
+[
+  {
+    "ssid": "CENIM2-5G",
+    "mac": "78:71:9c:ad:12:c5",
+    "channel": 40,
+    "signal_level": -82.5,
+    "quality": 35,
+    "date": "2019-06-13T15:52:36-04:00"
+  },
+  {
+    "ssid": "gama",
+    "mac": "00:25:c4:5a:ac:11",
+    "channel": 11,
+    "signal_level": -77.5,
+    "quality": 45,
+    "date": "2019-06-13T15:52:36-04:00"
+  },
+  {
+    "ssid": "",
+    "mac": "00:25:c4:1a:ac:11",
+    "channel": 11,
+    "signal_level": -82.5,
+    "quality": 35,
+    "date": "2019-06-13T15:52:36-04:00"
+  },
+  {
+    "ssid": "Wifi_miguel",
+    "mac": "c4:12:f5:7b:ad:0e",
+    "channel": 10,
+    "signal_level": -95.5,
+    "quality": 9,
+    "date": "2019-06-13T15:52:36-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_CLAL",
+    "mac": "fc:a6:cd:60:b0:b8",
+    "channel": 10,
+    "signal_level": -67.5,
+    "quality": 65,
+    "date": "2019-06-13T15:52:36-04:00"
+  },
+  {
+    "ssid": "VTR-8865339",
+    "mac": "40:0d:10:31:12:29",
+    "channel": 6,
+    "signal_level": -80,
+    "quality": 40,
+    "date": "2019-06-13T15:52:36-04:00"
+  },
+  {
+    "ssid": "SANTOS",
+    "mac": "6a:02:71:59:1a:7f",
+    "channel": 9,
+    "signal_level": -72.5,
+    "quality": 55,
+    "date": "2019-06-13T15:52:36-04:00"
+  },
+  {
+    "ssid": "CENIM2",
+    "mac": "78:71:9c:ad:12:c0",
+    "channel": 11,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T15:52:36-04:00"
+  },
+  {
+    "ssid": "AMARRI",
+    "mac": "14:ab:f0:32:b5:30",
+    "channel": 9,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T15:52:36-04:00"
+  },
+  {
+    "ssid": "PAMELA_))",
+    "mac": "2c:ab:25:d1:26:43",
+    "channel": 7,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T15:52:36-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_LVS",
+    "mac": "6a:02:71:34:8e:fa",
+    "channel": 2,
+    "signal_level": -96.5,
+    "quality": 7,
+    "date": "2019-06-13T15:52:36-04:00"
+  },
+  {
+    "ssid": "WiFi_GB1649",
+    "mac": "6c:3b:6b:8f:68:ec",
+    "channel": 1,
+    "signal_level": -60,
+    "quality": 80,
+    "date": "2019-06-13T15:52:36-04:00"
+  },
+  {
+    "ssid": "Wifitelsur_HSO3",
+    "mac": "00:1d:2e:6b:14:b1",
+    "channel": 1,
+    "signal_level": -80,
+    "quality": 40,
+    "date": "2019-06-13T15:52:36-04:00"
+  },
+  {
+    "ssid": "WiFi_AIMV",
+    "mac": "fc:a6:cd:3c:03:80",
+    "channel": 11,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T15:52:36-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_MAQUINA",
+    "mac": "4c:6e:6e:aa:12:0a",
+    "channel": 11,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T15:52:36-04:00"
+  },
+  {
+    "ssid": "moto g(6) play 2826",
+    "mac": "0c:cb:85:24:f9:d0",
+    "channel": 11,
+    "signal_level": -97.5,
+    "quality": 5,
+    "date": "2019-06-13T15:52:36-04:00"
+  },
+  {
+    "ssid": "ELYON",
+    "mac": "62:02:71:74:e7:5a",
+    "channel": 6,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T15:52:36-04:00"
+  },
+  {
+    "ssid": "CENIMLOSRIOS1",
+    "mac": "78:71:9c:ab:75:c0",
+    "channel": 6,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T15:52:36-04:00"
+  },
+  {
+    "ssid": "CENIMLOSRIOS",
+    "mac": "08:3e:0c:e4:14:50",
+    "channel": 6,
+    "signal_level": -97,
+    "quality": 6,
+    "date": "2019-06-13T15:52:36-04:00"
+  },
+  {
+    "ssid": "Wifi_CLAL_2.4",
+    "mac": "00:72:63:fd:80:68",
+    "channel": 1,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T15:52:36-04:00"
+  },
+  {
+    "ssid": "AndroidAP",
+    "mac": "f6:71:90:1f:ac:12",
+    "channel": 1,
+    "signal_level": -94,
+    "quality": 12,
+    "date": "2019-06-13T15:52:36-04:00"
+  }
+]

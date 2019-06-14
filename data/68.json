@@ -1,0 +1,74 @@
+[
+  {
+    "ssid": "",
+    "mac": "b4:fb:e4:32:70:8e",
+    "channel": 128,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T17:59:14-04:00"
+  },
+  {
+    "ssid": "wifitelsur_DEAC",
+    "mac": "62:02:71:4b:86:69",
+    "channel": 9,
+    "signal_level": -75,
+    "quality": 50,
+    "date": "2019-06-13T17:59:14-04:00"
+  },
+  {
+    "ssid": "CLARO_e7da",
+    "mac": "c0:7c:d1:f4:6c:32",
+    "channel": 7,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T17:59:14-04:00"
+  },
+  {
+    "ssid": "Matilde",
+    "mac": "60:e3:27:4c:e8:32",
+    "channel": 4,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T17:59:14-04:00"
+  },
+  {
+    "ssid": "Wifi_PEDC",
+    "mac": "fc:a6:cd:3b:bd:70",
+    "channel": 2,
+    "signal_level": -55,
+    "quality": 90,
+    "date": "2019-06-13T17:59:14-04:00"
+  },
+  {
+    "ssid": "JAIME",
+    "mac": "b0:ea:bc:20:48:71",
+    "channel": 1,
+    "signal_level": -72.5,
+    "quality": 55,
+    "date": "2019-06-13T17:59:14-04:00"
+  },
+  {
+    "ssid": "PMontt",
+    "mac": "34:57:60:e8:e0:c8",
+    "channel": 1,
+    "signal_level": -93,
+    "quality": 14,
+    "date": "2019-06-13T17:59:14-04:00"
+  },
+  {
+    "ssid": "KIARA 2.4",
+    "mac": "a0:64:8f:33:7d:47",
+    "channel": 11,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T17:59:14-04:00"
+  },
+  {
+    "ssid": "VTR-6710357",
+    "mac": "48:d3:43:85:60:79",
+    "channel": 1,
+    "signal_level": -75,
+    "quality": 50,
+    "date": "2019-06-13T17:59:14-04:00"
+  }
+]

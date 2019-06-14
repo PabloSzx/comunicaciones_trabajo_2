@@ -1,0 +1,122 @@
+[
+  {
+    "ssid": "wifitelsur_LEGA",
+    "mac": "30:91:8f:09:5b:73",
+    "channel": 11,
+    "signal_level": -65,
+    "quality": 70,
+    "date": "2019-06-13T18:00:37-04:00"
+  },
+  {
+    "ssid": "Wifi_PSepulveda",
+    "mac": "72:02:71:79:4b:14",
+    "channel": 9,
+    "signal_level": -97.5,
+    "quality": 5,
+    "date": "2019-06-13T18:00:37-04:00"
+  },
+  {
+    "ssid": "CLARO_e7da",
+    "mac": "c0:7c:d1:f4:6c:32",
+    "channel": 7,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T18:00:37-04:00"
+  },
+  {
+    "ssid": "Carola",
+    "mac": "a4:15:88:de:0a:a0",
+    "channel": 3,
+    "signal_level": -72.5,
+    "quality": 55,
+    "date": "2019-06-13T18:00:37-04:00"
+  },
+  {
+    "ssid": "MC WIFI",
+    "mac": "f4:ec:38:af:b0:28",
+    "channel": 4,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T18:00:37-04:00"
+  },
+  {
+    "ssid": "Wifi_jzz",
+    "mac": "9c:97:26:48:ed:63",
+    "channel": 11,
+    "signal_level": -93.5,
+    "quality": 13,
+    "date": "2019-06-13T18:00:37-04:00"
+  },
+  {
+    "ssid": "VTR-7736084",
+    "mac": "40:0d:10:a4:2d:89",
+    "channel": 1,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T18:00:37-04:00"
+  },
+  {
+    "ssid": "MARIA ESTER",
+    "mac": "a4:15:88:2c:bd:50",
+    "channel": 11,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T18:00:37-04:00"
+  },
+  {
+    "ssid": "wifitelsur_ASAN",
+    "mac": "00:1f:41:58:9a:91",
+    "channel": 6,
+    "signal_level": -75,
+    "quality": 50,
+    "date": "2019-06-13T18:00:37-04:00"
+  },
+  {
+    "ssid": "V54-23DB90",
+    "mac": "00:1f:41:18:9a:91",
+    "channel": 6,
+    "signal_level": -70,
+    "quality": 60,
+    "date": "2019-06-13T18:00:37-04:00"
+  },
+  {
+    "ssid": "VTR-3853752",
+    "mac": "18:35:d1:88:07:99",
+    "channel": 6,
+    "signal_level": -67.5,
+    "quality": 65,
+    "date": "2019-06-13T18:00:37-04:00"
+  },
+  {
+    "ssid": "VTR-8951833",
+    "mac": "18:35:d1:83:1d:d1",
+    "channel": 1,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T18:00:37-04:00"
+  },
+  {
+    "ssid": "PMontt",
+    "mac": "34:57:60:e8:e0:c8",
+    "channel": 1,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T18:00:37-04:00"
+  },
+  {
+    "ssid": "VTR-3070861",
+    "mac": "48:d3:43:c4:98:c1",
+    "channel": 1,
+    "signal_level": -65,
+    "quality": 70,
+    "date": "2019-06-13T18:00:37-04:00"
+  },
+  {
+    "ssid": "pmonttcab",
+    "mac": "7a:8a:20:67:df:0e",
+    "channel": 1,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T18:00:37-04:00"
+  }
+]

@@ -1,0 +1,186 @@
+[
+  {
+    "ssid": "EMILIOC-5G",
+    "mac": "60:19:71:cb:89:05",
+    "channel": 36,
+    "signal_level": -75,
+    "quality": 50,
+    "date": "2019-06-13T15:58:49-04:00"
+  },
+  {
+    "ssid": "CLARO_5A8E",
+    "mac": "fc:94:e3:99:5a:8f",
+    "channel": 9,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T15:58:49-04:00"
+  },
+  {
+    "ssid": "PETROBRAS",
+    "mac": "72:02:71:7a:8b:a4",
+    "channel": 9,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T15:58:49-04:00"
+  },
+  {
+    "ssid": "",
+    "mac": "00:3a:99:c8:0b:60",
+    "channel": 8,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T15:58:49-04:00"
+  },
+  {
+    "ssid": "VTR-0076558",
+    "mac": "40:0d:10:f5:5c:c1",
+    "channel": 4,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T15:58:49-04:00"
+  },
+  {
+    "ssid": "  NATY. ",
+    "mac": "88:f7:c7:51:f0:7b",
+    "channel": 1,
+    "signal_level": -65,
+    "quality": 70,
+    "date": "2019-06-13T15:58:49-04:00"
+  },
+  {
+    "ssid": "wifitelsur_CSP",
+    "mac": "62:02:71:6e:9c:06",
+    "channel": 2,
+    "signal_level": -93.5,
+    "quality": 13,
+    "date": "2019-06-13T15:58:49-04:00"
+  },
+  {
+    "ssid": "Wifitelsur_TSPG",
+    "mac": "6a:02:71:3a:25:58",
+    "channel": 11,
+    "signal_level": -94.5,
+    "quality": 11,
+    "date": "2019-06-13T15:58:49-04:00"
+  },
+  {
+    "ssid": "wifitelsur_JAY",
+    "mac": "62:02:71:77:0d:24",
+    "channel": 11,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T15:58:49-04:00"
+  },
+  {
+    "ssid": "Don Juan",
+    "mac": "ec:08:6b:60:68:1a",
+    "channel": 11,
+    "signal_level": -95.5,
+    "quality": 9,
+    "date": "2019-06-13T15:58:49-04:00"
+  },
+  {
+    "ssid": "DIRECT-95-HP DeskJet 2600 series",
+    "mac": "c8:d9:d2:3e:5c:96",
+    "channel": 11,
+    "signal_level": -100,
+    "quality": 0,
+    "date": "2019-06-13T15:58:49-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_22C4",
+    "mac": "4c:6e:6e:98:22:c5",
+    "channel": 10,
+    "signal_level": -65,
+    "quality": 70,
+    "date": "2019-06-13T15:58:49-04:00"
+  },
+  {
+    "ssid": "EMILIOC",
+    "mac": "60:19:71:cb:89:00",
+    "channel": 11,
+    "signal_level": -75,
+    "quality": 50,
+    "date": "2019-06-13T15:58:49-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_PGBS",
+    "mac": "d2:ad:e5:42:21:bd",
+    "channel": 11,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T15:58:49-04:00"
+  },
+  {
+    "ssid": "NAST",
+    "mac": "64:ee:b7:6c:6d:d8",
+    "channel": 11,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T15:58:49-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_ALB",
+    "mac": "9c:97:26:08:5d:ec",
+    "channel": 6,
+    "signal_level": -65,
+    "quality": 70,
+    "date": "2019-06-13T15:58:49-04:00"
+  },
+  {
+    "ssid": "Messerschmitt",
+    "mac": "10:fe:ed:c0:6c:fe",
+    "channel": 6,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T15:58:49-04:00"
+  },
+  {
+    "ssid": "ROBERTH",
+    "mac": "a4:15:88:de:d0:f0",
+    "channel": 6,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T15:58:49-04:00"
+  },
+  {
+    "ssid": "wifitelsur_pagll",
+    "mac": "22:02:71:24:33:9c",
+    "channel": 6,
+    "signal_level": -52.5,
+    "quality": 95,
+    "date": "2019-06-13T15:58:49-04:00"
+  },
+  {
+    "ssid": "VTR-1626960",
+    "mac": "48:d3:43:34:e3:11",
+    "channel": 1,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T15:58:49-04:00"
+  },
+  {
+    "ssid": "VTR-5297826",
+    "mac": "18:35:d1:7d:c4:09",
+    "channel": 1,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T15:58:49-04:00"
+  },
+  {
+    "ssid": "wifitelsur_SANDOVAL",
+    "mac": "00:25:c4:4c:a8:f1",
+    "channel": 1,
+    "signal_level": -94,
+    "quality": 12,
+    "date": "2019-06-13T15:58:49-04:00"
+  },
+  {
+    "ssid": "",
+    "mac": "00:25:c4:0c:a8:f1",
+    "channel": 1,
+    "signal_level": -94.5,
+    "quality": 11,
+    "date": "2019-06-13T15:58:49-04:00"
+  }
+]

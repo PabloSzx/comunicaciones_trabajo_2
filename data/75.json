@@ -1,0 +1,98 @@
+[
+  {
+    "ssid": "WifiTelsur_BAPR_5g",
+    "mac": "00:72:63:b3:f5:3f",
+    "channel": 149,
+    "signal_level": -93,
+    "quality": 14,
+    "date": "2019-06-13T17:57:27-04:00"
+  },
+  {
+    "ssid": "VTR-8596104",
+    "mac": "40:0d:10:f2:ea:ef",
+    "channel": 149,
+    "signal_level": -82.5,
+    "quality": 35,
+    "date": "2019-06-13T17:57:27-04:00"
+  },
+  {
+    "ssid": "VTR-7193140",
+    "mac": "40:0d:10:f5:4e:2f",
+    "channel": 48,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T17:57:27-04:00"
+  },
+  {
+    "ssid": "",
+    "mac": "00:1d:2e:2a:f4:31",
+    "channel": 11,
+    "signal_level": -75,
+    "quality": 50,
+    "date": "2019-06-13T17:57:27-04:00"
+  },
+  {
+    "ssid": "AREIA",
+    "mac": "00:1d:2e:6a:f4:31",
+    "channel": 11,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T17:57:27-04:00"
+  },
+  {
+    "ssid": "red_wifi_849",
+    "mac": "dc:9f:db:5c:bf:10",
+    "channel": 5,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T17:57:27-04:00"
+  },
+  {
+    "ssid": "Wifitelsur_BPAF",
+    "mac": "72:02:71:32:e6:92",
+    "channel": 6,
+    "signal_level": -52.5,
+    "quality": 95,
+    "date": "2019-06-13T17:57:27-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_BAPR",
+    "mac": "00:72:63:b3:f5:3a",
+    "channel": 6,
+    "signal_level": -80,
+    "quality": 40,
+    "date": "2019-06-13T17:57:27-04:00"
+  },
+  {
+    "ssid": "VTR-8718483",
+    "mac": "c0:05:c2:df:cb:e9",
+    "channel": 3,
+    "signal_level": -93.5,
+    "quality": 13,
+    "date": "2019-06-13T17:57:27-04:00"
+  },
+  {
+    "ssid": "WIFITELSUR_ECRZ",
+    "mac": "a4:b1:e9:7b:f6:ab",
+    "channel": 1,
+    "signal_level": -72.5,
+    "quality": 55,
+    "date": "2019-06-13T17:57:27-04:00"
+  },
+  {
+    "ssid": "VTR-3853752",
+    "mac": "18:35:d1:88:07:99",
+    "channel": 6,
+    "signal_level": -93.5,
+    "quality": 13,
+    "date": "2019-06-13T17:57:27-04:00"
+  },
+  {
+    "ssid": "DESCONOCIDO",
+    "mac": "d2:59:66:85:03:1b",
+    "channel": 1,
+    "signal_level": -82.5,
+    "quality": 35,
+    "date": "2019-06-13T17:57:27-04:00"
+  }
+]

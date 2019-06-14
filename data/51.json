@@ -1,0 +1,146 @@
+[
+  {
+    "ssid": "VTR-1347642",
+    "mac": "40:0d:10:f5:5e:bf",
+    "channel": 149,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T16:29:32-04:00"
+  },
+  {
+    "ssid": "MOVISTAR_PLUS_A437",
+    "mac": "84:aa:9c:d2:a4:37",
+    "channel": 149,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T16:29:32-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_5G_9A0E",
+    "mac": "4c:6e:6e:a7:9a:10",
+    "channel": 48,
+    "signal_level": -60,
+    "quality": 80,
+    "date": "2019-06-13T16:29:32-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_5G_RMF",
+    "mac": "4c:6e:6e:aa:73:27",
+    "channel": 36,
+    "signal_level": -97.5,
+    "quality": 5,
+    "date": "2019-06-13T16:29:32-04:00"
+  },
+  {
+    "ssid": "SIOMARA_5G_",
+    "mac": "4c:6e:6e:9e:d2:76",
+    "channel": 36,
+    "signal_level": -67.5,
+    "quality": 65,
+    "date": "2019-06-13T16:29:32-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_RSF",
+    "mac": "6a:02:71:84:b3:1c",
+    "channel": 11,
+    "signal_level": -60,
+    "quality": 80,
+    "date": "2019-06-13T16:29:32-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_MPFF-2.4G",
+    "mac": "4c:6e:6e:9e:e4:55",
+    "channel": 11,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T16:29:32-04:00"
+  },
+  {
+    "ssid": "MOVISTAR_",
+    "mac": "84:aa:9c:d2:a4:30",
+    "channel": 6,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T16:29:32-04:00"
+  },
+  {
+    "ssid": "VTR-8330939_repetidor",
+    "mac": "50:c7:bf:d2:cd:05",
+    "channel": 7,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T16:29:32-04:00"
+  },
+  {
+    "ssid": "HUAWEI Mate 9 lite",
+    "mac": "88:44:77:5b:be:d5",
+    "channel": 6,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T16:29:32-04:00"
+  },
+  {
+    "ssid": "dlink-36B0",
+    "mac": "78:32:1b:d0:36:b0",
+    "channel": 1,
+    "signal_level": -75,
+    "quality": 50,
+    "date": "2019-06-13T16:29:32-04:00"
+  },
+  {
+    "ssid": "micasa_2",
+    "mac": "4c:6e:6e:a7:9a:0f",
+    "channel": 1,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T16:29:32-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_RMF_2.4G",
+    "mac": "4c:6e:6e:aa:73:26",
+    "channel": 11,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T16:29:32-04:00"
+  },
+  {
+    "ssid": "SIOMARA",
+    "mac": "4c:6e:6e:9e:d2:75",
+    "channel": 11,
+    "signal_level": -70,
+    "quality": 60,
+    "date": "2019-06-13T16:29:32-04:00"
+  },
+  {
+    "ssid": "STORMBREAKER",
+    "mac": "72:02:71:93:9b:20",
+    "channel": 1,
+    "signal_level": -80,
+    "quality": 40,
+    "date": "2019-06-13T16:29:32-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_GEBS_2",
+    "mac": "4c:6e:6e:91:8b:92",
+    "channel": 6,
+    "signal_level": -80,
+    "quality": 40,
+    "date": "2019-06-13T16:29:32-04:00"
+  },
+  {
+    "ssid": "micasa_3",
+    "mac": "c4:6e:1f:40:03:3e",
+    "channel": 1,
+    "signal_level": -77.5,
+    "quality": 45,
+    "date": "2019-06-13T16:29:32-04:00"
+  },
+  {
+    "ssid": "LOMERQUI",
+    "mac": "78:71:9c:b2:30:d0",
+    "channel": 1,
+    "signal_level": -82.5,
+    "quality": 35,
+    "date": "2019-06-13T16:29:32-04:00"
+  }
+]

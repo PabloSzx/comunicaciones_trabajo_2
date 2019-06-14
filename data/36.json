@@ -1,0 +1,122 @@
+[
+  {
+    "ssid": "EFEYER_5Ghz",
+    "mac": "64:ee:b7:45:7e:1b",
+    "channel": 149,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T16:14:06-04:00"
+  },
+  {
+    "ssid": "DELVALLEPINILLA",
+    "mac": "78:71:9c:a9:11:b0",
+    "channel": 6,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T16:14:06-04:00"
+  },
+  {
+    "ssid": "VTR-3680015",
+    "mac": "48:d3:43:58:b0:01",
+    "channel": 9,
+    "signal_level": -97.5,
+    "quality": 5,
+    "date": "2019-06-13T16:14:06-04:00"
+  },
+  {
+    "ssid": "Cabana_7",
+    "mac": "4c:6e:6e:9c:f9:f0",
+    "channel": 11,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T16:14:06-04:00"
+  },
+  {
+    "ssid": "Piso3",
+    "mac": "74:91:1a:57:8e:11",
+    "channel": 11,
+    "signal_level": -100,
+    "quality": 0,
+    "date": "2019-06-13T16:14:06-04:00"
+  },
+  {
+    "ssid": "VTR-6219351",
+    "mac": "40:0d:10:a5:6f:79",
+    "channel": 11,
+    "signal_level": -93.5,
+    "quality": 13,
+    "date": "2019-06-13T16:14:06-04:00"
+  },
+  {
+    "ssid": "WIFI_NJVH",
+    "mac": "6a:02:71:43:a6:85",
+    "channel": 11,
+    "signal_level": -94.5,
+    "quality": 11,
+    "date": "2019-06-13T16:14:06-04:00"
+  },
+  {
+    "ssid": "cabana_1",
+    "mac": "72:02:71:7f:90:9e",
+    "channel": 11,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T16:14:06-04:00"
+  },
+  {
+    "ssid": "EFEYER_2.4Ghz",
+    "mac": "64:ee:b7:45:7e:16",
+    "channel": 11,
+    "signal_level": -55,
+    "quality": 90,
+    "date": "2019-06-13T16:14:06-04:00"
+  },
+  {
+    "ssid": "LOBELIA",
+    "mac": "60:19:71:63:c8:40",
+    "channel": 6,
+    "signal_level": -100,
+    "quality": 0,
+    "date": "2019-06-13T16:14:06-04:00"
+  },
+  {
+    "ssid": "Cabana3",
+    "mac": "4c:6e:6e:9c:fe:28",
+    "channel": 6,
+    "signal_level": -65,
+    "quality": 70,
+    "date": "2019-06-13T16:14:06-04:00"
+  },
+  {
+    "ssid": "VTR-4048356",
+    "mac": "40:0d:10:ce:df:b9",
+    "channel": 1,
+    "signal_level": -93,
+    "quality": 14,
+    "date": "2019-06-13T16:14:06-04:00"
+  },
+  {
+    "ssid": "VTR-6969943",
+    "mac": "48:d3:43:60:d7:e1",
+    "channel": 1,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T16:14:06-04:00"
+  },
+  {
+    "ssid": "JUDITH",
+    "mac": "a4:15:88:f4:b8:10",
+    "channel": 1,
+    "signal_level": -72.5,
+    "quality": 55,
+    "date": "2019-06-13T16:14:06-04:00"
+  },
+  {
+    "ssid": "Wifi_GrupoGTD_83E8",
+    "mac": "00:72:63:b3:83:e8",
+    "channel": 1,
+    "signal_level": -93.5,
+    "quality": 13,
+    "date": "2019-06-13T16:14:06-04:00"
+  }
+]

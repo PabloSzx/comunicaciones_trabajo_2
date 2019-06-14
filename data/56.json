@@ -1,0 +1,122 @@
+[
+  {
+    "ssid": "WIFITELSUR_MAMO_5G",
+    "mac": "00:72:63:64:ea:79",
+    "channel": 149,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T17:47:14-04:00"
+  },
+  {
+    "ssid": "VTR-0017366",
+    "mac": "18:35:d1:23:94:ef",
+    "channel": 149,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T17:47:14-04:00"
+  },
+  {
+    "ssid": "VTR-2559582",
+    "mac": "48:d3:43:85:86:17",
+    "channel": 149,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T17:47:14-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_5G_AOCA2",
+    "mac": "4c:6e:6e:b1:6e:f1",
+    "channel": 36,
+    "signal_level": -82.5,
+    "quality": 35,
+    "date": "2019-06-13T17:47:14-04:00"
+  },
+  {
+    "ssid": "WiFi_AOCA_5G",
+    "mac": "00:72:63:b3:a0:85",
+    "channel": 149,
+    "signal_level": -93.5,
+    "quality": 13,
+    "date": "2019-06-13T17:47:14-04:00"
+  },
+  {
+    "ssid": "WiFiTelsur_AOCA",
+    "mac": "fc:a6:cd:3b:7e:c0",
+    "channel": 11,
+    "signal_level": -60,
+    "quality": 80,
+    "date": "2019-06-13T17:47:14-04:00"
+  },
+  {
+    "ssid": "AMARRI",
+    "mac": "14:ab:f0:32:b5:30",
+    "channel": 9,
+    "signal_level": -75,
+    "quality": 50,
+    "date": "2019-06-13T17:47:14-04:00"
+  },
+  {
+    "ssid": "wifi__LAGS",
+    "mac": "4c:6e:6e:a4:00:1d",
+    "channel": 11,
+    "signal_level": -82.5,
+    "quality": 35,
+    "date": "2019-06-13T17:47:14-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_AOCA2",
+    "mac": "4c:6e:6e:b1:6e:f0",
+    "channel": 4,
+    "signal_level": -62.5,
+    "quality": 75,
+    "date": "2019-06-13T17:47:14-04:00"
+  },
+  {
+    "ssid": "WIFITELSUR_MAMO_2.4",
+    "mac": "00:72:63:64:ea:74",
+    "channel": 11,
+    "signal_level": -65,
+    "quality": 70,
+    "date": "2019-06-13T17:47:14-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_MEBM",
+    "mac": "4c:6e:6e:91:8c:69",
+    "channel": 6,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T17:47:14-04:00"
+  },
+  {
+    "ssid": "lukita",
+    "mac": "2c:ab:25:7b:0b:7e",
+    "channel": 4,
+    "signal_level": -97.5,
+    "quality": 5,
+    "date": "2019-06-13T17:47:14-04:00"
+  },
+  {
+    "ssid": "mi red",
+    "mac": "22:1d:60:5b:cd:57",
+    "channel": 11,
+    "signal_level": -94,
+    "quality": 12,
+    "date": "2019-06-13T17:47:14-04:00"
+  },
+  {
+    "ssid": "pmonttcab",
+    "mac": "7a:8a:20:67:df:33",
+    "channel": 6,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T17:47:14-04:00"
+  },
+  {
+    "ssid": "Media CB",
+    "mac": "4a:d9:e7:0b:8f:56",
+    "channel": 1,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T17:47:14-04:00"
+  }
+]

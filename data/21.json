@@ -1,0 +1,170 @@
+[
+  {
+    "ssid": "1eb976",
+    "mac": "00:71:c2:25:62:e0",
+    "channel": 161,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T16:00:56-04:00"
+  },
+  {
+    "ssid": "movistar_87D154",
+    "mac": "b4:ee:b4:87:d1:55",
+    "channel": 13,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T16:00:56-04:00"
+  },
+  {
+    "ssid": "PETROBRAS",
+    "mac": "72:02:71:7a:8b:a4",
+    "channel": 9,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T16:00:56-04:00"
+  },
+  {
+    "ssid": "Piso3",
+    "mac": "74:91:1a:57:8e:11",
+    "channel": 11,
+    "signal_level": -62.5,
+    "quality": 75,
+    "date": "2019-06-13T16:00:56-04:00"
+  },
+  {
+    "ssid": "Wifitelsur_CARB",
+    "mac": "6a:02:71:4b:85:b5",
+    "channel": 5,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T16:00:56-04:00"
+  },
+  {
+    "ssid": "VTR-3680015",
+    "mac": "48:d3:43:58:b0:01",
+    "channel": 9,
+    "signal_level": -94.5,
+    "quality": 11,
+    "date": "2019-06-13T16:00:56-04:00"
+  },
+  {
+    "ssid": "NACHITO   ",
+    "mac": "00:71:c2:25:62:e4",
+    "channel": 9,
+    "signal_level": -70,
+    "quality": 60,
+    "date": "2019-06-13T16:00:56-04:00"
+  },
+  {
+    "ssid": "",
+    "mac": "00:3a:99:c8:0b:60",
+    "channel": 8,
+    "signal_level": -55,
+    "quality": 90,
+    "date": "2019-06-13T16:00:56-04:00"
+  },
+  {
+    "ssid": "WIFITELSUR_HICL",
+    "mac": "6a:02:71:84:a9:b2",
+    "channel": 6,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T16:00:56-04:00"
+  },
+  {
+    "ssid": "VTR-8743786",
+    "mac": "48:d3:43:60:13:b9",
+    "channel": 4,
+    "signal_level": -93,
+    "quality": 14,
+    "date": "2019-06-13T16:00:56-04:00"
+  },
+  {
+    "ssid": "NOELIA",
+    "mac": "f8:1a:67:f6:3a:24",
+    "channel": 4,
+    "signal_level": -94.5,
+    "quality": 11,
+    "date": "2019-06-13T16:00:56-04:00"
+  },
+  {
+    "ssid": "HUAWEI-E5573s-B3A4",
+    "mac": "5c:c3:07:c7:b3:a4",
+    "channel": 4,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T16:00:56-04:00"
+  },
+  {
+    "ssid": "Constructora_Antemural_2.4g",
+    "mac": "00:72:63:fc:8b:18",
+    "channel": 2,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T16:00:56-04:00"
+  },
+  {
+    "ssid": "JUDITH",
+    "mac": "a4:15:88:f4:b8:10",
+    "channel": 1,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T16:00:56-04:00"
+  },
+  {
+    "ssid": "wifitelsur_2.4_HICL",
+    "mac": "4c:6e:6e:9e:d3:9e",
+    "channel": 11,
+    "signal_level": -75,
+    "quality": 50,
+    "date": "2019-06-13T16:00:56-04:00"
+  },
+  {
+    "ssid": "wifitelsur_JCRR",
+    "mac": "00:13:92:4e:59:a1",
+    "channel": 11,
+    "signal_level": -100,
+    "quality": 0,
+    "date": "2019-06-13T16:00:56-04:00"
+  },
+  {
+    "ssid": "moto 14",
+    "mac": "6e:b7:49:ae:84:43",
+    "channel": 6,
+    "signal_level": -72.5,
+    "quality": 55,
+    "date": "2019-06-13T16:00:56-04:00"
+  },
+  {
+    "ssid": "",
+    "mac": "00:25:c4:0c:a8:f1",
+    "channel": 1,
+    "signal_level": -97.5,
+    "quality": 5,
+    "date": "2019-06-13T16:00:56-04:00"
+  },
+  {
+    "ssid": "wifitelsur_SANDOVAL",
+    "mac": "00:25:c4:4c:a8:f1",
+    "channel": 1,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T16:00:56-04:00"
+  },
+  {
+    "ssid": "La Kucheneria",
+    "mac": "48:d3:43:8d:57:71",
+    "channel": 1,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T16:00:56-04:00"
+  },
+  {
+    "ssid": "Noelia",
+    "mac": "c4:27:95:86:6a:e7",
+    "channel": 1,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T16:00:56-04:00"
+  }
+]

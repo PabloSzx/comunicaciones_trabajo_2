@@ -1,0 +1,130 @@
+[
+  {
+    "ssid": "wifi_TATTER_5G",
+    "mac": "00:72:63:fc:f1:a7",
+    "channel": 149,
+    "signal_level": -60,
+    "quality": 80,
+    "date": "2019-06-13T16:09:09-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_MJMR",
+    "mac": "6a:02:71:79:6a:7c",
+    "channel": 9,
+    "signal_level": -100,
+    "quality": 0,
+    "date": "2019-06-13T16:09:09-04:00"
+  },
+  {
+    "ssid": "VTR-8226897",
+    "mac": "18:35:d1:7d:b8:01",
+    "channel": 11,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T16:09:09-04:00"
+  },
+  {
+    "ssid": "Christian",
+    "mac": "a4:15:88:ef:2a:d0",
+    "channel": 8,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T16:09:09-04:00"
+  },
+  {
+    "ssid": "Wfitelsur_IBARRA",
+    "mac": "00:25:c4:53:36:21",
+    "channel": 11,
+    "signal_level": -94,
+    "quality": 12,
+    "date": "2019-06-13T16:09:09-04:00"
+  },
+  {
+    "ssid": "JAVC",
+    "mac": "00:72:63:4c:74:c0",
+    "channel": 11,
+    "signal_level": -62.5,
+    "quality": 75,
+    "date": "2019-06-13T16:09:09-04:00"
+  },
+  {
+    "ssid": "wifi_TATTER",
+    "mac": "00:72:63:fc:f1:a2",
+    "channel": 6,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T16:09:09-04:00"
+  },
+  {
+    "ssid": "JardinLaico",
+    "mac": "e8:94:f6:45:cc:56",
+    "channel": 2,
+    "signal_level": -95.5,
+    "quality": 9,
+    "date": "2019-06-13T16:09:09-04:00"
+  },
+  {
+    "ssid": "",
+    "mac": "00:13:92:0e:9c:e1",
+    "channel": 11,
+    "signal_level": -94.5,
+    "quality": 11,
+    "date": "2019-06-13T16:09:09-04:00"
+  },
+  {
+    "ssid": "Wifi_JAVC18",
+    "mac": "00:13:92:4e:9c:e1",
+    "channel": 11,
+    "signal_level": -99,
+    "quality": 2,
+    "date": "2019-06-13T16:09:09-04:00"
+  },
+  {
+    "ssid": "Wifitelsur_Reyes",
+    "mac": "00:1d:2e:6b:d1:81",
+    "channel": 6,
+    "signal_level": -80,
+    "quality": 40,
+    "date": "2019-06-13T16:09:09-04:00"
+  },
+  {
+    "ssid": "WiFi_TATTER_1",
+    "mac": "fc:a6:cd:3c:a9:20",
+    "channel": 6,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T16:09:09-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_MEPA",
+    "mac": "4c:6e:6e:aa:9b:32",
+    "channel": 1,
+    "signal_level": -93,
+    "quality": 14,
+    "date": "2019-06-13T16:09:09-04:00"
+  },
+  {
+    "ssid": "VALENTINA H",
+    "mac": "fc:94:e3:31:e8:40",
+    "channel": 1,
+    "signal_level": -93.5,
+    "quality": 13,
+    "date": "2019-06-13T16:09:09-04:00"
+  },
+  {
+    "ssid": "cabanas_2.4",
+    "mac": "00:72:63:fc:f2:42",
+    "channel": 1,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T16:09:09-04:00"
+  },
+  {
+    "ssid": "VTR-7121027",
+    "mac": "18:35:d1:41:dd:81",
+    "channel": 1,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T16:09:09-04:00"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "ssid": "IHUAWEI_LUA-L03_5282",
+    "mac": "f6:cb:52:d9:21:29",
+    "channel": 10,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T15:53:07-04:00"
+  },
+  {
+    "ssid": "gama",
+    "mac": "00:25:c4:5a:ac:11",
+    "channel": 11,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T15:53:07-04:00"
+  },
+  {
+    "ssid": "AMARRI",
+    "mac": "14:ab:f0:32:b5:30",
+    "channel": 9,
+    "signal_level": -93.5,
+    "quality": 13,
+    "date": "2019-06-13T15:53:07-04:00"
+  },
+  {
+    "ssid": "PAMELA_))",
+    "mac": "2c:ab:25:d1:26:43",
+    "channel": 7,
+    "signal_level": -77.5,
+    "quality": 45,
+    "date": "2019-06-13T15:53:07-04:00"
+  },
+  {
+    "ssid": "",
+    "mac": "00:25:c4:1a:ac:11",
+    "channel": 11,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T15:53:07-04:00"
+  },
+  {
+    "ssid": "_Gama_",
+    "mac": "10:62:eb:23:0b:19",
+    "channel": 10,
+    "signal_level": -62.5,
+    "quality": 75,
+    "date": "2019-06-13T15:53:07-04:00"
+  },
+  {
+    "ssid": "TAMARA",
+    "mac": "8c:04:ff:bb:40:d3",
+    "channel": 6,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T15:53:07-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_LVS",
+    "mac": "6a:02:71:34:8e:fa",
+    "channel": 2,
+    "signal_level": -75,
+    "quality": 50,
+    "date": "2019-06-13T15:53:07-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_MAQUINA",
+    "mac": "4c:6e:6e:aa:12:0a",
+    "channel": 11,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T15:53:07-04:00"
+  },
+  {
+    "ssid": "WIFITELSUR_HSSO",
+    "mac": "72:02:71:7f:aa:3e",
+    "channel": 6,
+    "signal_level": -97.5,
+    "quality": 5,
+    "date": "2019-06-13T15:53:07-04:00"
+  },
+  {
+    "ssid": "VTR-8865339",
+    "mac": "40:0d:10:31:12:29",
+    "channel": 6,
+    "signal_level": -67.5,
+    "quality": 65,
+    "date": "2019-06-13T15:53:07-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_AVA",
+    "mac": "82:25:ce:b1:43:b9",
+    "channel": 1,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T15:53:07-04:00"
+  },
+  {
+    "ssid": "FELIPE",
+    "mac": "34:57:60:e9:30:40",
+    "channel": 1,
+    "signal_level": -97.5,
+    "quality": 5,
+    "date": "2019-06-13T15:53:07-04:00"
+  },
+  {
+    "ssid": "Wifitelsur_HSO3",
+    "mac": "00:1d:2e:6b:14:b1",
+    "channel": 1,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T15:53:07-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_CLAL",
+    "mac": "fc:a6:cd:60:b0:b8",
+    "channel": 10,
+    "signal_level": -95.5,
+    "quality": 9,
+    "date": "2019-06-13T15:53:07-04:00"
+  }
+]

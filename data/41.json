@@ -1,0 +1,146 @@
+[
+  {
+    "ssid": "EFEYER_5Ghz",
+    "mac": "64:ee:b7:45:7e:1b",
+    "channel": 149,
+    "signal_level": -67.5,
+    "quality": 65,
+    "date": "2019-06-13T16:17:42-04:00"
+  },
+  {
+    "ssid": "VTR-3680015",
+    "mac": "48:d3:43:58:b0:07",
+    "channel": 48,
+    "signal_level": -65,
+    "quality": 70,
+    "date": "2019-06-13T16:17:42-04:00"
+  },
+  {
+    "ssid": "Wifi_Casa_5G",
+    "mac": "00:72:63:4c:1e:d5",
+    "channel": 36,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T16:17:42-04:00"
+  },
+  {
+    "ssid": "GrupoGTD_5G_83E8",
+    "mac": "00:72:63:b3:83:ed",
+    "channel": 149,
+    "signal_level": -93.5,
+    "quality": 13,
+    "date": "2019-06-13T16:17:42-04:00"
+  },
+  {
+    "ssid": "",
+    "mac": "00:3a:99:c8:45:00",
+    "channel": 8,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T16:17:42-04:00"
+  },
+  {
+    "ssid": "fernando",
+    "mac": "54:e6:fc:f6:f0:84",
+    "channel": 4,
+    "signal_level": -70,
+    "quality": 60,
+    "date": "2019-06-13T16:17:42-04:00"
+  },
+  {
+    "ssid": "Wifi_Casa_2.4",
+    "mac": "00:72:63:4c:1e:d0",
+    "channel": 1,
+    "signal_level": -75,
+    "quality": 50,
+    "date": "2019-06-13T16:17:42-04:00"
+  },
+  {
+    "ssid": "wifitelsur_UDM",
+    "mac": "b2:1d:5b:af:c6:cd",
+    "channel": 1,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T16:17:42-04:00"
+  },
+  {
+    "ssid": "Constructora_Antemural_2.4g",
+    "mac": "00:72:63:fc:8b:18",
+    "channel": 2,
+    "signal_level": -62.5,
+    "quality": 75,
+    "date": "2019-06-13T16:17:42-04:00"
+  },
+  {
+    "ssid": "VALDIVIA2",
+    "mac": "6c:72:20:67:a7:a4",
+    "channel": 2,
+    "signal_level": -93.5,
+    "quality": 13,
+    "date": "2019-06-13T16:17:42-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_NIKKEI",
+    "mac": "4c:6e:6e:a5:85:ae",
+    "channel": 11,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T16:17:42-04:00"
+  },
+  {
+    "ssid": "EFEYER_2.4Ghz",
+    "mac": "64:ee:b7:45:7e:16",
+    "channel": 11,
+    "signal_level": -75,
+    "quality": 50,
+    "date": "2019-06-13T16:17:42-04:00"
+  },
+  {
+    "ssid": "ALINNE",
+    "mac": "34:57:60:a3:33:28",
+    "channel": 6,
+    "signal_level": -96.5,
+    "quality": 7,
+    "date": "2019-06-13T16:17:42-04:00"
+  },
+  {
+    "ssid": "Cabana3",
+    "mac": "4c:6e:6e:9c:fe:28",
+    "channel": 6,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T16:17:42-04:00"
+  },
+  {
+    "ssid": "Constructora_Antemural",
+    "mac": "fc:a6:cd:3c:a5:30",
+    "channel": 6,
+    "signal_level": -65,
+    "quality": 70,
+    "date": "2019-06-13T16:17:42-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_IAIL",
+    "mac": "72:02:71:7f:34:32",
+    "channel": 1,
+    "signal_level": -94.5,
+    "quality": 11,
+    "date": "2019-06-13T16:17:42-04:00"
+  },
+  {
+    "ssid": "Wifi_GrupoGTD_83E8",
+    "mac": "00:72:63:b3:83:e8",
+    "channel": 1,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T16:17:42-04:00"
+  },
+  {
+    "ssid": "JUDITH",
+    "mac": "a4:15:88:f4:b8:10",
+    "channel": 1,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T16:17:42-04:00"
+  }
+]

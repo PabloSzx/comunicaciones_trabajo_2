@@ -128,6 +128,6 @@ export const muestrasJSONToCSV = async (data: Readonly<Muestras>) => {
       },
     ],
   });
-  fs.writeFileSync(join(dataPath, "csvMuestras.csv"), csv);
+  fs.writeFileSync(join(dataPath, "dataConsolidada.csv"), csv);
   return;
 };

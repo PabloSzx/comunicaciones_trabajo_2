@@ -1,0 +1,122 @@
+[
+  {
+    "ssid": "HUAWEI-98B7",
+    "mac": "6c:b7:49:dc:98:b7",
+    "channel": 4,
+    "signal_level": -75,
+    "quality": 50,
+    "date": "2019-06-13T17:58:23-04:00"
+  },
+  {
+    "ssid": "wifitelsur_DEAC",
+    "mac": "62:02:71:4b:86:69",
+    "channel": 9,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T17:58:23-04:00"
+  },
+  {
+    "ssid": "pipo",
+    "mac": "8a:11:96:85:11:60",
+    "channel": 7,
+    "signal_level": -75,
+    "quality": 50,
+    "date": "2019-06-13T17:58:23-04:00"
+  },
+  {
+    "ssid": "VTR-8596104",
+    "mac": "40:0d:10:f2:ea:e9",
+    "channel": 11,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T17:58:23-04:00"
+  },
+  {
+    "ssid": "red_wifi_849",
+    "mac": "dc:9f:db:5c:bf:10",
+    "channel": 5,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T17:58:23-04:00"
+  },
+  {
+    "ssid": "LAMATLETO",
+    "mac": "88:f7:c7:51:d5:d0",
+    "channel": 1,
+    "signal_level": -65,
+    "quality": 70,
+    "date": "2019-06-13T17:58:23-04:00"
+  },
+  {
+    "ssid": "",
+    "mac": "00:1d:2e:2a:f4:31",
+    "channel": 11,
+    "signal_level": -93.5,
+    "quality": 13,
+    "date": "2019-06-13T17:58:23-04:00"
+  },
+  {
+    "ssid": "AREIA",
+    "mac": "00:1d:2e:6a:f4:31",
+    "channel": 11,
+    "signal_level": -94,
+    "quality": 12,
+    "date": "2019-06-13T17:58:23-04:00"
+  },
+  {
+    "ssid": "Wifitelsur_BPAF",
+    "mac": "72:02:71:32:e6:92",
+    "channel": 6,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T17:58:23-04:00"
+  },
+  {
+    "ssid": "wifitelsur_ASAN",
+    "mac": "00:1f:41:58:9a:91",
+    "channel": 6,
+    "signal_level": -94,
+    "quality": 12,
+    "date": "2019-06-13T17:58:23-04:00"
+  },
+  {
+    "ssid": "Wifi_LMHO_Z2",
+    "mac": "4c:6e:6e:a1:40:31",
+    "channel": 6,
+    "signal_level": -94,
+    "quality": 12,
+    "date": "2019-06-13T17:58:23-04:00"
+  },
+  {
+    "ssid": "CABANAS",
+    "mac": "00:26:5a:9a:fb:ce",
+    "channel": 1,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T17:58:23-04:00"
+  },
+  {
+    "ssid": "FAMILIA DIAZ",
+    "mac": "34:57:60:a3:1d:d0",
+    "channel": 1,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T17:58:23-04:00"
+  },
+  {
+    "ssid": "PMontt",
+    "mac": "34:57:60:e8:e0:c8",
+    "channel": 1,
+    "signal_level": -80,
+    "quality": 40,
+    "date": "2019-06-13T17:58:23-04:00"
+  },
+  {
+    "ssid": "Paulangas",
+    "mac": "20:25:64:79:58:65",
+    "channel": 1,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T17:58:23-04:00"
+  }
+]

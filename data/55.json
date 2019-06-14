@@ -1,0 +1,162 @@
+[
+  {
+    "ssid": "VTR-0017366",
+    "mac": "18:35:d1:23:94:ef",
+    "channel": 149,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T17:46:46-04:00"
+  },
+  {
+    "ssid": "VTR-2559582",
+    "mac": "48:d3:43:85:86:17",
+    "channel": 149,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T17:46:46-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_5G_AOCA2",
+    "mac": "4c:6e:6e:b1:6e:f1",
+    "channel": 36,
+    "signal_level": -82.5,
+    "quality": 35,
+    "date": "2019-06-13T17:46:46-04:00"
+  },
+  {
+    "ssid": "wifi__LAGS",
+    "mac": "4c:6e:6e:a4:00:1d",
+    "channel": 11,
+    "signal_level": -52.5,
+    "quality": 95,
+    "date": "2019-06-13T17:46:46-04:00"
+  },
+  {
+    "ssid": "WIFITELSUR_MAMO_2.4",
+    "mac": "00:72:63:64:ea:74",
+    "channel": 11,
+    "signal_level": -82.5,
+    "quality": 35,
+    "date": "2019-06-13T17:46:46-04:00"
+  },
+  {
+    "ssid": "mi red",
+    "mac": "22:1d:60:5b:cd:57",
+    "channel": 11,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T17:46:46-04:00"
+  },
+  {
+    "ssid": "Sector C",
+    "mac": "e8:65:d4:29:76:70",
+    "channel": 5,
+    "signal_level": -94.5,
+    "quality": 11,
+    "date": "2019-06-13T17:46:46-04:00"
+  },
+  {
+    "ssid": "MICASA.",
+    "mac": "60:19:71:9c:ab:30",
+    "channel": 9,
+    "signal_level": -80,
+    "quality": 40,
+    "date": "2019-06-13T17:46:46-04:00"
+  },
+  {
+    "ssid": "Moto G (5S) 7980",
+    "mac": "a8:96:75:57:5e:ce",
+    "channel": 9,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T17:46:46-04:00"
+  },
+  {
+    "ssid": "CLARO_e7da",
+    "mac": "c0:7c:d1:f4:6c:32",
+    "channel": 7,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T17:46:46-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_AOCA2",
+    "mac": "4c:6e:6e:b1:6e:f0",
+    "channel": 4,
+    "signal_level": -70,
+    "quality": 60,
+    "date": "2019-06-13T17:46:46-04:00"
+  },
+  {
+    "ssid": "pmonttcab",
+    "mac": "7a:8a:20:67:df:33",
+    "channel": 6,
+    "signal_level": -77.5,
+    "quality": 45,
+    "date": "2019-06-13T17:46:46-04:00"
+  },
+  {
+    "ssid": "Media CB",
+    "mac": "4a:d9:e7:0b:8f:56",
+    "channel": 1,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T17:46:46-04:00"
+  },
+  {
+    "ssid": "Alcatel Pixi 4 (5)",
+    "mac": "26:0d:c2:ab:b2:d4",
+    "channel": 1,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T17:46:46-04:00"
+  },
+  {
+    "ssid": "C220141756B",
+    "mac": "4e:d9:e7:0b:8f:56",
+    "channel": 1,
+    "signal_level": -97.5,
+    "quality": 5,
+    "date": "2019-06-13T17:46:46-04:00"
+  },
+  {
+    "ssid": "SERGIO",
+    "mac": "08:6a:0a:39:55:7c",
+    "channel": 11,
+    "signal_level": -100,
+    "quality": 0,
+    "date": "2019-06-13T17:46:46-04:00"
+  },
+  {
+    "ssid": "WiFiTelsur_AOCA",
+    "mac": "fc:a6:cd:3b:7e:c0",
+    "channel": 11,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T17:46:46-04:00"
+  },
+  {
+    "ssid": "wifitelsur_EZR",
+    "mac": "00:1f:41:63:7f:e1",
+    "channel": 6,
+    "signal_level": -77.5,
+    "quality": 45,
+    "date": "2019-06-13T17:46:46-04:00"
+  },
+  {
+    "ssid": "iPhone de Gregory",
+    "mac": "fe:b6:d8:a0:b4:6e",
+    "channel": 1,
+    "signal_level": -62.5,
+    "quality": 75,
+    "date": "2019-06-13T17:46:46-04:00"
+  },
+  {
+    "ssid": "MARCO_ANTONIO",
+    "mac": "6a:02:71:78:89:37",
+    "channel": 1,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T17:46:46-04:00"
+  }
+]

@@ -1,6 +1,4 @@
 import _, { isEmpty, values, toString } from "lodash";
-import { writeFileSync } from "fs";
-import path from "path";
 import { pedirNumeroNodo, choiceInput, confirm } from "./cli";
 import { scanAccessPoints, refreshAccessPoints } from "./wifi";
 import {
@@ -13,7 +11,12 @@ import {
   eliminarData,
   saveCSV,
 } from "./database";
-import { AccessPoints, AccessPoint, Choices } from "../interfaces";
+import {
+  AccessPoints,
+  AccessPoint,
+  Choices,
+  TypeProvider,
+} from "../interfaces";
 import {
   getDefaultProviders,
   guessProvider,
@@ -35,6 +38,19 @@ const muestreo = async () => {
 
 const completarAccessPoints = async (accessPoints: AccessPoints) => {
   const defaultProviders = getDefaultProviders(accessPoints);
+  guardarJSON(
+    _.reduce(
+      defaultProviders,
+      (ac: { [patron: string]: TypeProvider[] }, v, k) => {
+        ac[k] = Array.from(v);
+        return ac;
+      },
+      {}
+    ),
+    "defaultProviders",
+    true
+  );
+
   const accessPointsList: AccessPoint[] = values(accessPoints);
 
   for (const accessPoint of accessPointsList) {
@@ -45,9 +61,10 @@ const completarAccessPoints = async (accessPoints: AccessPoints) => {
       if (!provider) {
         console.log(
           "\n\n--------------------------------------\n",
-          `AccessPoint: ${accessPoint.ssid} ${accessPoint.mac}`
+          `AccessPoint sin posible proveedor: ${accessPoint.ssid} ${
+            accessPoint.mac
+          }`
         );
-        // provider = await providerChoices();
       }
       accessPoints[accessPoint.mac].provider = provider;
 
@@ -159,13 +176,12 @@ const main = async () => {
       }
       case "Salir": {
         console.log("Saludos!");
+        process.exit(0);
         break;
       }
       default:
     }
   }
-
-  console.log("Hehe Saludos.");
 };
 
 main();

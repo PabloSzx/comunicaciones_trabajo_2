@@ -1,0 +1,170 @@
+[
+  {
+    "ssid": "VTR-6193515",
+    "mac": "40:0d:10:0a:a5:37",
+    "channel": 149,
+    "signal_level": -82.5,
+    "quality": 35,
+    "date": "2019-06-13T15:57:01-04:00"
+  },
+  {
+    "ssid": "VTR-7741474",
+    "mac": "c0:05:c2:dd:2b:4f",
+    "channel": 149,
+    "signal_level": -52.5,
+    "quality": 95,
+    "date": "2019-06-13T15:57:01-04:00"
+  },
+  {
+    "ssid": "VTR-2463158",
+    "mac": "40:0d:10:eb:ff:af",
+    "channel": 36,
+    "signal_level": -60,
+    "quality": 80,
+    "date": "2019-06-13T15:57:01-04:00"
+  },
+  {
+    "ssid": "VTR-6291019",
+    "mac": "40:0d:10:a6:2d:47",
+    "channel": 149,
+    "signal_level": -97.5,
+    "quality": 5,
+    "date": "2019-06-13T15:57:01-04:00"
+  },
+  {
+    "ssid": "VTR-6079016",
+    "mac": "18:35:d1:22:7c:cf",
+    "channel": 149,
+    "signal_level": -82.5,
+    "quality": 35,
+    "date": "2019-06-13T15:57:01-04:00"
+  },
+  {
+    "ssid": "CECILIA 01",
+    "mac": "a4:15:88:2e:d2:10",
+    "channel": 11,
+    "signal_level": -80,
+    "quality": 40,
+    "date": "2019-06-13T15:57:01-04:00"
+  },
+  {
+    "ssid": "wifitelsur_2.4_HICL",
+    "mac": "4c:6e:6e:9e:d3:9e",
+    "channel": 11,
+    "signal_level": -80,
+    "quality": 40,
+    "date": "2019-06-13T15:57:01-04:00"
+  },
+  {
+    "ssid": "WIFITELSUR_HICL",
+    "mac": "6a:02:71:84:a9:b2",
+    "channel": 6,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T15:57:01-04:00"
+  },
+  {
+    "ssid": "MARIELA ",
+    "mac": "4c:6e:6e:aa:45:21",
+    "channel": 10,
+    "signal_level": -80,
+    "quality": 40,
+    "date": "2019-06-13T15:57:01-04:00"
+  },
+  {
+    "ssid": "WIFI_EUG2",
+    "mac": "ac:84:c6:f7:d6:30",
+    "channel": 9,
+    "signal_level": -96.5,
+    "quality": 7,
+    "date": "2019-06-13T15:57:01-04:00"
+  },
+  {
+    "ssid": "VTR-4564953",
+    "mac": "48:d3:43:8b:21:71",
+    "channel": 4,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T15:57:01-04:00"
+  },
+  {
+    "ssid": "ALBA",
+    "mac": "6a:02:71:7e:b0:28",
+    "channel": 1,
+    "signal_level": -67.5,
+    "quality": 65,
+    "date": "2019-06-13T15:57:01-04:00"
+  },
+  {
+    "ssid": "WiFi_AIMV2",
+    "mac": "00:72:63:b3:b8:0e",
+    "channel": 6,
+    "signal_level": -65,
+    "quality": 70,
+    "date": "2019-06-13T15:57:01-04:00"
+  },
+  {
+    "ssid": "Piso3",
+    "mac": "74:91:1a:57:8e:11",
+    "channel": 11,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T15:57:01-04:00"
+  },
+  {
+    "ssid": "wifitelsur_JCRR",
+    "mac": "00:13:92:4e:59:a1",
+    "channel": 11,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T15:57:01-04:00"
+  },
+  {
+    "ssid": "VTR-4660151",
+    "mac": "40:0d:10:86:79:79",
+    "channel": 11,
+    "signal_level": -93,
+    "quality": 14,
+    "date": "2019-06-13T15:57:01-04:00"
+  },
+  {
+    "ssid": "DIRECT-7qDCP-T510W_BR4af1",
+    "mac": "5e:ea:1d:00:4a:f1",
+    "channel": 11,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T15:57:01-04:00"
+  },
+  {
+    "ssid": "WiFi_AIMV",
+    "mac": "fc:a6:cd:3c:03:80",
+    "channel": 11,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T15:57:01-04:00"
+  },
+  {
+    "ssid": "S R B",
+    "mac": "b0:ea:bc:4e:81:a8",
+    "channel": 11,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T15:57:01-04:00"
+  },
+  {
+    "ssid": "FARO2.4",
+    "mac": "00:72:63:65:32:7c",
+    "channel": 6,
+    "signal_level": -72.5,
+    "quality": 55,
+    "date": "2019-06-13T15:57:01-04:00"
+  },
+  {
+    "ssid": "JUDITH",
+    "mac": "a4:15:88:f4:b8:10",
+    "channel": 1,
+    "signal_level": -55,
+    "quality": 90,
+    "date": "2019-06-13T15:57:01-04:00"
+  }
+]

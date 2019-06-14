@@ -1,0 +1,98 @@
+[
+  {
+    "ssid": "Wenceslao",
+    "mac": "a4:15:88:f8:7b:c0",
+    "channel": 6,
+    "signal_level": -94.5,
+    "quality": 11,
+    "date": "2019-06-13T18:06:59-04:00"
+  },
+  {
+    "ssid": "SERGIO",
+    "mac": "bc:ca:b5:60:01:a0",
+    "channel": 11,
+    "signal_level": -57.5,
+    "quality": 85,
+    "date": "2019-06-13T18:06:59-04:00"
+  },
+  {
+    "ssid": "VTR-0276460",
+    "mac": "18:35:d1:22:8e:49",
+    "channel": 11,
+    "signal_level": -82.5,
+    "quality": 35,
+    "date": "2019-06-13T18:06:59-04:00"
+  },
+  {
+    "ssid": "micasa",
+    "mac": "72:02:71:32:f3:56",
+    "channel": 9,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T18:06:59-04:00"
+  },
+  {
+    "ssid": "LUIS T",
+    "mac": "e8:ed:05:fa:4f:50",
+    "channel": 7,
+    "signal_level": -75,
+    "quality": 50,
+    "date": "2019-06-13T18:06:59-04:00"
+  },
+  {
+    "ssid": "OBELISCO.",
+    "mac": "7c:bf:b1:3e:d5:fb",
+    "channel": 3,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T18:06:59-04:00"
+  },
+  {
+    "ssid": "WIFI-LAPS",
+    "mac": "00:19:e0:10:14:04",
+    "channel": 11,
+    "signal_level": -75,
+    "quality": 50,
+    "date": "2019-06-13T18:06:59-04:00"
+  },
+  {
+    "ssid": "VTR-7757537",
+    "mac": "40:0d:10:a5:70:d1",
+    "channel": 1,
+    "signal_level": -65,
+    "quality": 70,
+    "date": "2019-06-13T18:06:59-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_HOGAR",
+    "mac": "4c:6e:6e:a6:e1:13",
+    "channel": 11,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T18:06:59-04:00"
+  },
+  {
+    "ssid": "VTR-7038566",
+    "mac": "48:d3:43:8d:53:b1",
+    "channel": 6,
+    "signal_level": -82.5,
+    "quality": 35,
+    "date": "2019-06-13T18:06:59-04:00"
+  },
+  {
+    "ssid": "MYGYN.",
+    "mac": "a4:15:88:f1:6b:f0",
+    "channel": 6,
+    "signal_level": -93,
+    "quality": 14,
+    "date": "2019-06-13T18:06:59-04:00"
+  },
+  {
+    "ssid": "Constanza",
+    "mac": "94:e8:c5:3d:50:30",
+    "channel": 1,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T18:06:59-04:00"
+  }
+]

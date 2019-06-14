@@ -1,0 +1,82 @@
+[
+  {
+    "ssid": "LOMERQUI-5G",
+    "mac": "78:71:9c:b2:30:d5",
+    "channel": 40,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T17:46:09-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_5G_AOCA2",
+    "mac": "4c:6e:6e:b1:6e:f1",
+    "channel": 36,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T17:46:09-04:00"
+  },
+  {
+    "ssid": "MICASA.",
+    "mac": "60:19:71:9c:ab:30",
+    "channel": 9,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T17:46:09-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_AOCA2",
+    "mac": "4c:6e:6e:b1:6e:f0",
+    "channel": 4,
+    "signal_level": -94,
+    "quality": 12,
+    "date": "2019-06-13T17:46:09-04:00"
+  },
+  {
+    "ssid": "C6B517-E470series",
+    "mac": "86:ba:3b:c6:b5:17",
+    "channel": 3,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T17:46:09-04:00"
+  },
+  {
+    "ssid": "Sector B",
+    "mac": "c0:a0:bb:25:3f:f0",
+    "channel": 5,
+    "signal_level": -93,
+    "quality": 14,
+    "date": "2019-06-13T17:46:09-04:00"
+  },
+  {
+    "ssid": "Media CB",
+    "mac": "4a:d9:e7:0b:8e:cd",
+    "channel": 11,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T17:46:09-04:00"
+  },
+  {
+    "ssid": "C220141756B",
+    "mac": "4e:d9:e7:0b:8e:cd",
+    "channel": 11,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T17:46:09-04:00"
+  },
+  {
+    "ssid": "mi red",
+    "mac": "22:1d:60:5b:cd:57",
+    "channel": 11,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T17:46:09-04:00"
+  },
+  {
+    "ssid": "wifi__LAGS",
+    "mac": "4c:6e:6e:a4:00:1d",
+    "channel": 11,
+    "signal_level": -80,
+    "quality": 40,
+    "date": "2019-06-13T17:46:09-04:00"
+  }
+]

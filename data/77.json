@@ -1,0 +1,82 @@
+[
+  {
+    "ssid": "WIFI_CVD",
+    "mac": "00:72:63:fc:ed:4c",
+    "channel": 11,
+    "signal_level": -93,
+    "quality": 14,
+    "date": "2019-06-13T18:05:13-04:00"
+  },
+  {
+    "ssid": "SERGIO",
+    "mac": "bc:ca:b5:60:01:a0",
+    "channel": 11,
+    "signal_level": -67.5,
+    "quality": 65,
+    "date": "2019-06-13T18:05:13-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_HOGAR",
+    "mac": "4c:6e:6e:a6:e1:13",
+    "channel": 11,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T18:05:13-04:00"
+  },
+  {
+    "ssid": "WIFI_INDUSVAL_2.4G",
+    "mac": "00:72:63:b3:84:60",
+    "channel": 11,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T18:05:13-04:00"
+  },
+  {
+    "ssid": "micasa",
+    "mac": "72:02:71:32:f3:56",
+    "channel": 9,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T18:05:13-04:00"
+  },
+  {
+    "ssid": "RODRIGO",
+    "mac": "60:19:71:86:66:80",
+    "channel": 11,
+    "signal_level": -67.5,
+    "quality": 65,
+    "date": "2019-06-13T18:05:13-04:00"
+  },
+  {
+    "ssid": "HECTORCJ",
+    "mac": "00:15:a3:e9:02:a6",
+    "channel": 3,
+    "signal_level": -95.5,
+    "quality": 9,
+    "date": "2019-06-13T18:05:13-04:00"
+  },
+  {
+    "ssid": "AREIA",
+    "mac": "00:1d:2e:6a:f4:31",
+    "channel": 11,
+    "signal_level": -94,
+    "quality": 12,
+    "date": "2019-06-13T18:05:13-04:00"
+  },
+  {
+    "ssid": "BERNUZ",
+    "mac": "a4:15:88:2b:82:40",
+    "channel": 1,
+    "signal_level": -97.5,
+    "quality": 5,
+    "date": "2019-06-13T18:05:13-04:00"
+  },
+  {
+    "ssid": "wifi_CTA",
+    "mac": "4c:6e:6e:a3:e5:35",
+    "channel": 1,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T18:05:13-04:00"
+  }
+]

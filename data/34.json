@@ -1,0 +1,98 @@
+[
+  {
+    "ssid": "HP-Print-E3-LaserJet M12",
+    "mac": "90:cd:b6:86:2e:e3",
+    "channel": 8,
+    "signal_level": -80,
+    "quality": 40,
+    "date": "2019-06-13T16:12:31-04:00"
+  },
+  {
+    "ssid": "AbogadosValdivia.com",
+    "mac": "c8:94:bb:3b:00:f3",
+    "channel": 8,
+    "signal_level": -75,
+    "quality": 50,
+    "date": "2019-06-13T16:12:31-04:00"
+  },
+  {
+    "ssid": "Tenda_AFE5D8",
+    "mac": "c8:3a:35:af:e5:d8",
+    "channel": 3,
+    "signal_level": -93,
+    "quality": 14,
+    "date": "2019-06-13T16:12:31-04:00"
+  },
+  {
+    "ssid": "VTR-ap-9345286",
+    "mac": "38:43:7d:a8:54:5b",
+    "channel": 11,
+    "signal_level": -65,
+    "quality": 70,
+    "date": "2019-06-13T16:12:31-04:00"
+  },
+  {
+    "ssid": "KIMELN",
+    "mac": "4c:6e:6e:9a:99:49",
+    "channel": 11,
+    "signal_level": -82.5,
+    "quality": 35,
+    "date": "2019-06-13T16:12:31-04:00"
+  },
+  {
+    "ssid": "VTR-5724472",
+    "mac": "18:35:d1:1e:6c:b9",
+    "channel": 6,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T16:12:31-04:00"
+  },
+  {
+    "ssid": "LOBELIA",
+    "mac": "60:19:71:63:c8:40",
+    "channel": 6,
+    "signal_level": -82.5,
+    "quality": 35,
+    "date": "2019-06-13T16:12:31-04:00"
+  },
+  {
+    "ssid": "Casa Negra Restaurant",
+    "mac": "48:d3:43:3b:04:99",
+    "channel": 6,
+    "signal_level": -67.5,
+    "quality": 65,
+    "date": "2019-06-13T16:12:31-04:00"
+  },
+  {
+    "ssid": "JUDITH",
+    "mac": "a4:15:88:f4:b8:10",
+    "channel": 1,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T16:12:31-04:00"
+  },
+  {
+    "ssid": "WIFITELSUR_SURGES",
+    "mac": "6a:02:71:6e:ab:70",
+    "channel": 1,
+    "signal_level": -72.5,
+    "quality": 55,
+    "date": "2019-06-13T16:12:31-04:00"
+  },
+  {
+    "ssid": "OSORIO",
+    "mac": "a4:15:88:e5:a6:20",
+    "channel": 1,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T16:12:31-04:00"
+  },
+  {
+    "ssid": "wifitelsur_LULLOA",
+    "mac": "00:25:c4:5c:00:71",
+    "channel": 1,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T16:12:31-04:00"
+  }
+]

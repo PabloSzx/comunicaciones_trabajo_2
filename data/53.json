@@ -1,0 +1,138 @@
+[
+  {
+    "ssid": "dlink-36B0-5GHz",
+    "mac": "78:32:1b:d0:36:b2",
+    "channel": 157,
+    "signal_level": -80,
+    "quality": 40,
+    "date": "2019-06-13T16:31:50-04:00"
+  },
+  {
+    "ssid": "LOMERQUI-5G",
+    "mac": "78:71:9c:b2:30:d5",
+    "channel": 40,
+    "signal_level": -70,
+    "quality": 60,
+    "date": "2019-06-13T16:31:50-04:00"
+  },
+  {
+    "ssid": "SIOMARA_5G_",
+    "mac": "4c:6e:6e:9e:d2:76",
+    "channel": 36,
+    "signal_level": -82.5,
+    "quality": 35,
+    "date": "2019-06-13T16:31:50-04:00"
+  },
+  {
+    "ssid": "CMBARRIA",
+    "mac": "62:02:71:90:27:a5",
+    "channel": 6,
+    "signal_level": -82.5,
+    "quality": 35,
+    "date": "2019-06-13T16:31:50-04:00"
+  },
+  {
+    "ssid": "Sector B",
+    "mac": "c0:a0:bb:25:3f:f0",
+    "channel": 5,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T16:31:50-04:00"
+  },
+  {
+    "ssid": "MOVISTAR ARCOS",
+    "mac": "34:57:60:7b:71:a8",
+    "channel": 6,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T16:31:50-04:00"
+  },
+  {
+    "ssid": "Sector C",
+    "mac": "e8:65:d4:29:76:70",
+    "channel": 5,
+    "signal_level": -70,
+    "quality": 60,
+    "date": "2019-06-13T16:31:50-04:00"
+  },
+  {
+    "ssid": "dlink-36B0",
+    "mac": "78:32:1b:d0:36:b0",
+    "channel": 1,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T16:31:50-04:00"
+  },
+  {
+    "ssid": "SIOMARA",
+    "mac": "4c:6e:6e:9e:d2:75",
+    "channel": 11,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T16:31:50-04:00"
+  },
+  {
+    "ssid": "SERGIO",
+    "mac": "08:6a:0a:39:55:7c",
+    "channel": 11,
+    "signal_level": -80,
+    "quality": 40,
+    "date": "2019-06-13T16:31:50-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_RSF",
+    "mac": "6a:02:71:84:b3:1c",
+    "channel": 11,
+    "signal_level": -95.5,
+    "quality": 9,
+    "date": "2019-06-13T16:31:50-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_MPFF-2.4G",
+    "mac": "4c:6e:6e:9e:e4:55",
+    "channel": 11,
+    "signal_level": -97.5,
+    "quality": 5,
+    "date": "2019-06-13T16:31:50-04:00"
+  },
+  {
+    "ssid": "Sector A",
+    "mac": "2c:54:2d:38:7e:db",
+    "channel": 11,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T16:31:50-04:00"
+  },
+  {
+    "ssid": "VTR-7193140",
+    "mac": "40:0d:10:f5:4e:29",
+    "channel": 6,
+    "signal_level": -94.5,
+    "quality": 11,
+    "date": "2019-06-13T16:31:50-04:00"
+  },
+  {
+    "ssid": "Media CB",
+    "mac": "4a:d9:e7:0b:8f:56",
+    "channel": 1,
+    "signal_level": -93,
+    "quality": 14,
+    "date": "2019-06-13T16:31:50-04:00"
+  },
+  {
+    "ssid": "Wifitelsur_HR",
+    "mac": "00:13:92:4e:75:59",
+    "channel": 1,
+    "signal_level": -70,
+    "quality": 60,
+    "date": "2019-06-13T16:31:50-04:00"
+  },
+  {
+    "ssid": "LOMERQUI",
+    "mac": "78:71:9c:b2:30:d0",
+    "channel": 1,
+    "signal_level": -55,
+    "quality": 90,
+    "date": "2019-06-13T16:31:50-04:00"
+  }
+]

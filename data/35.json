@@ -1,0 +1,154 @@
+[
+  {
+    "ssid": "MYRNA",
+    "mac": "54:65:de:5f:64:a0",
+    "channel": 11,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T16:13:15-04:00"
+  },
+  {
+    "ssid": "Tenda_AFE5D8",
+    "mac": "c8:3a:35:af:e5:d8",
+    "channel": 3,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T16:13:15-04:00"
+  },
+  {
+    "ssid": "VTR-ap-9345286",
+    "mac": "38:43:7d:a8:54:5b",
+    "channel": 11,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T16:13:15-04:00"
+  },
+  {
+    "ssid": "AbogadosValdivia.com",
+    "mac": "c8:94:bb:3b:00:f3",
+    "channel": 8,
+    "signal_level": -80,
+    "quality": 40,
+    "date": "2019-06-13T16:13:15-04:00"
+  },
+  {
+    "ssid": "HP-Print-E3-LaserJet M12",
+    "mac": "90:cd:b6:86:2e:e3",
+    "channel": 8,
+    "signal_level": -77.5,
+    "quality": 45,
+    "date": "2019-06-13T16:13:15-04:00"
+  },
+  {
+    "ssid": "LOBELIA",
+    "mac": "60:19:71:63:c8:40",
+    "channel": 6,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T16:13:15-04:00"
+  },
+  {
+    "ssid": "",
+    "mac": "00:3a:99:c8:45:00",
+    "channel": 8,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T16:13:15-04:00"
+  },
+  {
+    "ssid": "DELVALLEPINILLA",
+    "mac": "78:71:9c:a9:11:b0",
+    "channel": 6,
+    "signal_level": -65,
+    "quality": 70,
+    "date": "2019-06-13T16:13:15-04:00"
+  },
+  {
+    "ssid": "LG Stylus 2 Plus_6818",
+    "mac": "60:e3:ac:ab:5b:0b",
+    "channel": 4,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T16:13:15-04:00"
+  },
+  {
+    "ssid": "cabana_1",
+    "mac": "72:02:71:7f:90:9e",
+    "channel": 11,
+    "signal_level": -93.5,
+    "quality": 13,
+    "date": "2019-06-13T16:13:15-04:00"
+  },
+  {
+    "ssid": "CASAF",
+    "mac": "ec:08:6b:42:b3:52",
+    "channel": 11,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T16:13:15-04:00"
+  },
+  {
+    "ssid": "Cabana3",
+    "mac": "4c:6e:6e:9c:fe:28",
+    "channel": 6,
+    "signal_level": -94.5,
+    "quality": 11,
+    "date": "2019-06-13T16:13:15-04:00"
+  },
+  {
+    "ssid": "cabanas_2.4",
+    "mac": "00:72:63:fc:f2:42",
+    "channel": 1,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T16:13:15-04:00"
+  },
+  {
+    "ssid": "OSORIO",
+    "mac": "a4:15:88:e5:a6:20",
+    "channel": 1,
+    "signal_level": -94,
+    "quality": 12,
+    "date": "2019-06-13T16:13:15-04:00"
+  },
+  {
+    "ssid": "DELVALLEPINILLA-5G",
+    "mac": "78:71:9c:a9:11:b5",
+    "channel": 149,
+    "signal_level": -93,
+    "quality": 14,
+    "date": "2019-06-13T16:13:15-04:00"
+  },
+  {
+    "ssid": "EFEYER_2.4Ghz",
+    "mac": "64:ee:b7:45:7e:16",
+    "channel": 11,
+    "signal_level": -72.5,
+    "quality": 55,
+    "date": "2019-06-13T16:13:15-04:00"
+  },
+  {
+    "ssid": "Constructora_Antemural_2.4g",
+    "mac": "00:72:63:fc:8b:18",
+    "channel": 2,
+    "signal_level": -94,
+    "quality": 12,
+    "date": "2019-06-13T16:13:15-04:00"
+  },
+  {
+    "ssid": "KIMELN",
+    "mac": "4c:6e:6e:9a:99:49",
+    "channel": 11,
+    "signal_level": -93,
+    "quality": 14,
+    "date": "2019-06-13T16:13:15-04:00"
+  },
+  {
+    "ssid": "Pablo_2",
+    "mac": "fc:a6:cd:3c:ad:f8",
+    "channel": 6,
+    "signal_level": -96,
+    "quality": 8,
+    "date": "2019-06-13T16:13:15-04:00"
+  }
+]

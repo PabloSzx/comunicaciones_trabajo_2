@@ -1,0 +1,90 @@
+[
+  {
+    "ssid": "EFEYER_5Ghz",
+    "mac": "64:ee:b7:45:7e:1b",
+    "channel": 149,
+    "signal_level": -70,
+    "quality": 60,
+    "date": "2019-06-13T16:17:10-04:00"
+  },
+  {
+    "ssid": "EFEYER_2.4Ghz",
+    "mac": "64:ee:b7:45:7e:16",
+    "channel": 11,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T16:17:10-04:00"
+  },
+  {
+    "ssid": "Constructora_Antemural_2.4g",
+    "mac": "00:72:63:fc:8b:18",
+    "channel": 2,
+    "signal_level": -70,
+    "quality": 60,
+    "date": "2019-06-13T16:17:10-04:00"
+  },
+  {
+    "ssid": "Cabana3",
+    "mac": "4c:6e:6e:9c:fe:28",
+    "channel": 6,
+    "signal_level": -52.5,
+    "quality": 95,
+    "date": "2019-06-13T16:17:10-04:00"
+  },
+  {
+    "ssid": "DIRECT-LWDESKTOP-J0JB1ITmsMQ",
+    "mac": "c6:85:08:e9:50:61",
+    "channel": 6,
+    "signal_level": -70,
+    "quality": 60,
+    "date": "2019-06-13T16:17:10-04:00"
+  },
+  {
+    "ssid": "fernando",
+    "mac": "54:e6:fc:f6:f0:84",
+    "channel": 4,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T16:17:10-04:00"
+  },
+  {
+    "ssid": "",
+    "mac": "00:3a:99:c8:45:00",
+    "channel": 8,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T16:17:10-04:00"
+  },
+  {
+    "ssid": "MOVISTAR WIFI4325",
+    "mac": "16:96:e5:a0:60:32",
+    "channel": 6,
+    "signal_level": -62.5,
+    "quality": 75,
+    "date": "2019-06-13T16:17:10-04:00"
+  },
+  {
+    "ssid": "Messerschmitt",
+    "mac": "10:fe:ed:c0:6c:fe",
+    "channel": 6,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T16:17:10-04:00"
+  },
+  {
+    "ssid": "Wifi_GrupoGTD_83E8",
+    "mac": "00:72:63:b3:83:e8",
+    "channel": 1,
+    "signal_level": -72.5,
+    "quality": 55,
+    "date": "2019-06-13T16:17:10-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_IAIL",
+    "mac": "72:02:71:7f:34:32",
+    "channel": 1,
+    "signal_level": -80,
+    "quality": 40,
+    "date": "2019-06-13T16:17:10-04:00"
+  }
+]

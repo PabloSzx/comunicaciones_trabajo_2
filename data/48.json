@@ -1,0 +1,162 @@
+[
+  {
+    "ssid": "MADLAN1-5G",
+    "mac": "08:3e:0c:e4:66:95",
+    "channel": 157,
+    "signal_level": -97.5,
+    "quality": 5,
+    "date": "2019-06-13T16:26:04-04:00"
+  },
+  {
+    "ssid": "wifitelsur_Hellen_5G",
+    "mac": "4c:6e:6e:a1:1d:4e",
+    "channel": 36,
+    "signal_level": -82.5,
+    "quality": 35,
+    "date": "2019-06-13T16:26:04-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_GKB",
+    "mac": "fc:a6:cd:3b:ea:c0",
+    "channel": 9,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T16:26:04-04:00"
+  },
+  {
+    "ssid": "VTR-4074478",
+    "mac": "18:35:d1:87:93:49",
+    "channel": 8,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T16:26:04-04:00"
+  },
+  {
+    "ssid": "wifitelsur_Hellen",
+    "mac": "4c:6e:6e:a1:1d:4d",
+    "channel": 2,
+    "signal_level": -70,
+    "quality": 60,
+    "date": "2019-06-13T16:26:04-04:00"
+  },
+  {
+    "ssid": "Eagle",
+    "mac": "d0:c7:89:27:69:d2",
+    "channel": 11,
+    "signal_level": -94,
+    "quality": 12,
+    "date": "2019-06-13T16:26:04-04:00"
+  },
+  {
+    "ssid": "",
+    "mac": "b4:e9:b0:9e:85:60",
+    "channel": 11,
+    "signal_level": -93.5,
+    "quality": 13,
+    "date": "2019-06-13T16:26:04-04:00"
+  },
+  {
+    "ssid": "CLAUDIO",
+    "mac": "94:91:7f:e9:9d:49",
+    "channel": 11,
+    "signal_level": -93,
+    "quality": 14,
+    "date": "2019-06-13T16:26:04-04:00"
+  },
+  {
+    "ssid": "RODRIGO",
+    "mac": "60:19:71:86:66:80",
+    "channel": 11,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T16:26:04-04:00"
+  },
+  {
+    "ssid": "WIFI-LAPS",
+    "mac": "00:19:e0:10:14:04",
+    "channel": 11,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T16:26:04-04:00"
+  },
+  {
+    "ssid": "Cabana",
+    "mac": "18:a6:f7:ef:1b:00",
+    "channel": 11,
+    "signal_level": -94.5,
+    "quality": 11,
+    "date": "2019-06-13T16:26:04-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_GEBS_2",
+    "mac": "4c:6e:6e:91:8b:92",
+    "channel": 6,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T16:26:04-04:00"
+  },
+  {
+    "ssid": "Wifitelsur_Robert",
+    "mac": "6a:02:71:6e:9f:fa",
+    "channel": 6,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T16:26:04-04:00"
+  },
+  {
+    "ssid": "LAURA",
+    "mac": "c8:3f:b4:98:d8:c0",
+    "channel": 5,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T16:26:04-04:00"
+  },
+  {
+    "ssid": "OBELISCO.",
+    "mac": "7c:bf:b1:3e:d5:fb",
+    "channel": 3,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T16:26:04-04:00"
+  },
+  {
+    "ssid": "DANIELA",
+    "mac": "40:70:09:5f:0f:e0",
+    "channel": 1,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T16:26:04-04:00"
+  },
+  {
+    "ssid": "WiFi_AGKB",
+    "mac": "64:ee:b7:6c:3a:c0",
+    "channel": 11,
+    "signal_level": -96,
+    "quality": 8,
+    "date": "2019-06-13T16:26:04-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_HOGAR",
+    "mac": "4c:6e:6e:a6:e1:13",
+    "channel": 11,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T16:26:04-04:00"
+  },
+  {
+    "ssid": "RLOPEZ..",
+    "mac": "20:10:7a:ef:5e:3c",
+    "channel": 6,
+    "signal_level": -100,
+    "quality": 0,
+    "date": "2019-06-13T16:26:04-04:00"
+  },
+  {
+    "ssid": "L1i2d3e4r5S6S7F8F9",
+    "mac": "10:bd:18:3d:1a:66",
+    "channel": 1,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T16:26:04-04:00"
+  }
+]

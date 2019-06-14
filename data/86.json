@@ -1,0 +1,146 @@
+[
+  {
+    "ssid": "VTR-8321670",
+    "mac": "40:0d:10:f5:4c:8f",
+    "channel": 149,
+    "signal_level": -93,
+    "quality": 14,
+    "date": "2019-06-13T18:10:13-04:00"
+  },
+  {
+    "ssid": "dlink-36B0-5GHz",
+    "mac": "78:32:1b:d0:36:b2",
+    "channel": 157,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T18:10:13-04:00"
+  },
+  {
+    "ssid": "LOMERQUI-5G",
+    "mac": "78:71:9c:b2:30:d5",
+    "channel": 40,
+    "signal_level": -75,
+    "quality": 50,
+    "date": "2019-06-13T18:10:13-04:00"
+  },
+  {
+    "ssid": "VTR-8718483",
+    "mac": "c0:05:c2:df:cb:ef",
+    "channel": 44,
+    "signal_level": -75,
+    "quality": 50,
+    "date": "2019-06-13T18:10:13-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_MPFF-5G",
+    "mac": "4c:6e:6e:9e:e4:56",
+    "channel": 36,
+    "signal_level": -82.5,
+    "quality": 35,
+    "date": "2019-06-13T18:10:13-04:00"
+  },
+  {
+    "ssid": "HUAWEI_LUA-L03_8607",
+    "mac": "b2:e5:ed:29:84:3c",
+    "channel": 5,
+    "signal_level": -75,
+    "quality": 50,
+    "date": "2019-06-13T18:10:13-04:00"
+  },
+  {
+    "ssid": "CMBARRIA1",
+    "mac": "4c:6e:6e:8a:4b:ae",
+    "channel": 8,
+    "signal_level": -52.5,
+    "quality": 95,
+    "date": "2019-06-13T18:10:13-04:00"
+  },
+  {
+    "ssid": "Sector B",
+    "mac": "c0:a0:bb:25:3f:f0",
+    "channel": 5,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T18:10:13-04:00"
+  },
+  {
+    "ssid": "CMBARRIA2",
+    "mac": "4c:6e:6e:8a:4b:b8",
+    "channel": 10,
+    "signal_level": -65,
+    "quality": 70,
+    "date": "2019-06-13T18:10:13-04:00"
+  },
+  {
+    "ssid": "dlink-36B0",
+    "mac": "78:32:1b:d0:36:b0",
+    "channel": 1,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T18:10:13-04:00"
+  },
+  {
+    "ssid": "OCHODEOCTUBRE1796",
+    "mac": "fc:ec:da:a7:79:4f",
+    "channel": 2,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T18:10:13-04:00"
+  },
+  {
+    "ssid": "SIOMARA",
+    "mac": "4c:6e:6e:9e:d2:75",
+    "channel": 11,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T18:10:13-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_MPFF-2.4G",
+    "mac": "4c:6e:6e:9e:e4:55",
+    "channel": 11,
+    "signal_level": -75,
+    "quality": 50,
+    "date": "2019-06-13T18:10:13-04:00"
+  },
+  {
+    "ssid": "OPTICABARRIA",
+    "mac": "62:02:71:75:f8:12",
+    "channel": 11,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T18:10:13-04:00"
+  },
+  {
+    "ssid": "MOVISTAR ARCOS",
+    "mac": "34:57:60:7b:71:a8",
+    "channel": 6,
+    "signal_level": -67.5,
+    "quality": 65,
+    "date": "2019-06-13T18:10:13-04:00"
+  },
+  {
+    "ssid": "CMBARRIA",
+    "mac": "62:02:71:90:27:a5",
+    "channel": 6,
+    "signal_level": -52.5,
+    "quality": 95,
+    "date": "2019-06-13T18:10:13-04:00"
+  },
+  {
+    "ssid": "HUAWEI-4AE8",
+    "mac": "98:e7:f5:bc:4a:e8",
+    "channel": 1,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T18:10:13-04:00"
+  },
+  {
+    "ssid": "LOMERQUI",
+    "mac": "78:71:9c:b2:30:d0",
+    "channel": 1,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T18:10:13-04:00"
+  }
+]

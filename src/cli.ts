@@ -67,6 +67,7 @@ export const choiceInput = async () => {
   } = await prompt([
     {
       type: "list",
+      pageSize: 8,
       name: "choice",
       message: "¿Que desea hacer?",
       choices: [

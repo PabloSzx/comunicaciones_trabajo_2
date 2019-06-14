@@ -1,0 +1,50 @@
+[
+  {
+    "ssid": "WiFi_AGKB_5G",
+    "mac": "64:ee:b7:6c:3a:c5",
+    "channel": 149,
+    "signal_level": -82.5,
+    "quality": 35,
+    "date": "2019-06-13T16:20:53-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_GKB",
+    "mac": "fc:a6:cd:3b:ea:c0",
+    "channel": 9,
+    "signal_level": -70,
+    "quality": 60,
+    "date": "2019-06-13T16:20:53-04:00"
+  },
+  {
+    "ssid": "WiFi_AGKB",
+    "mac": "64:ee:b7:6c:3a:c0",
+    "channel": 11,
+    "signal_level": -52.5,
+    "quality": 95,
+    "date": "2019-06-13T16:20:53-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_AAPP",
+    "mac": "62:02:71:77:45:b7",
+    "channel": 11,
+    "signal_level": -100,
+    "quality": 0,
+    "date": "2019-06-13T16:20:53-04:00"
+  },
+  {
+    "ssid": "RLOPEZ..",
+    "mac": "20:10:7a:ef:5e:3c",
+    "channel": 6,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T16:20:53-04:00"
+  },
+  {
+    "ssid": "cabanas_2.4",
+    "mac": "00:72:63:fc:f2:42",
+    "channel": 1,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T16:20:53-04:00"
+  }
+]

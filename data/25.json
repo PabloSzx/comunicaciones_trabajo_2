@@ -1,0 +1,138 @@
+[
+  {
+    "ssid": "POCHI_5G",
+    "mac": "00:72:63:b3:8f:c3",
+    "channel": 149,
+    "signal_level": -80,
+    "quality": 40,
+    "date": "2019-06-13T16:04:36-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_5G_NIKKEI",
+    "mac": "4c:6e:6e:a5:85:af",
+    "channel": 36,
+    "signal_level": -72.5,
+    "quality": 55,
+    "date": "2019-06-13T16:04:36-04:00"
+  },
+  {
+    "ssid": "moto 14",
+    "mac": "6e:b7:49:ae:84:43",
+    "channel": 6,
+    "signal_level": -82.5,
+    "quality": 35,
+    "date": "2019-06-13T16:04:36-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_NIKKEI",
+    "mac": "4c:6e:6e:a5:85:ae",
+    "channel": 11,
+    "signal_level": -65,
+    "quality": 70,
+    "date": "2019-06-13T16:04:36-04:00"
+  },
+  {
+    "ssid": "WIFI_CCAL",
+    "mac": "62:02:71:7f:92:0c",
+    "channel": 11,
+    "signal_level": -82.5,
+    "quality": 35,
+    "date": "2019-06-13T16:04:36-04:00"
+  },
+  {
+    "ssid": "POCHI",
+    "mac": "6a:02:71:8f:92:df",
+    "channel": 6,
+    "signal_level": -80,
+    "quality": 40,
+    "date": "2019-06-13T16:04:36-04:00"
+  },
+  {
+    "ssid": "POCHI_2.4G",
+    "mac": "00:72:63:b3:8f:be",
+    "channel": 11,
+    "signal_level": -65,
+    "quality": 70,
+    "date": "2019-06-13T16:04:36-04:00"
+  },
+  {
+    "ssid": "",
+    "mac": "00:3a:99:c8:45:00",
+    "channel": 8,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T16:04:36-04:00"
+  },
+  {
+    "ssid": "Wifi_CCAL2",
+    "mac": "4c:6e:6e:a7:97:e9",
+    "channel": 11,
+    "signal_level": -97.5,
+    "quality": 5,
+    "date": "2019-06-13T16:04:36-04:00"
+  },
+  {
+    "ssid": "VTR-3680015",
+    "mac": "48:d3:43:58:b0:01",
+    "channel": 9,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T16:04:36-04:00"
+  },
+  {
+    "ssid": "fernando",
+    "mac": "54:e6:fc:f6:f0:84",
+    "channel": 4,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T16:04:36-04:00"
+  },
+  {
+    "ssid": "TP-LINK_E4C8",
+    "mac": "c0:25:e9:42:e4:c8",
+    "channel": 2,
+    "signal_level": -62.5,
+    "quality": 75,
+    "date": "2019-06-13T16:04:36-04:00"
+  },
+  {
+    "ssid": "LOMERQUI",
+    "mac": "78:71:9c:b2:30:d0",
+    "channel": 1,
+    "signal_level": -98,
+    "quality": 4,
+    "date": "2019-06-13T16:04:36-04:00"
+  },
+  {
+    "ssid": "wifitelsur_UDM",
+    "mac": "b2:1d:5b:af:c6:cd",
+    "channel": 1,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T16:04:36-04:00"
+  },
+  {
+    "ssid": "dlink-36B0",
+    "mac": "78:32:1b:d0:36:b0",
+    "channel": 1,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T16:04:36-04:00"
+  },
+  {
+    "ssid": "VTR-5297826",
+    "mac": "18:35:d1:7d:c4:09",
+    "channel": 1,
+    "signal_level": -94,
+    "quality": 12,
+    "date": "2019-06-13T16:04:36-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_XXXX",
+    "mac": "9c:97:26:08:96:72",
+    "channel": 1,
+    "signal_level": -65,
+    "quality": 70,
+    "date": "2019-06-13T16:04:36-04:00"
+  }
+]

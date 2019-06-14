@@ -1,0 +1,66 @@
+[
+  {
+    "ssid": "VTR-6710357",
+    "mac": "48:d3:43:85:60:7f",
+    "channel": 36,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T17:56:11-04:00"
+  },
+  {
+    "ssid": "VTR-4885906",
+    "mac": "18:35:d1:1e:6c:f7",
+    "channel": 149,
+    "signal_level": -93.5,
+    "quality": 13,
+    "date": "2019-06-13T17:56:11-04:00"
+  },
+  {
+    "ssid": "CESAR",
+    "mac": "94:91:7f:e9:75:81",
+    "channel": 11,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T17:56:11-04:00"
+  },
+  {
+    "ssid": "MOVISTAR WIFI3697",
+    "mac": "a8:51:5b:1e:c3:f4",
+    "channel": 11,
+    "signal_level": -97,
+    "quality": 6,
+    "date": "2019-06-13T17:56:11-04:00"
+  },
+  {
+    "ssid": "wifitelsur_MDMF",
+    "mac": "72:02:71:84:c8:a4",
+    "channel": 1,
+    "signal_level": -93,
+    "quality": 14,
+    "date": "2019-06-13T17:56:11-04:00"
+  },
+  {
+    "ssid": "PMontt",
+    "mac": "34:57:60:e8:e0:c8",
+    "channel": 1,
+    "signal_level": -65,
+    "quality": 70,
+    "date": "2019-06-13T17:56:11-04:00"
+  },
+  {
+    "ssid": "JAIME",
+    "mac": "b0:ea:bc:20:48:71",
+    "channel": 1,
+    "signal_level": -67.5,
+    "quality": 65,
+    "date": "2019-06-13T17:56:11-04:00"
+  },
+  {
+    "ssid": "WiFi Hotspot 7489",
+    "mac": "c4:49:bb:76:e4:0a",
+    "channel": 1,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T17:56:11-04:00"
+  }
+]

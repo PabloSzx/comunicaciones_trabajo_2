@@ -1,0 +1,114 @@
+[
+  {
+    "ssid": "WiFi_AAAS-5G",
+    "mac": "00:72:63:fd:87:2f",
+    "channel": 149,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T17:53:54-04:00"
+  },
+  {
+    "ssid": "PANINA-5G",
+    "mac": "54:65:de:58:81:55",
+    "channel": 44,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T17:53:54-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_5G_AOCA2",
+    "mac": "4c:6e:6e:b1:6e:f1",
+    "channel": 36,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T17:53:54-04:00"
+  },
+  {
+    "ssid": "WiFiTelsur_AOCA",
+    "mac": "fc:a6:cd:3b:7e:c0",
+    "channel": 11,
+    "signal_level": -70,
+    "quality": 60,
+    "date": "2019-06-13T17:53:54-04:00"
+  },
+  {
+    "ssid": "CabaÃ±as",
+    "mac": "94:91:7f:41:99:06",
+    "channel": 11,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T17:53:54-04:00"
+  },
+  {
+    "ssid": "wifitelsur_Sebita",
+    "mac": "62:02:71:4b:81:0f",
+    "channel": 5,
+    "signal_level": -82.5,
+    "quality": 35,
+    "date": "2019-06-13T17:53:54-04:00"
+  },
+  {
+    "ssid": "VTR-0017366",
+    "mac": "18:35:d1:23:94:e9",
+    "channel": 6,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T17:53:54-04:00"
+  },
+  {
+    "ssid": "GONZALEZ",
+    "mac": "94:e8:c5:3d:08:e0",
+    "channel": 4,
+    "signal_level": -57.5,
+    "quality": 85,
+    "date": "2019-06-13T17:53:54-04:00"
+  },
+  {
+    "ssid": "lukita",
+    "mac": "2c:ab:25:7b:0b:7e",
+    "channel": 4,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T17:53:54-04:00"
+  },
+  {
+    "ssid": "KUKY",
+    "mac": "a4:15:88:2d:aa:f0",
+    "channel": 4,
+    "signal_level": -93.5,
+    "quality": 13,
+    "date": "2019-06-13T17:53:54-04:00"
+  },
+  {
+    "ssid": "Deris",
+    "mac": "a4:15:88:ea:94:80",
+    "channel": 1,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T17:53:54-04:00"
+  },
+  {
+    "ssid": "wifitelsur_LEGA",
+    "mac": "30:91:8f:09:5b:73",
+    "channel": 11,
+    "signal_level": -93,
+    "quality": 14,
+    "date": "2019-06-13T17:53:54-04:00"
+  },
+  {
+    "ssid": "WiFi_AAAS",
+    "mac": "fc:a6:cd:60:4a:f0",
+    "channel": 1,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T17:53:54-04:00"
+  },
+  {
+    "ssid": "AGUSTIN///////",
+    "mac": "78:29:ed:97:64:dd",
+    "channel": 1,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T17:53:54-04:00"
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "ssid": "",
+    "mac": "4c:6e:6e:a0:9f:89",
+    "channel": 149,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T15:50:40-04:00"
+  },
+  {
+    "ssid": "VTR-7696358-5G",
+    "mac": "c0:05:c2:dd:51:4f",
+    "channel": 149,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T15:50:40-04:00"
+  },
+  {
+    "ssid": "FLORA 5G",
+    "mac": "c0:05:c2:e4:7a:67",
+    "channel": 161,
+    "signal_level": -80,
+    "quality": 40,
+    "date": "2019-06-13T15:50:40-04:00"
+  },
+  {
+    "ssid": "VTR-0311042",
+    "mac": "18:35:d1:8a:50:a7",
+    "channel": 36,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T15:50:40-04:00"
+  },
+  {
+    "ssid": " Cucho VTR",
+    "mac": "00:14:a5:c5:4c:5d",
+    "channel": 5,
+    "signal_level": -96,
+    "quality": 8,
+    "date": "2019-06-13T15:50:40-04:00"
+  },
+  {
+    "ssid": "movistar2,4GHz_AF86E7",
+    "mac": "78:29:ed:af:86:e7",
+    "channel": 11,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T15:50:40-04:00"
+  },
+  {
+    "ssid": "JRMF",
+    "mac": "e8:94:f6:44:bf:d6",
+    "channel": 9,
+    "signal_level": -97.5,
+    "quality": 5,
+    "date": "2019-06-13T15:50:40-04:00"
+  },
+  {
+    "ssid": "VTR-4660151",
+    "mac": "40:0d:10:86:79:79",
+    "channel": 11,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T15:50:40-04:00"
+  },
+  {
+    "ssid": "FLORA",
+    "mac": "c0:05:c2:e4:7a:61",
+    "channel": 4,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T15:50:40-04:00"
+  },
+  {
+    "ssid": "VTR-7696358",
+    "mac": "c0:05:c2:dd:51:49",
+    "channel": 7,
+    "signal_level": -77.5,
+    "quality": 45,
+    "date": "2019-06-13T15:50:40-04:00"
+  },
+  {
+    "ssid": "",
+    "mac": "fa:8f:ca:75:96:1d",
+    "channel": 2,
+    "signal_level": -95.5,
+    "quality": 9,
+    "date": "2019-06-13T15:50:40-04:00"
+  },
+  {
+    "ssid": "SIMA.",
+    "mac": "60:19:71:95:76:e0",
+    "channel": 11,
+    "signal_level": -95.5,
+    "quality": 9,
+    "date": "2019-06-13T15:50:40-04:00"
+  },
+  {
+    "ssid": "WiFi_GB1649",
+    "mac": "6c:3b:6b:8f:68:ec",
+    "channel": 1,
+    "signal_level": -72.5,
+    "quality": 55,
+    "date": "2019-06-13T15:50:40-04:00"
+  },
+  {
+    "ssid": "CENIM2",
+    "mac": "78:71:9c:ad:12:c0",
+    "channel": 11,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T15:50:40-04:00"
+  },
+  {
+    "ssid": "JLOBOS",
+    "mac": "a4:15:88:de:c2:50",
+    "channel": 11,
+    "signal_level": -95.5,
+    "quality": 9,
+    "date": "2019-06-13T15:50:40-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_LCD",
+    "mac": "4a:fa:ca:46:47:0a",
+    "channel": 6,
+    "signal_level": -95.5,
+    "quality": 9,
+    "date": "2019-06-13T15:50:40-04:00"
+  },
+  {
+    "ssid": "CENIMLOSRIOS1",
+    "mac": "78:71:9c:ab:75:c0",
+    "channel": 6,
+    "signal_level": -93.5,
+    "quality": 13,
+    "date": "2019-06-13T15:50:40-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_EAFL",
+    "mac": "00:72:63:fd:72:da",
+    "channel": 1,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T15:50:40-04:00"
+  }
+]

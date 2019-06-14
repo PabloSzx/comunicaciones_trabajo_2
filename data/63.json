@@ -1,0 +1,122 @@
+[
+  {
+    "ssid": "VTR-0017366",
+    "mac": "18:35:d1:23:94:ef",
+    "channel": 149,
+    "signal_level": -67.5,
+    "quality": 65,
+    "date": "2019-06-13T17:53:05-04:00"
+  },
+  {
+    "ssid": "WiFi_AOCA_5G",
+    "mac": "00:72:63:b3:a0:85",
+    "channel": 149,
+    "signal_level": -80,
+    "quality": 40,
+    "date": "2019-06-13T17:53:05-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_5G_AOCA2",
+    "mac": "4c:6e:6e:b1:6e:f1",
+    "channel": 36,
+    "signal_level": -97.5,
+    "quality": 5,
+    "date": "2019-06-13T17:53:05-04:00"
+  },
+  {
+    "ssid": "Wifitelsur_TIJERAS1",
+    "mac": "22:24:8c:23:b7:ff",
+    "channel": 11,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T17:53:05-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_AOCA2",
+    "mac": "4c:6e:6e:b1:6e:f0",
+    "channel": 4,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T17:53:05-04:00"
+  },
+  {
+    "ssid": "WiFi_AOCA",
+    "mac": "00:72:63:b3:a0:80",
+    "channel": 1,
+    "signal_level": -62.5,
+    "quality": 75,
+    "date": "2019-06-13T17:53:05-04:00"
+  },
+  {
+    "ssid": "lukita",
+    "mac": "2c:ab:25:7b:0b:7e",
+    "channel": 4,
+    "signal_level": -75,
+    "quality": 50,
+    "date": "2019-06-13T17:53:05-04:00"
+  },
+  {
+    "ssid": "DIRECT-xM-BRAVIA",
+    "mac": "4a:5a:b6:29:f4:72",
+    "channel": 11,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T17:53:05-04:00"
+  },
+  {
+    "ssid": "WiFiTelsur_AOCA",
+    "mac": "fc:a6:cd:3b:7e:c0",
+    "channel": 11,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T17:53:05-04:00"
+  },
+  {
+    "ssid": "wifi__LAGS",
+    "mac": "4c:6e:6e:a4:00:1d",
+    "channel": 11,
+    "signal_level": -94,
+    "quality": 12,
+    "date": "2019-06-13T17:53:05-04:00"
+  },
+  {
+    "ssid": "AGUSTIN///////",
+    "mac": "78:29:ed:97:64:dd",
+    "channel": 1,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T17:53:05-04:00"
+  },
+  {
+    "ssid": "VTR-2559582",
+    "mac": "48:d3:43:85:86:11",
+    "channel": 1,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T17:53:05-04:00"
+  },
+  {
+    "ssid": "WiFi_AAAS",
+    "mac": "fc:a6:cd:60:4a:f0",
+    "channel": 1,
+    "signal_level": -55,
+    "quality": 90,
+    "date": "2019-06-13T17:53:05-04:00"
+  },
+  {
+    "ssid": "wifitelsur_KLEW",
+    "mac": "6a:02:71:67:96:46",
+    "channel": 1,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T17:53:05-04:00"
+  },
+  {
+    "ssid": "Deris",
+    "mac": "a4:15:88:ea:94:80",
+    "channel": 1,
+    "signal_level": -93.5,
+    "quality": 13,
+    "date": "2019-06-13T17:53:05-04:00"
+  }
+]

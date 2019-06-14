@@ -1,0 +1,130 @@
+[
+  {
+    "ssid": "Espacio_Vital_5G",
+    "mac": "4c:6e:6e:b1:6b:60",
+    "channel": 149,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T16:15:57-04:00"
+  },
+  {
+    "ssid": "VTR-6969943",
+    "mac": "48:d3:43:60:d7:e7",
+    "channel": 36,
+    "signal_level": -62.5,
+    "quality": 75,
+    "date": "2019-06-13T16:15:57-04:00"
+  },
+  {
+    "ssid": "JUAN",
+    "mac": "40:0d:10:29:6a:41",
+    "channel": 7,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T16:15:57-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_RAH",
+    "mac": "4c:6e:6e:99:13:18",
+    "channel": 6,
+    "signal_level": -57.5,
+    "quality": 85,
+    "date": "2019-06-13T16:15:57-04:00"
+  },
+  {
+    "ssid": "ABOGADOSPG",
+    "mac": "6a:02:71:35:58:0a",
+    "channel": 11,
+    "signal_level": -94,
+    "quality": 12,
+    "date": "2019-06-13T16:15:57-04:00"
+  },
+  {
+    "ssid": "VTR-4510699",
+    "mac": "48:d3:43:b0:d4:d1",
+    "channel": 6,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T16:15:57-04:00"
+  },
+  {
+    "ssid": "WIFI_NJVH",
+    "mac": "6a:02:71:43:a6:85",
+    "channel": 11,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T16:15:57-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_CPMM_2.4g",
+    "mac": "4c:6e:6e:a8:18:bb",
+    "channel": 11,
+    "signal_level": -93,
+    "quality": 14,
+    "date": "2019-06-13T16:15:57-04:00"
+  },
+  {
+    "ssid": "Cabana_7",
+    "mac": "4c:6e:6e:9c:f9:f0",
+    "channel": 11,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T16:15:57-04:00"
+  },
+  {
+    "ssid": "Constructora_Antemural",
+    "mac": "fc:a6:cd:3c:a5:30",
+    "channel": 6,
+    "signal_level": -100,
+    "quality": 0,
+    "date": "2019-06-13T16:15:57-04:00"
+  },
+  {
+    "ssid": "wifitelsur_crgh",
+    "mac": "72:02:71:43:db:71",
+    "channel": 6,
+    "signal_level": -77.5,
+    "quality": 45,
+    "date": "2019-06-13T16:15:57-04:00"
+  },
+  {
+    "ssid": "Wifi Pancho",
+    "mac": "48:d3:43:12:f8:41",
+    "channel": 6,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T16:15:57-04:00"
+  },
+  {
+    "ssid": "TP-LINK_655D90",
+    "mac": "e8:de:27:65:5d:90",
+    "channel": 6,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T16:15:57-04:00"
+  },
+  {
+    "ssid": "VTR-0754696",
+    "mac": "c0:05:c2:e4:27:29",
+    "channel": 1,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T16:15:57-04:00"
+  },
+  {
+    "ssid": "VTR-9623680",
+    "mac": "48:d3:43:60:f8:e9",
+    "channel": 1,
+    "signal_level": -94,
+    "quality": 12,
+    "date": "2019-06-13T16:15:57-04:00"
+  },
+  {
+    "ssid": "VTR-4048356",
+    "mac": "40:0d:10:ce:df:b9",
+    "channel": 1,
+    "signal_level": -82.5,
+    "quality": 35,
+    "date": "2019-06-13T16:15:57-04:00"
+  }
+]

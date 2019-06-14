@@ -1,0 +1,90 @@
+[
+  {
+    "ssid": "WifiTelsur_MEBM",
+    "mac": "4c:6e:6e:91:8c:69",
+    "channel": 6,
+    "signal_level": -75,
+    "quality": 50,
+    "date": "2019-06-13T17:51:06-04:00"
+  },
+  {
+    "ssid": "DonGabriel",
+    "mac": "00:1f:33:30:5f:02",
+    "channel": 4,
+    "signal_level": -98.5,
+    "quality": 3,
+    "date": "2019-06-13T17:51:06-04:00"
+  },
+  {
+    "ssid": "WIFITELSUR_MRAE",
+    "mac": "72:02:71:77:e4:ad",
+    "channel": 11,
+    "signal_level": -94.5,
+    "quality": 11,
+    "date": "2019-06-13T17:51:06-04:00"
+  },
+  {
+    "ssid": "VTR-8943746",
+    "mac": "40:0d:10:0f:56:b1",
+    "channel": 11,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T17:51:06-04:00"
+  },
+  {
+    "ssid": "WiFiTelsur_AOCA",
+    "mac": "fc:a6:cd:3b:7e:c0",
+    "channel": 11,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T17:51:06-04:00"
+  },
+  {
+    "ssid": "VTR-0017366",
+    "mac": "18:35:d1:23:94:e9",
+    "channel": 6,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T17:51:06-04:00"
+  },
+  {
+    "ssid": "VTR-2559582",
+    "mac": "48:d3:43:85:86:11",
+    "channel": 1,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T17:51:06-04:00"
+  },
+  {
+    "ssid": "wifitelsur_KLEW",
+    "mac": "6a:02:71:67:96:46",
+    "channel": 1,
+    "signal_level": -67.5,
+    "quality": 65,
+    "date": "2019-06-13T17:51:06-04:00"
+  },
+  {
+    "ssid": "AGUSTIN///////",
+    "mac": "78:29:ed:97:64:dd",
+    "channel": 1,
+    "signal_level": -67.5,
+    "quality": 65,
+    "date": "2019-06-13T17:51:06-04:00"
+  },
+  {
+    "ssid": "VTR-7811846",
+    "mac": "18:35:d1:86:56:01",
+    "channel": 1,
+    "signal_level": -94.5,
+    "quality": 11,
+    "date": "2019-06-13T17:51:06-04:00"
+  },
+  {
+    "ssid": "C220141756B",
+    "mac": "4e:d9:e7:0b:8f:56",
+    "channel": 1,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T17:51:06-04:00"
+  }
+]

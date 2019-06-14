@@ -1,0 +1,114 @@
+[
+  {
+    "ssid": "SIOMARA",
+    "mac": "4c:6e:6e:9e:d2:75",
+    "channel": 11,
+    "signal_level": -70,
+    "quality": 60,
+    "date": "2019-06-13T16:21:51-04:00"
+  },
+  {
+    "ssid": "COLONIALES",
+    "mac": "20:10:7a:b5:b6:14",
+    "channel": 11,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T16:21:51-04:00"
+  },
+  {
+    "ssid": "MOVISTAR_",
+    "mac": "84:aa:9c:d2:a4:30",
+    "channel": 6,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T16:21:51-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_AAPP",
+    "mac": "62:02:71:77:45:b7",
+    "channel": 11,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T16:21:51-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_GKB",
+    "mac": "fc:a6:cd:3b:ea:c0",
+    "channel": 9,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T16:21:51-04:00"
+  },
+  {
+    "ssid": "WiFi_GKB",
+    "mac": "64:ee:b7:45:0f:58",
+    "channel": 6,
+    "signal_level": -80,
+    "quality": 40,
+    "date": "2019-06-13T16:21:51-04:00"
+  },
+  {
+    "ssid": "DIRECT-AP[TV][LG]42LN5700-SH",
+    "mac": "8a:03:55:41:f5:7e",
+    "channel": 1,
+    "signal_level": -67.5,
+    "quality": 65,
+    "date": "2019-06-13T16:21:51-04:00"
+  },
+  {
+    "ssid": "WiFi_AGKB_5G",
+    "mac": "64:ee:b7:6c:3a:c5",
+    "channel": 149,
+    "signal_level": -94,
+    "quality": 12,
+    "date": "2019-06-13T16:21:51-04:00"
+  },
+  {
+    "ssid": "MOVISTAR_PLUS_A437",
+    "mac": "84:aa:9c:d2:a4:37",
+    "channel": 149,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T16:21:51-04:00"
+  },
+  {
+    "ssid": "VTR-5252024",
+    "mac": "48:d3:43:58:b1:47",
+    "channel": 48,
+    "signal_level": -70,
+    "quality": 60,
+    "date": "2019-06-13T16:21:51-04:00"
+  },
+  {
+    "ssid": "Christian",
+    "mac": "a4:15:88:ef:2a:d0",
+    "channel": 8,
+    "signal_level": -98,
+    "quality": 4,
+    "date": "2019-06-13T16:21:51-04:00"
+  },
+  {
+    "ssid": "VTR-8330939_repetidor",
+    "mac": "50:c7:bf:d2:cd:05",
+    "channel": 7,
+    "signal_level": -98,
+    "quality": 4,
+    "date": "2019-06-13T16:21:51-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_RSF",
+    "mac": "6a:02:71:84:b3:1c",
+    "channel": 11,
+    "signal_level": -97.5,
+    "quality": 5,
+    "date": "2019-06-13T16:21:51-04:00"
+  },
+  {
+    "ssid": "VTR-6281638",
+    "mac": "18:35:d1:1e:6b:89",
+    "channel": 1,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T16:21:51-04:00"
+  }
+]

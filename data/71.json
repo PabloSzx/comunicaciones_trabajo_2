@@ -1,0 +1,106 @@
+[
+  {
+    "ssid": "dlink-36B0-5GHz",
+    "mac": "78:32:1b:d0:36:b2",
+    "channel": 157,
+    "signal_level": -93.5,
+    "quality": 13,
+    "date": "2019-06-13T18:02:24-04:00"
+  },
+  {
+    "ssid": "VTR-7193140",
+    "mac": "40:0d:10:f5:4e:2f",
+    "channel": 48,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T18:02:24-04:00"
+  },
+  {
+    "ssid": "LOMERQUI-5G",
+    "mac": "78:71:9c:b2:30:d5",
+    "channel": 40,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T18:02:24-04:00"
+  },
+  {
+    "ssid": "VTR-8596104",
+    "mac": "40:0d:10:f2:ea:ef",
+    "channel": 149,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T18:02:24-04:00"
+  },
+  {
+    "ssid": "LUIS T",
+    "mac": "e8:ed:05:fa:4f:50",
+    "channel": 7,
+    "signal_level": -75,
+    "quality": 50,
+    "date": "2019-06-13T18:02:24-04:00"
+  },
+  {
+    "ssid": "red_wifi_849",
+    "mac": "dc:9f:db:5c:bf:10",
+    "channel": 5,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T18:02:24-04:00"
+  },
+  {
+    "ssid": "AREIA",
+    "mac": "00:1d:2e:6a:f4:31",
+    "channel": 11,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T18:02:24-04:00"
+  },
+  {
+    "ssid": "Wifitelsur_BPAF",
+    "mac": "72:02:71:32:e6:92",
+    "channel": 6,
+    "signal_level": -94.5,
+    "quality": 11,
+    "date": "2019-06-13T18:02:24-04:00"
+  },
+  {
+    "ssid": "DESCONOCIDO",
+    "mac": "d2:59:66:85:03:1b",
+    "channel": 1,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T18:02:24-04:00"
+  },
+  {
+    "ssid": "VTR-3070861",
+    "mac": "48:d3:43:c4:98:c1",
+    "channel": 1,
+    "signal_level": -93,
+    "quality": 14,
+    "date": "2019-06-13T18:02:24-04:00"
+  },
+  {
+    "ssid": "VTR-4393271",
+    "mac": "40:0d:10:0f:98:91",
+    "channel": 1,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T18:02:24-04:00"
+  },
+  {
+    "ssid": "dlink-36B0",
+    "mac": "78:32:1b:d0:36:b0",
+    "channel": 1,
+    "signal_level": -67.5,
+    "quality": 65,
+    "date": "2019-06-13T18:02:24-04:00"
+  },
+  {
+    "ssid": "HERMES",
+    "mac": "a4:15:88:f2:1d:e0",
+    "channel": 1,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T18:02:24-04:00"
+  }
+]

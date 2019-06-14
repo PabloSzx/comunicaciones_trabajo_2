@@ -1,0 +1,98 @@
+[
+  {
+    "ssid": "VTR-6281638",
+    "mac": "18:35:d1:1e:6b:8f",
+    "channel": 149,
+    "signal_level": -77.5,
+    "quality": 45,
+    "date": "2019-06-13T16:22:27-04:00"
+  },
+  {
+    "ssid": "VTR-3592489",
+    "mac": "48:d3:43:b5:8f:af",
+    "channel": 36,
+    "signal_level": -87.5,
+    "quality": 25,
+    "date": "2019-06-13T16:22:27-04:00"
+  },
+  {
+    "ssid": "COLONIALES",
+    "mac": "20:10:7a:b5:b6:14",
+    "channel": 11,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T16:22:27-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_GKB",
+    "mac": "fc:a6:cd:3b:ea:c0",
+    "channel": 9,
+    "signal_level": -80,
+    "quality": 40,
+    "date": "2019-06-13T16:22:27-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_GEBS_2",
+    "mac": "4c:6e:6e:91:8b:92",
+    "channel": 6,
+    "signal_level": -50,
+    "quality": 100,
+    "date": "2019-06-13T16:22:27-04:00"
+  },
+  {
+    "ssid": "wifitelsur_Hellen",
+    "mac": "4c:6e:6e:a1:1d:4d",
+    "channel": 2,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T16:22:27-04:00"
+  },
+  {
+    "ssid": "WifiTelsur_MPFF-2.4G",
+    "mac": "4c:6e:6e:9e:e4:55",
+    "channel": 11,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T16:22:27-04:00"
+  },
+  {
+    "ssid": "Wifitelsur_GEBS",
+    "mac": "6a:02:71:4b:97:07",
+    "channel": 11,
+    "signal_level": -82.5,
+    "quality": 35,
+    "date": "2019-06-13T16:22:27-04:00"
+  },
+  {
+    "ssid": "VTR-6197881",
+    "mac": "c0:05:c2:dd:4f:21",
+    "channel": 6,
+    "signal_level": -94.5,
+    "quality": 11,
+    "date": "2019-06-13T16:22:27-04:00"
+  },
+  {
+    "ssid": "MOVISTAR_",
+    "mac": "84:aa:9c:d2:a4:30",
+    "channel": 6,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T16:22:27-04:00"
+  },
+  {
+    "ssid": "Wifi_HIPC_2.4G",
+    "mac": "00:72:63:65:02:52",
+    "channel": 6,
+    "signal_level": -95,
+    "quality": 10,
+    "date": "2019-06-13T16:22:27-04:00"
+  },
+  {
+    "ssid": "VTR-5252024",
+    "mac": "48:d3:43:58:b1:41",
+    "channel": 1,
+    "signal_level": -94,
+    "quality": 12,
+    "date": "2019-06-13T16:22:27-04:00"
+  }
+]

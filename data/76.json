@@ -1,0 +1,66 @@
+[
+  {
+    "ssid": "VTR-4393271",
+    "mac": "40:0d:10:0f:98:97",
+    "channel": 36,
+    "signal_level": -97.5,
+    "quality": 5,
+    "date": "2019-06-13T18:04:37-04:00"
+  },
+  {
+    "ssid": "red_wifi_849",
+    "mac": "dc:9f:db:5c:bf:10",
+    "channel": 5,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T18:04:37-04:00"
+  },
+  {
+    "ssid": "LUIS T",
+    "mac": "e8:ed:05:fa:4f:50",
+    "channel": 7,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T18:04:37-04:00"
+  },
+  {
+    "ssid": "AREIA",
+    "mac": "00:1d:2e:6a:f4:31",
+    "channel": 11,
+    "signal_level": -92.5,
+    "quality": 15,
+    "date": "2019-06-13T18:04:37-04:00"
+  },
+  {
+    "ssid": "VTR-0276460",
+    "mac": "18:35:d1:22:8e:49",
+    "channel": 11,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T18:04:37-04:00"
+  },
+  {
+    "ssid": "VTR-8596104",
+    "mac": "40:0d:10:f2:ea:e9",
+    "channel": 11,
+    "signal_level": -72.5,
+    "quality": 55,
+    "date": "2019-06-13T18:04:37-04:00"
+  },
+  {
+    "ssid": "VTR-7038566",
+    "mac": "48:d3:43:8d:53:b1",
+    "channel": 6,
+    "signal_level": -85,
+    "quality": 30,
+    "date": "2019-06-13T18:04:37-04:00"
+  },
+  {
+    "ssid": "ANGELICA.",
+    "mac": "a4:15:88:cb:09:d0",
+    "channel": 1,
+    "signal_level": -90,
+    "quality": 20,
+    "date": "2019-06-13T18:04:37-04:00"
+  }
+]

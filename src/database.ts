@@ -67,7 +67,7 @@ export const eliminarData = () => {
 export const getMuestras = async (): Promise<Muestras> => {
   const fileNames = filter(
     readdirSync(dataPath),
-    v => !v.match(/empty|accessPoints.json|totalMuestras.json|.csv/i)
+    v => !!v.match(/[1-9]+.json/i)
   );
 
   return reduce(

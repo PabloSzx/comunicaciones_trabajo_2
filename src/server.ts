@@ -1,7 +1,7 @@
 import express from "express";
-import _ from "lodash";
+import { flatten, values, groupBy, reduce, keys, get, defaults } from "lodash";
 import cors from "cors";
-import { getMuestras, getAccessPoints } from "./database";
+import { getMuestras, getAccessPoints, guardarJSON } from "./database";
 
 const app = express();
 
@@ -10,10 +10,10 @@ app.use(cors());
 app.get("/data", async (req, res) => {
   const muestras = await getMuestras();
   const APs = await getAccessPoints();
-  const networksList = _.flatten(_.values(muestras));
-  const agrupadosPorCanal = _.groupBy(networksList, "channel");
+  const networksList = flatten(values(muestras));
+  const agrupadosPorCanal = groupBy(networksList, "channel");
 
-  const distribucionCanales: { [canal: string]: number } = _.reduce(
+  const distribucionCanales: { [canal: string]: number } = reduce(
     agrupadosPorCanal,
     (ac: { [canal: string]: number }, va, canal) => {
       ac[canal] = va.length;
@@ -21,24 +21,24 @@ app.get("/data", async (req, res) => {
     },
     {}
   );
-  const distribucionPorTipo = _.reduce(
+  const distribucionPorTipo = reduce(
     networksList,
-    (ac: { "2.4g": number; "5g": number }, va) => {
+    (ac: { "2.4Ghz": number; "5Ghz": number }, va) => {
       if (va.channel < 32) {
-        ac["2.4g"] += 1;
+        ac["2.4Ghz"] += 1;
       } else {
-        ac["5g"] += 1;
+        ac["5Ghz"] += 1;
       }
       return ac;
     },
-    { "2.4g": 0, "5g": 0 }
+    { "2.4Ghz": 0, "5Ghz": 0 }
   );
-  const distribucionPorProveedor: { [proveedor: string]: number } = _.reduce(
+  const distribucionPorProveedor: { [proveedor: string]: number } = reduce(
     networksList,
     (ac: { [proveedor: string]: number }, va) => {
-      const proveedor = _.get(APs[va.mac], "provider");
+      const proveedor = get(APs[va.mac], "provider");
       if (proveedor) {
-        _.defaults(ac, {
+        defaults(ac, {
           [proveedor]: 0,
         });
         ac[proveedor] += 1;
@@ -48,19 +48,22 @@ app.get("/data", async (req, res) => {
     {}
   );
 
-  const labelsProveedor = _.keys(distribucionPorProveedor);
-  const labelsCanales = _.keys(distribucionCanales);
-  const labelsTipos = _.keys(distribucionPorTipo);
+  const labelsProveedor = keys(distribucionPorProveedor);
+  const labelsCanales = keys(distribucionCanales);
+  const labelsTipos = keys(distribucionPorTipo);
 
-  //reduccionConsolidado(muestras, APs);
-  res.send({
+  const data = {
     labelsProveedor,
-    distProveedor: _.values(distribucionPorProveedor),
+    distProveedor: values(distribucionPorProveedor),
     labelsCanales,
-    distCanales: _.values(distribucionCanales),
+    distCanales: values(distribucionCanales),
     labelsTipos,
-    distTipos: _.values(distribucionPorTipo),
-  });
+    distTipos: values(distribucionPorTipo),
+  };
+
+  guardarJSON(data, "chartData", true);
+
+  res.send(data);
 });
 
 app.listen(8000);

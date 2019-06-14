@@ -67,7 +67,7 @@ export const choiceInput = async () => {
   } = await prompt([
     {
       type: "list",
-      pageSize: 8,
+      pageSize: 10,
       name: "choice",
       message: "¿Que desea hacer?",
       choices: [
@@ -75,6 +75,7 @@ export const choiceInput = async () => {
         "Completar Access Points",
         "Completar consolidados",
         "Generar data para Heatmap",
+        "Actualizar AccessPoints con las muestras",
         "Limpiar archivos antiguos",
         "Guardar total datos",
         "Eliminar data existente",

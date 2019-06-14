@@ -1,4 +1,4 @@
-import _, {
+import {
   map,
   reduce,
   size,
@@ -7,7 +7,7 @@ import _, {
   Dictionary,
   max,
   defaults,
-  toString,
+  filter,
 } from "lodash";
 import {
   Network,
@@ -19,16 +19,11 @@ import {
 } from "../interfaces";
 import { dbToNW, nodosPosition } from "./utils";
 
-export const nodoEquivalentePosicion = (n: string) => {
-  console.log("nodos: ", nodosPosition[n]);
-};
-
-export const percentageOfInterval = (n: number, MIN: number, MAX: number) => {
-  return (n - MIN) / (MAX - MIN);
-};
-
-const networksThatExistInAnotherRegister = (networks: Network[], register: Network[][]): Network[] => {
-  return _.filter(networks, v => {
+const networksThatExistInAnotherRegister = (
+  networks: Network[],
+  register: Network[][]
+): Network[] => {
+  return filter(networks, v => {
     for (const i of register) {
       for (const j of i) {
         if (v.mac === j.mac) {
@@ -37,14 +32,14 @@ const networksThatExistInAnotherRegister = (networks: Network[], register: Netwo
       }
     }
     return false;
-  })
-}
+  });
+};
 
 export const reduccionConsolidado = (
   data: Muestras,
   accessPoints: AccessPoints
 ) => {
-  const muestrasNoBorde = _.filter(data, (v, k) => {
+  const muestrasNoBorde = filter(data, (v, k) => {
     return !nodosPosition[k].borde;
   });
   return map(data, (v: Network[], k: string) => {
@@ -258,97 +253,4 @@ export const guessProvider = (
   }
 
   return undefined;
-};
-
-export const getPosFromNode = (nodo: string) => {
-  const equivs = [
-    ["25", "25", "1"],
-    ["22", "23", "2"],
-    ["23", "20", "3"],
-    ["25", "16", "4"],
-    ["25", "14", "5"],
-    ["26", "10", "6"],
-    ["28", "5", "7"],
-    ["28", "2", "8"],
-    ["24", "7", "9"],
-    ["22", "6", "10"],
-    ["18", "5", "11"],
-    ["15", "4", "12"],
-    ["9", "9", "13"],
-    ["12", "11", "14"],
-    ["14", "12", "15"],
-    ["17", "13", "16"],
-    ["21", "15", "17"],
-    ["20", "19", "18"],
-    ["15", "17", "19"],
-    ["12", "15", "20"],
-    ["10", "14", "21"],
-    ["3", "19", "22"],
-    ["7", "19", "23"],
-    ["10", "19", "24"],
-    ["13", "21", "25"],
-    ["17", "22", "26"],
-    ["21", "27", "27"],
-    ["21", "31", "28"],
-    ["20", "34", "29"],
-    ["19", "36", "30"],
-    ["18", "40", "31"],
-    ["18", "44", "32"],
-    ["17", "47", "33"],
-    ["10", "42", "34"],
-    ["10", "38", "35"],
-    ["10", "34", "36"],
-    ["10", "30", "37"],
-    ["6", "27", "38"],
-    ["3", "26", "39"],
-    ["10", "26", "40"],
-    ["10", "23", "41"],
-    ["23", "38", "42"],
-    ["26", "40", "43"],
-    ["29", "42", "44"],
-    ["28", "45", "45"],
-    ["27", "47", "46"],
-    ["31", "41", "47"],
-    ["34", "43", "48"],
-    ["36", "44", "49"],
-    ["30", "38", "50"],
-    ["31", "35", "51"],
-    ["32", "31", "52"],
-    ["34", "25", "53"],
-    ["35", "21", "54"],
-    ["36", "18", "55"],
-    ["38", "14", "56"],
-    ["38", "11", "57"],
-    ["35", "10", "58"],
-    ["31", "9", "59"],
-    ["28", "8", "60"],
-    ["39", "9", "61"],
-    ["39", "6", "62"],
-    ["41", "12", "63"],
-    ["44", "13", "64"],
-    ["47", "17", "65"],
-    ["48", "21", "66"],
-    ["47", "26", "67"],
-    ["48", "28", "68"],
-    ["36", "30", "69"],
-    ["47", "31", "70"],
-    ["45", "33", "71"],
-    ["45", "37", "72"],
-    ["45", "23", "73"],
-    ["43", "28", "74"],
-    ["42", "31", "75"],
-    ["42", "35", "76"],
-    ["42", "39", "77"],
-    ["41", "42", "78"],
-    ["39", "41", "79"],
-    ["39", "37", "80"],
-    ["36", "35", "81"],
-    ["38", "33", "82"],
-    ["39", "30", "83"],
-    ["35", "29", "84"],
-    ["31", "27", "85"],
-    ["28", "26", "86"],
-  ];
-
-  return _.find(equivs, v => v[2] === nodo);
 };

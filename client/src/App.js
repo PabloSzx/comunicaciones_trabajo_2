@@ -1,33 +1,53 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import _ from "lodash";
+import { isEmpty, get, cloneDeep } from "lodash";
 import ReactApexCharts from "react-apexcharts";
+
+var dataFetchInterval = 0;
 
 export default () => {
   const [data, setData] = useState({});
   useEffect(() => {
-    axios.get("http://localhost:8000/data").then(res => {
-      console.log("res.data: ", res.data);
-      const asd = _.cloneDeep(res.data);
-      setData(asd);
-    });
+    dataFetchInterval = setInterval(() => {
+      getData();
+    }, 1000);
+    getData();
   }, []);
 
-  console.log("data: ", data);
+  useEffect(() => {
+    if (!isEmpty(data)) {
+      clearInterval(dataFetchInterval);
+    }
+  }, [data]);
+
+  const getData = () => {
+    axios.get("http://localhost:8000/data").then(res => {
+      console.log("res.data: ", res.data);
+      const d = cloneDeep(res.data);
+      setData(d);
+    });
+  };
+
   return (
     <div>
+      {isEmpty(data) ? (
+        <h1>
+          Data no encontrada, asegurese de tener la aplicación corriendo en
+          segundo plano
+        </h1>
+      ) : null}
       <ReactApexCharts
         type="bar"
         options={{
           xaxis: {
-            categories: _.get(data, "labelsProveedor", []),
+            categories: get(data, "labelsProveedor", []),
           },
         }}
         width={700}
         series={[
           {
             name: "Cantidad",
-            data: _.get(data, "distProveedor", []),
+            data: get(data, "distProveedor", []),
           },
         ]}
       />
@@ -36,17 +56,17 @@ export default () => {
         type="bar"
         options={{
           xaxis: {
-            categories: _.get(data, "labelsCanales", []),
+            categories: get(data, "labelsCanales", []),
           },
         }}
         width={700}
-        series={[{ name: "Canal", data: _.get(data, "distCanales", []) }]}
+        series={[{ name: "Canal", data: get(data, "distCanales", []) }]}
       />
 
       <ReactApexCharts
         type="donut"
         options={{
-          labels: _.get(data, "labelsTipos", []),
+          labels: get(data, "labelsTipos", []),
           plotOptions: {
             pie: {
               donut: {
@@ -67,7 +87,7 @@ export default () => {
           },
         }}
         width={700}
-        series={_.get(data, "distTipos", [])}
+        series={get(data, "distTipos", [])}
       />
     </div>
   );

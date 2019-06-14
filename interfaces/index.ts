@@ -51,6 +51,7 @@ export type Choices =
   | "Completar Access Points"
   | "Completar consolidados"
   | "Generar data para Heatmap"
+  | "Actualizar AccessPoints con las muestras"
   | "Limpiar archivos antiguos"
   | "Guardar total datos"
   | "Eliminar data existente"

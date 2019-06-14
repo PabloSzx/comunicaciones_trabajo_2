@@ -1,4 +1,5 @@
 import { writeFile, readFile, readFileSync } from "jsonfile";
+import prettier from "prettier";
 import { join } from "path";
 import fs, { existsSync, renameSync, readdirSync } from "fs";
 import shell from "shelljs";
@@ -9,6 +10,14 @@ import { reduccionConsolidado } from "./data";
 
 const jsonExtension = (str: string) => `${str.replace(/.json/g, "")}.json`;
 const dataPath = join(__dirname, "../data/");
+
+const prettyJSON = (filePath: string) => {
+  const source = fs.readFileSync(filePath, { encoding: "utf8" });
+
+  fs.writeFileSync(filePath, prettier.format(source, { parser: "json" }), {
+    encoding: "utf8",
+  });
+};
 
 const renameIfExists = (fileName: string) => {
   const fileNamePath = join(dataPath, jsonExtension(fileName));
@@ -34,6 +43,10 @@ export const guardarJSON = async (
   await writeFile(newFilePath, obj, {
     spaces: 2,
   });
+
+  prettyJSON(newFilePath);
+
+  return;
 };
 
 const apFile = join(dataPath, "accessPoints.json");
@@ -49,7 +62,7 @@ export const getAccessPoints = async () => {
 };
 
 export const saveAccessPoints = async (obj: AccessPoints) => {
-  await writeFile(apFile, obj, { spaces: 2 });
+  await guardarJSON(obj, "accessPoints", true);
   return obj;
 };
 
@@ -67,7 +80,7 @@ export const eliminarData = () => {
 export const getMuestras = async (): Promise<Muestras> => {
   const fileNames = filter(
     readdirSync(dataPath),
-    v => !!v.match(/[1-9]+.json/i)
+    v => !!v.match(/[0-9]+.json/i)
   );
 
   return reduce(

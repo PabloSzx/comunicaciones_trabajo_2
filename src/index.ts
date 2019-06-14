@@ -1,4 +1,13 @@
-import _, { isEmpty, values, toString } from "lodash";
+import {
+  reduce,
+  map,
+  forEach,
+  toInteger,
+  isEmpty,
+  values,
+  toString,
+  toPairs,
+} from "lodash";
 import { pedirNumeroNodo, choiceInput, confirm } from "./cli";
 import { scanAccessPoints, refreshAccessPoints } from "./wifi";
 import {
@@ -21,8 +30,8 @@ import {
   getDefaultProviders,
   guessProvider,
   reduccionConsolidado,
-  getPosFromNode,
 } from "./data";
+import { getPosFromNode } from "./utils";
 import "./server";
 
 const muestreo = async () => {
@@ -39,7 +48,7 @@ const muestreo = async () => {
 const completarAccessPoints = async (accessPoints: AccessPoints) => {
   const defaultProviders = getDefaultProviders(accessPoints);
   guardarJSON(
-    _.reduce(
+    reduce(
       defaultProviders,
       (ac: { [patron: string]: TypeProvider[] }, v, k) => {
         ac[k] = Array.from(v);
@@ -61,9 +70,7 @@ const completarAccessPoints = async (accessPoints: AccessPoints) => {
       if (!provider) {
         console.log(
           "\n\n--------------------------------------\n",
-          `AccessPoint sin posible proveedor: ${accessPoint.ssid} ${
-            accessPoint.mac
-          }`
+          `AccessPoint sin posible proveedor: ${accessPoint.ssid} ${accessPoint.mac}`
         );
       }
       accessPoints[accessPoint.mac].provider = provider;
@@ -86,20 +93,20 @@ const generarDataHeatmap = async () => {
   const accessPoints = await getAccessPoints();
   const data = reduccionConsolidado(muestras, accessPoints);
 
-  const matriz = _.map(new Array(50), _v => _.map(new Array(50), _va => 0));
-  _.forEach(data, v => {
+  const matriz = map(new Array(50), _v => map(new Array(50), _va => 0));
+  forEach(data, v => {
     const posV = getPosFromNode(v.nodo) || ["0", "0"];
-    matriz[_.toInteger(posV[0]) - 1][_.toInteger(posV[1]) - 1] =
+    matriz[toInteger(posV[0]) - 1][toInteger(posV[1]) - 1] =
       v.potenciaTotalPunto;
   });
 
   saveCSV(
-    _.reduce(
+    reduce(
       matriz,
       (ac: any[], v, k) => {
         return [
           ...ac,
-          ..._.map(v, (va, ka) => ({ x: k + 1, y: ka + 1, potencia: va })),
+          ...map(v, (va, ka) => ({ x: k + 1, y: ka + 1, potencia: va })),
         ];
       },
       []
@@ -122,6 +129,15 @@ const generarDataHeatmap = async () => {
       ],
     }
   );
+};
+
+const manualRefreshAccessPoints = async () => {
+  const muestras = await getMuestras();
+  for (const [node, networks] of toPairs(muestras)) {
+    await refreshAccessPoints(networks, toInteger(node));
+  }
+
+  return;
 };
 
 const main = async () => {
@@ -147,6 +163,10 @@ const main = async () => {
       }
       case "Generar data para Heatmap": {
         await generarDataHeatmap();
+        break;
+      }
+      case "Actualizar AccessPoints con las muestras": {
+        await manualRefreshAccessPoints();
         break;
       }
       case "Limpiar archivos antiguos": {

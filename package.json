@@ -23,6 +23,7 @@
     "lodash": "^4.17.11",
     "moment-timezone": "^0.5.25",
     "node-wifi": "^2.0.5",
+    "prettier": "^1.18.2",
     "shelljs": "^0.8.3"
   },
   "devDependencies": {
@@ -33,6 +34,7 @@
     "@types/jsonfile": "^5.0.0",
     "@types/lodash": "^4.14.134",
     "@types/moment-timezone": "^0.5.12",
+    "@types/prettier": "^1.16.4",
     "@types/shelljs": "^0.8.5",
     "microbundle": "^0.11.0",
     "nodemon": "^1.19.1",

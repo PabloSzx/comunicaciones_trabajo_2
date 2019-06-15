@@ -1,12 +1,20 @@
 import express from "express";
+import path from "path";
 import { flatten, values, groupBy, reduce, keys, get, defaults } from "lodash";
 import cors from "cors";
+import open from "open";
 import { getMuestras, getAccessPoints, guardarJSON } from "./database";
 import { filterAccessPointsFueraDeBorde } from "./data";
 
 const app = express();
 
 app.use(cors());
+
+app.use(express.static(path.join(__dirname, "../client/build")));
+
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "../client/build", "index.html"));
+});
 
 app.get("/data", async (req, res) => {
   const muestras = await getMuestras();
@@ -69,4 +77,6 @@ app.get("/data", async (req, res) => {
   res.send(data);
 });
 
-app.listen(8000);
+app.listen(8000, () => {
+  open("http://localhost:8000/");
+});

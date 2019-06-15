@@ -21,11 +21,17 @@ export default () => {
   }, [data]);
 
   const getData = () => {
-    axios.get("http://localhost:8000/data").then(res => {
-      console.log("res.data: ", res.data);
-      const d = cloneDeep(res.data);
-      setData(d);
-    });
+    axios
+      .get(
+        process.env.NODE_ENV === "production"
+          ? "/data"
+          : "http://localhost:8000/data"
+      )
+      .then(res => {
+        console.log("res.data: ", res.data);
+        const d = cloneDeep(res.data);
+        setData(d);
+      });
   };
 
   return (

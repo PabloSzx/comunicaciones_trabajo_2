@@ -9,7 +9,7 @@
   "source": "src/index.ts",
   "scripts": {
     "build": "microbundle",
-    "dev": "concurrently \"microbundle watch\" \"yarn --cwd client && yarn --cwd client start\"",
+    "dev": "microbundle watch",
     "prepublish": "yarn build",
     "start": "node dist/index.js"
   },
@@ -23,6 +23,7 @@
     "lodash": "^4.17.11",
     "moment-timezone": "^0.5.25",
     "node-wifi": "^2.0.5",
+    "open": "^6.3.0",
     "prettier": "^1.18.2",
     "shelljs": "^0.8.3"
   },
@@ -34,6 +35,7 @@
     "@types/jsonfile": "^5.0.0",
     "@types/lodash": "^4.14.134",
     "@types/moment-timezone": "^0.5.12",
+    "@types/open": "^6.1.0",
     "@types/prettier": "^1.16.4",
     "@types/shelljs": "^0.8.5",
     "microbundle": "^0.11.0",

@@ -8,38 +8,38 @@
   "main": "dist/index.js",
   "source": "src/index.ts",
   "scripts": {
-    "build": "microbundle",
+    "build": "microbundle --target node",
     "dev": "microbundle watch",
     "prepublish": "yarn build",
     "start": "node dist/index.js"
   },
   "dependencies": {
-    "concurrently": "^4.1.0",
+    "concurrently": "^4.1.1",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "inquirer": "^6.3.1",
-    "json2csv": "^4.5.1",
+    "inquirer": "^6.5.0",
+    "json2csv": "^4.5.2",
     "jsonfile": "^5.0.0",
-    "lodash": "^4.17.11",
-    "moment-timezone": "^0.5.25",
-    "node-wifi": "^2.0.5",
-    "open": "^6.3.0",
+    "lodash": "^4.17.15",
+    "moment-timezone": "^0.5.26",
+    "node-wifi": "^2.0.7",
+    "open": "^6.4.0",
     "prettier": "^1.18.2",
     "shelljs": "^0.8.3"
   },
   "devDependencies": {
     "@types/cors": "^2.8.5",
     "@types/express": "^4.17.0",
-    "@types/inquirer": "^6.0.3",
+    "@types/inquirer": "^6.5.0",
     "@types/json2csv": "^4.5.0",
     "@types/jsonfile": "^5.0.0",
-    "@types/lodash": "^4.14.134",
+    "@types/lodash": "^4.14.136",
     "@types/moment-timezone": "^0.5.12",
-    "@types/open": "^6.1.0",
-    "@types/prettier": "^1.16.4",
+    "@types/open": "^6.2.1",
+    "@types/prettier": "^1.18.1",
     "@types/shelljs": "^0.8.5",
-    "microbundle": "^0.11.0",
+    "microbundle": "^0.12.0-next.3",
     "nodemon": "^1.19.1",
-    "typescript": "^3.5.1"
+    "typescript": "^3.5.3"
   }
 }
